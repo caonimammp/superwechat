@@ -52,7 +52,7 @@ public class SplashActivity extends BaseActivity {
 						// avoid main screen overlap Calling Activity
 					} else {
 						//enter main screen
-						startActivity(new Intent(SplashActivity.this, MainActivity.class));
+						MFGT.gotoMain(SplashActivity.this);
 					}
 					finish();
 				}else {
@@ -60,7 +60,7 @@ public class SplashActivity extends BaseActivity {
 						Thread.sleep(sleepTime);
 					} catch (InterruptedException e) {
 					}
-					MFGT.gotoLogin(SplashActivity.this);
+					MFGT.gotoWelcome(SplashActivity.this);
 					finish();
 				}
 			}
