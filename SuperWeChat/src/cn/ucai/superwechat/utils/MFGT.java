@@ -8,6 +8,7 @@ import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.ui.LoginActivity;
 import cn.ucai.superwechat.ui.MainActivity;
 import cn.ucai.superwechat.ui.SplashActivity;
+import cn.ucai.superwechat.ui.WelcomeActivity;
 
 /**
  * Created by Administrator on 2017/5/19.
@@ -27,4 +28,7 @@ public class MFGT {
         ((Activity)context).overridePendingTransition(R.anim.push_left_in,R.anim.push_left_out);
     }
 
+    public static void gotoWelcome(Activity activity) {
+        mfgt(activity,WelcomeActivity.class);
+    }
 }
