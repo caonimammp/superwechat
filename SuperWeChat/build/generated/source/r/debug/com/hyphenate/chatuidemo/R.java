@@ -2224,8 +2224,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ContactItemView_contactItemImage com.hyphenate.chatuidemo:contactItemImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #ContactItemView_contactItemName com.hyphenate.chatuidemo:contactItemName}</code></td><td></td></tr>
+           <tr><td><code>{@link #ContactItemView_contactItemImage cn.ucai.superwechat:contactItemImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #ContactItemView_contactItemName cn.ucai.superwechat:contactItemName}</code></td><td></td></tr>
            </table>
            @see #ContactItemView_contactItemImage
            @see #ContactItemView_contactItemName
@@ -2234,17 +2234,17 @@ containing a value of this type.
             0x7f010000, 0x7f010001
         };
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#contactItemImage}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#contactItemImage}
           attribute's value can be found in the {@link #ContactItemView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.hyphenate.chatuidemo:contactItemImage
+          @attr name cn.ucai.superwechat:contactItemImage
         */
         public static final int ContactItemView_contactItemImage = 0;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#contactItemName}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#contactItemName}
           attribute's value can be found in the {@link #ContactItemView} array.
 
 
@@ -2254,7 +2254,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:contactItemName
+          @attr name cn.ucai.superwechat:contactItemName
         */
         public static final int ContactItemView_contactItemName = 1;
         /** Attributes that can be used with a EaseChatExtendMenu.
@@ -2263,7 +2263,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseChatExtendMenu_numColumns com.hyphenate.chatuidemo:numColumns}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseChatExtendMenu_numColumns cn.ucai.superwechat:numColumns}</code></td><td></td></tr>
            </table>
            @see #EaseChatExtendMenu_numColumns
          */
@@ -2271,7 +2271,7 @@ containing a value of this type.
             0x7f010002
         };
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#numColumns}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#numColumns}
           attribute's value can be found in the {@link #EaseChatExtendMenu} array.
 
 
@@ -2281,7 +2281,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:numColumns
+          @attr name cn.ucai.superwechat:numColumns
         */
         public static final int EaseChatExtendMenu_numColumns = 0;
         /** Attributes that can be used with a EaseChatMessageList.
@@ -2290,10 +2290,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseChatMessageList_msgListMyBubbleBackground com.hyphenate.chatuidemo:msgListMyBubbleBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseChatMessageList_msgListOtherBubbleBackground com.hyphenate.chatuidemo:msgListOtherBubbleBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseChatMessageList_msgListShowUserAvatar com.hyphenate.chatuidemo:msgListShowUserAvatar}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseChatMessageList_msgListShowUserNick com.hyphenate.chatuidemo:msgListShowUserNick}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseChatMessageList_msgListMyBubbleBackground cn.ucai.superwechat:msgListMyBubbleBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseChatMessageList_msgListOtherBubbleBackground cn.ucai.superwechat:msgListOtherBubbleBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseChatMessageList_msgListShowUserAvatar cn.ucai.superwechat:msgListShowUserAvatar}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseChatMessageList_msgListShowUserNick cn.ucai.superwechat:msgListShowUserNick}</code></td><td></td></tr>
            </table>
            @see #EaseChatMessageList_msgListMyBubbleBackground
            @see #EaseChatMessageList_msgListOtherBubbleBackground
@@ -2304,27 +2304,27 @@ containing a value of this type.
             0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006
         };
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#msgListMyBubbleBackground}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#msgListMyBubbleBackground}
           attribute's value can be found in the {@link #EaseChatMessageList} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.hyphenate.chatuidemo:msgListMyBubbleBackground
+          @attr name cn.ucai.superwechat:msgListMyBubbleBackground
         */
         public static final int EaseChatMessageList_msgListMyBubbleBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#msgListOtherBubbleBackground}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#msgListOtherBubbleBackground}
           attribute's value can be found in the {@link #EaseChatMessageList} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.hyphenate.chatuidemo:msgListOtherBubbleBackground
+          @attr name cn.ucai.superwechat:msgListOtherBubbleBackground
         */
         public static final int EaseChatMessageList_msgListOtherBubbleBackground = 1;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#msgListShowUserAvatar}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#msgListShowUserAvatar}
           attribute's value can be found in the {@link #EaseChatMessageList} array.
 
 
@@ -2334,11 +2334,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:msgListShowUserAvatar
+          @attr name cn.ucai.superwechat:msgListShowUserAvatar
         */
         public static final int EaseChatMessageList_msgListShowUserAvatar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#msgListShowUserNick}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#msgListShowUserNick}
           attribute's value can be found in the {@link #EaseChatMessageList} array.
 
 
@@ -2348,7 +2348,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:msgListShowUserNick
+          @attr name cn.ucai.superwechat:msgListShowUserNick
         */
         public static final int EaseChatMessageList_msgListShowUserNick = 3;
         /** Attributes that can be used with a EaseContactList.
@@ -2357,11 +2357,11 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseContactList_ctsListInitialLetterBg com.hyphenate.chatuidemo:ctsListInitialLetterBg}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseContactList_ctsListInitialLetterColor com.hyphenate.chatuidemo:ctsListInitialLetterColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseContactList_ctsListPrimaryTextColor com.hyphenate.chatuidemo:ctsListPrimaryTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseContactList_ctsListPrimaryTextSize com.hyphenate.chatuidemo:ctsListPrimaryTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseContactList_ctsListShowSiderBar com.hyphenate.chatuidemo:ctsListShowSiderBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseContactList_ctsListInitialLetterBg cn.ucai.superwechat:ctsListInitialLetterBg}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseContactList_ctsListInitialLetterColor cn.ucai.superwechat:ctsListInitialLetterColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseContactList_ctsListPrimaryTextColor cn.ucai.superwechat:ctsListPrimaryTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseContactList_ctsListPrimaryTextSize cn.ucai.superwechat:ctsListPrimaryTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseContactList_ctsListShowSiderBar cn.ucai.superwechat:ctsListShowSiderBar}</code></td><td></td></tr>
            </table>
            @see #EaseContactList_ctsListInitialLetterBg
            @see #EaseContactList_ctsListInitialLetterColor
@@ -2374,7 +2374,7 @@ containing a value of this type.
             0x7f01000b
         };
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#ctsListInitialLetterBg}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#ctsListInitialLetterBg}
           attribute's value can be found in the {@link #EaseContactList} array.
 
 
@@ -2382,11 +2382,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.hyphenate.chatuidemo:ctsListInitialLetterBg
+          @attr name cn.ucai.superwechat:ctsListInitialLetterBg
         */
         public static final int EaseContactList_ctsListInitialLetterBg = 3;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#ctsListInitialLetterColor}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#ctsListInitialLetterColor}
           attribute's value can be found in the {@link #EaseContactList} array.
 
 
@@ -2397,11 +2397,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:ctsListInitialLetterColor
+          @attr name cn.ucai.superwechat:ctsListInitialLetterColor
         */
         public static final int EaseContactList_ctsListInitialLetterColor = 4;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#ctsListPrimaryTextColor}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#ctsListPrimaryTextColor}
           attribute's value can be found in the {@link #EaseContactList} array.
 
 
@@ -2412,11 +2412,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:ctsListPrimaryTextColor
+          @attr name cn.ucai.superwechat:ctsListPrimaryTextColor
         */
         public static final int EaseContactList_ctsListPrimaryTextColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#ctsListPrimaryTextSize}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#ctsListPrimaryTextSize}
           attribute's value can be found in the {@link #EaseContactList} array.
 
 
@@ -2428,11 +2428,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:ctsListPrimaryTextSize
+          @attr name cn.ucai.superwechat:ctsListPrimaryTextSize
         */
         public static final int EaseContactList_ctsListPrimaryTextSize = 1;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#ctsListShowSiderBar}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#ctsListShowSiderBar}
           attribute's value can be found in the {@link #EaseContactList} array.
 
 
@@ -2442,7 +2442,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:ctsListShowSiderBar
+          @attr name cn.ucai.superwechat:ctsListShowSiderBar
         */
         public static final int EaseContactList_ctsListShowSiderBar = 2;
         /** Attributes that can be used with a EaseConversationList.
@@ -2451,12 +2451,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseConversationList_cvsListPrimaryTextColor com.hyphenate.chatuidemo:cvsListPrimaryTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseConversationList_cvsListPrimaryTextSize com.hyphenate.chatuidemo:cvsListPrimaryTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseConversationList_cvsListSecondaryTextColor com.hyphenate.chatuidemo:cvsListSecondaryTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseConversationList_cvsListSecondaryTextSize com.hyphenate.chatuidemo:cvsListSecondaryTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseConversationList_cvsListTimeTextColor com.hyphenate.chatuidemo:cvsListTimeTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseConversationList_cvsListTimeTextSize com.hyphenate.chatuidemo:cvsListTimeTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseConversationList_cvsListPrimaryTextColor cn.ucai.superwechat:cvsListPrimaryTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseConversationList_cvsListPrimaryTextSize cn.ucai.superwechat:cvsListPrimaryTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseConversationList_cvsListSecondaryTextColor cn.ucai.superwechat:cvsListSecondaryTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseConversationList_cvsListSecondaryTextSize cn.ucai.superwechat:cvsListSecondaryTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseConversationList_cvsListTimeTextColor cn.ucai.superwechat:cvsListTimeTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseConversationList_cvsListTimeTextSize cn.ucai.superwechat:cvsListTimeTextSize}</code></td><td></td></tr>
            </table>
            @see #EaseConversationList_cvsListPrimaryTextColor
            @see #EaseConversationList_cvsListPrimaryTextSize
@@ -2470,7 +2470,7 @@ containing a value of this type.
             0x7f010010, 0x7f010011
         };
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#cvsListPrimaryTextColor}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#cvsListPrimaryTextColor}
           attribute's value can be found in the {@link #EaseConversationList} array.
 
 
@@ -2481,11 +2481,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:cvsListPrimaryTextColor
+          @attr name cn.ucai.superwechat:cvsListPrimaryTextColor
         */
         public static final int EaseConversationList_cvsListPrimaryTextColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#cvsListPrimaryTextSize}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#cvsListPrimaryTextSize}
           attribute's value can be found in the {@link #EaseConversationList} array.
 
 
@@ -2497,11 +2497,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:cvsListPrimaryTextSize
+          @attr name cn.ucai.superwechat:cvsListPrimaryTextSize
         */
         public static final int EaseConversationList_cvsListPrimaryTextSize = 3;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#cvsListSecondaryTextColor}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#cvsListSecondaryTextColor}
           attribute's value can be found in the {@link #EaseConversationList} array.
 
 
@@ -2512,11 +2512,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:cvsListSecondaryTextColor
+          @attr name cn.ucai.superwechat:cvsListSecondaryTextColor
         */
         public static final int EaseConversationList_cvsListSecondaryTextColor = 1;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#cvsListSecondaryTextSize}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#cvsListSecondaryTextSize}
           attribute's value can be found in the {@link #EaseConversationList} array.
 
 
@@ -2528,11 +2528,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:cvsListSecondaryTextSize
+          @attr name cn.ucai.superwechat:cvsListSecondaryTextSize
         */
         public static final int EaseConversationList_cvsListSecondaryTextSize = 4;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#cvsListTimeTextColor}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#cvsListTimeTextColor}
           attribute's value can be found in the {@link #EaseConversationList} array.
 
 
@@ -2543,11 +2543,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:cvsListTimeTextColor
+          @attr name cn.ucai.superwechat:cvsListTimeTextColor
         */
         public static final int EaseConversationList_cvsListTimeTextColor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#cvsListTimeTextSize}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#cvsListTimeTextSize}
           attribute's value can be found in the {@link #EaseConversationList} array.
 
 
@@ -2559,7 +2559,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:cvsListTimeTextSize
+          @attr name cn.ucai.superwechat:cvsListTimeTextSize
         */
         public static final int EaseConversationList_cvsListTimeTextSize = 5;
         /** Attributes that can be used with a EaseEmojiconMenu.
@@ -2568,8 +2568,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseEmojiconMenu_bigEmojiconRows com.hyphenate.chatuidemo:bigEmojiconRows}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseEmojiconMenu_emojiconColumns com.hyphenate.chatuidemo:emojiconColumns}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseEmojiconMenu_bigEmojiconRows cn.ucai.superwechat:bigEmojiconRows}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseEmojiconMenu_emojiconColumns cn.ucai.superwechat:emojiconColumns}</code></td><td></td></tr>
            </table>
            @see #EaseEmojiconMenu_bigEmojiconRows
            @see #EaseEmojiconMenu_emojiconColumns
@@ -2578,7 +2578,7 @@ containing a value of this type.
             0x7f010012, 0x7f010013
         };
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#bigEmojiconRows}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#bigEmojiconRows}
           attribute's value can be found in the {@link #EaseEmojiconMenu} array.
 
 
@@ -2588,11 +2588,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:bigEmojiconRows
+          @attr name cn.ucai.superwechat:bigEmojiconRows
         */
         public static final int EaseEmojiconMenu_bigEmojiconRows = 0;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#emojiconColumns}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#emojiconColumns}
           attribute's value can be found in the {@link #EaseEmojiconMenu} array.
 
 
@@ -2602,7 +2602,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:emojiconColumns
+          @attr name cn.ucai.superwechat:emojiconColumns
         */
         public static final int EaseEmojiconMenu_emojiconColumns = 1;
         /** Attributes that can be used with a EaseImageView.
@@ -2611,12 +2611,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseImageView_ease_border_color com.hyphenate.chatuidemo:ease_border_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseImageView_ease_border_width com.hyphenate.chatuidemo:ease_border_width}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseImageView_ease_press_alpha com.hyphenate.chatuidemo:ease_press_alpha}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseImageView_ease_press_color com.hyphenate.chatuidemo:ease_press_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseImageView_ease_radius com.hyphenate.chatuidemo:ease_radius}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseImageView_ease_shape_type com.hyphenate.chatuidemo:ease_shape_type}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseImageView_ease_border_color cn.ucai.superwechat:ease_border_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseImageView_ease_border_width cn.ucai.superwechat:ease_border_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseImageView_ease_press_alpha cn.ucai.superwechat:ease_press_alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseImageView_ease_press_color cn.ucai.superwechat:ease_press_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseImageView_ease_radius cn.ucai.superwechat:ease_radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseImageView_ease_shape_type cn.ucai.superwechat:ease_shape_type}</code></td><td></td></tr>
            </table>
            @see #EaseImageView_ease_border_color
            @see #EaseImageView_ease_border_width
@@ -2630,7 +2630,7 @@ containing a value of this type.
             0x7f010018, 0x7f010019
         };
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#ease_border_color}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#ease_border_color}
           attribute's value can be found in the {@link #EaseImageView} array.
 
 
@@ -2641,11 +2641,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:ease_border_color
+          @attr name cn.ucai.superwechat:ease_border_color
         */
         public static final int EaseImageView_ease_border_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#ease_border_width}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#ease_border_width}
           attribute's value can be found in the {@link #EaseImageView} array.
 
 
@@ -2657,11 +2657,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:ease_border_width
+          @attr name cn.ucai.superwechat:ease_border_width
         */
         public static final int EaseImageView_ease_border_width = 1;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#ease_press_alpha}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#ease_press_alpha}
           attribute's value can be found in the {@link #EaseImageView} array.
 
 
@@ -2671,11 +2671,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:ease_press_alpha
+          @attr name cn.ucai.superwechat:ease_press_alpha
         */
         public static final int EaseImageView_ease_press_alpha = 2;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#ease_press_color}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#ease_press_color}
           attribute's value can be found in the {@link #EaseImageView} array.
 
 
@@ -2686,11 +2686,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:ease_press_color
+          @attr name cn.ucai.superwechat:ease_press_color
         */
         public static final int EaseImageView_ease_press_color = 3;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#ease_radius}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#ease_radius}
           attribute's value can be found in the {@link #EaseImageView} array.
 
 
@@ -2702,11 +2702,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:ease_radius
+          @attr name cn.ucai.superwechat:ease_radius
         */
         public static final int EaseImageView_ease_radius = 4;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#ease_shape_type}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#ease_shape_type}
           attribute's value can be found in the {@link #EaseImageView} array.
 
 
@@ -2720,7 +2720,7 @@ containing a value of this type.
 <tr><td><code>round</code></td><td>1</td><td></td></tr>
 <tr><td><code>rectangle</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.hyphenate.chatuidemo:ease_shape_type
+          @attr name cn.ucai.superwechat:ease_shape_type
         */
         public static final int EaseImageView_ease_shape_type = 5;
         /** Attributes that can be used with a EaseSwitchButton.
@@ -2729,9 +2729,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseSwitchButton_switchCloseImage com.hyphenate.chatuidemo:switchCloseImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseSwitchButton_switchOpenImage com.hyphenate.chatuidemo:switchOpenImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseSwitchButton_switchStatus com.hyphenate.chatuidemo:switchStatus}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseSwitchButton_switchCloseImage cn.ucai.superwechat:switchCloseImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseSwitchButton_switchOpenImage cn.ucai.superwechat:switchOpenImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseSwitchButton_switchStatus cn.ucai.superwechat:switchStatus}</code></td><td></td></tr>
            </table>
            @see #EaseSwitchButton_switchCloseImage
            @see #EaseSwitchButton_switchOpenImage
@@ -2741,27 +2741,27 @@ containing a value of this type.
             0x7f01001a, 0x7f01001b, 0x7f01001c
         };
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#switchCloseImage}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#switchCloseImage}
           attribute's value can be found in the {@link #EaseSwitchButton} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.hyphenate.chatuidemo:switchCloseImage
+          @attr name cn.ucai.superwechat:switchCloseImage
         */
         public static final int EaseSwitchButton_switchCloseImage = 1;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#switchOpenImage}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#switchOpenImage}
           attribute's value can be found in the {@link #EaseSwitchButton} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.hyphenate.chatuidemo:switchOpenImage
+          @attr name cn.ucai.superwechat:switchOpenImage
         */
         public static final int EaseSwitchButton_switchOpenImage = 0;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#switchStatus}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#switchStatus}
           attribute's value can be found in the {@link #EaseSwitchButton} array.
 
 
@@ -2774,7 +2774,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>open</code></td><td>0</td><td></td></tr>
 <tr><td><code>close</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.hyphenate.chatuidemo:switchStatus
+          @attr name cn.ucai.superwechat:switchStatus
         */
         public static final int EaseSwitchButton_switchStatus = 2;
         /** Attributes that can be used with a EaseTitleBar.
@@ -2783,10 +2783,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseTitleBar_titleBarBackground com.hyphenate.chatuidemo:titleBarBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseTitleBar_titleBarLeftImage com.hyphenate.chatuidemo:titleBarLeftImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseTitleBar_titleBarRightImage com.hyphenate.chatuidemo:titleBarRightImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseTitleBar_titleBarTitle com.hyphenate.chatuidemo:titleBarTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseTitleBar_titleBarBackground cn.ucai.superwechat:titleBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseTitleBar_titleBarLeftImage cn.ucai.superwechat:titleBarLeftImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseTitleBar_titleBarRightImage cn.ucai.superwechat:titleBarRightImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseTitleBar_titleBarTitle cn.ucai.superwechat:titleBarTitle}</code></td><td></td></tr>
            </table>
            @see #EaseTitleBar_titleBarBackground
            @see #EaseTitleBar_titleBarLeftImage
@@ -2797,7 +2797,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e, 0x7f01001f, 0x7f010020
         };
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#titleBarBackground}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#titleBarBackground}
           attribute's value can be found in the {@link #EaseTitleBar} array.
 
 
@@ -2805,31 +2805,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.hyphenate.chatuidemo:titleBarBackground
+          @attr name cn.ucai.superwechat:titleBarBackground
         */
         public static final int EaseTitleBar_titleBarBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#titleBarLeftImage}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#titleBarLeftImage}
           attribute's value can be found in the {@link #EaseTitleBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.hyphenate.chatuidemo:titleBarLeftImage
+          @attr name cn.ucai.superwechat:titleBarLeftImage
         */
         public static final int EaseTitleBar_titleBarLeftImage = 1;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#titleBarRightImage}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#titleBarRightImage}
           attribute's value can be found in the {@link #EaseTitleBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.hyphenate.chatuidemo:titleBarRightImage
+          @attr name cn.ucai.superwechat:titleBarRightImage
         */
         public static final int EaseTitleBar_titleBarRightImage = 2;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#titleBarTitle}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#titleBarTitle}
           attribute's value can be found in the {@link #EaseTitleBar} array.
 
 
@@ -2839,7 +2839,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:titleBarTitle
+          @attr name cn.ucai.superwechat:titleBarTitle
         */
         public static final int EaseTitleBar_titleBarTitle = 0;
         /** Attributes that can be used with a RPRecyclerView.
@@ -2848,10 +2848,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #RPRecyclerView_RPlayoutManager com.hyphenate.chatuidemo:RPlayoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RPRecyclerView_RPreverseLayout com.hyphenate.chatuidemo:RPreverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RPRecyclerView_RPspanCount com.hyphenate.chatuidemo:RPspanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RPRecyclerView_RPstackFromEnd com.hyphenate.chatuidemo:RPstackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RPRecyclerView_RPlayoutManager cn.ucai.superwechat:RPlayoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RPRecyclerView_RPreverseLayout cn.ucai.superwechat:RPreverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RPRecyclerView_RPspanCount cn.ucai.superwechat:RPspanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RPRecyclerView_RPstackFromEnd cn.ucai.superwechat:RPstackFromEnd}</code></td><td></td></tr>
            <tr><td><code>{@link #RPRecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
            </table>
            @see #RPRecyclerView_RPlayoutManager
@@ -2865,7 +2865,7 @@ containing a value of this type.
             0x7f010024
         };
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#RPlayoutManager}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#RPlayoutManager}
           attribute's value can be found in the {@link #RPRecyclerView} array.
 
 
@@ -2875,11 +2875,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:RPlayoutManager
+          @attr name cn.ucai.superwechat:RPlayoutManager
         */
         public static final int RPRecyclerView_RPlayoutManager = 1;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#RPreverseLayout}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#RPreverseLayout}
           attribute's value can be found in the {@link #RPRecyclerView} array.
 
 
@@ -2889,11 +2889,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:RPreverseLayout
+          @attr name cn.ucai.superwechat:RPreverseLayout
         */
         public static final int RPRecyclerView_RPreverseLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#RPspanCount}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#RPspanCount}
           attribute's value can be found in the {@link #RPRecyclerView} array.
 
 
@@ -2903,11 +2903,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:RPspanCount
+          @attr name cn.ucai.superwechat:RPspanCount
         */
         public static final int RPRecyclerView_RPspanCount = 2;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#RPstackFromEnd}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#RPstackFromEnd}
           attribute's value can be found in the {@link #RPRecyclerView} array.
 
 
@@ -2917,7 +2917,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:RPstackFromEnd
+          @attr name cn.ucai.superwechat:RPstackFromEnd
         */
         public static final int RPRecyclerView_RPstackFromEnd = 4;
         /**
@@ -2932,10 +2932,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #RPRoundCard_RPCardBgColor com.hyphenate.chatuidemo:RPCardBgColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #RPRoundCard_RPCardBgImg com.hyphenate.chatuidemo:RPCardBgImg}</code></td><td></td></tr>
-           <tr><td><code>{@link #RPRoundCard_RPCardBgType com.hyphenate.chatuidemo:RPCardBgType}</code></td><td></td></tr>
-           <tr><td><code>{@link #RPRoundCard_RPCardRadius com.hyphenate.chatuidemo:RPCardRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #RPRoundCard_RPCardBgColor cn.ucai.superwechat:RPCardBgColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #RPRoundCard_RPCardBgImg cn.ucai.superwechat:RPCardBgImg}</code></td><td></td></tr>
+           <tr><td><code>{@link #RPRoundCard_RPCardBgType cn.ucai.superwechat:RPCardBgType}</code></td><td></td></tr>
+           <tr><td><code>{@link #RPRoundCard_RPCardRadius cn.ucai.superwechat:RPCardRadius}</code></td><td></td></tr>
            </table>
            @see #RPRoundCard_RPCardBgColor
            @see #RPRoundCard_RPCardBgImg
@@ -2946,7 +2946,7 @@ containing a value of this type.
             0x7f010025, 0x7f010026, 0x7f010027, 0x7f010028
         };
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#RPCardBgColor}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#RPCardBgColor}
           attribute's value can be found in the {@link #RPRoundCard} array.
 
 
@@ -2954,21 +2954,21 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.hyphenate.chatuidemo:RPCardBgColor
+          @attr name cn.ucai.superwechat:RPCardBgColor
         */
         public static final int RPRoundCard_RPCardBgColor = 1;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#RPCardBgImg}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#RPCardBgImg}
           attribute's value can be found in the {@link #RPRoundCard} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.hyphenate.chatuidemo:RPCardBgImg
+          @attr name cn.ucai.superwechat:RPCardBgImg
         */
         public static final int RPRoundCard_RPCardBgImg = 0;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#RPCardBgType}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#RPCardBgType}
           attribute's value can be found in the {@link #RPRoundCard} array.
 
 
@@ -2978,11 +2978,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:RPCardBgType
+          @attr name cn.ucai.superwechat:RPCardBgType
         */
         public static final int RPRoundCard_RPCardBgType = 3;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#RPCardRadius}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#RPCardRadius}
           attribute's value can be found in the {@link #RPRoundCard} array.
 
 
@@ -2994,7 +2994,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:RPCardRadius
+          @attr name cn.ucai.superwechat:RPCardRadius
         */
         public static final int RPRoundCard_RPCardRadius = 2;
         /** Attributes that can be used with a app.
@@ -3003,18 +3003,18 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #app_RPleftImage com.hyphenate.chatuidemo:RPleftImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPmytitle com.hyphenate.chatuidemo:RPmytitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPrightImage com.hyphenate.chatuidemo:RPrightImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPrightText com.hyphenate.chatuidemo:RPrightText}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPrightTextColor com.hyphenate.chatuidemo:RPrightTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPrightTextSize com.hyphenate.chatuidemo:RPrightTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPsubTitleText com.hyphenate.chatuidemo:RPsubTitleText}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPsubTitleTextColor com.hyphenate.chatuidemo:RPsubTitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPsubTitleTextSize com.hyphenate.chatuidemo:RPsubTitleTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPtitleBackground com.hyphenate.chatuidemo:RPtitleBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPtitleTextColor com.hyphenate.chatuidemo:RPtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPtitleTextSize com.hyphenate.chatuidemo:RPtitleTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPleftImage cn.ucai.superwechat:RPleftImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPmytitle cn.ucai.superwechat:RPmytitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPrightImage cn.ucai.superwechat:RPrightImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPrightText cn.ucai.superwechat:RPrightText}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPrightTextColor cn.ucai.superwechat:RPrightTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPrightTextSize cn.ucai.superwechat:RPrightTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPsubTitleText cn.ucai.superwechat:RPsubTitleText}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPsubTitleTextColor cn.ucai.superwechat:RPsubTitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPsubTitleTextSize cn.ucai.superwechat:RPsubTitleTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPtitleBackground cn.ucai.superwechat:RPtitleBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPtitleTextColor cn.ucai.superwechat:RPtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPtitleTextSize cn.ucai.superwechat:RPtitleTextSize}</code></td><td></td></tr>
            </table>
            @see #app_RPleftImage
            @see #app_RPmytitle
@@ -3035,17 +3035,17 @@ containing a value of this type.
             0x7f010031, 0x7f010032, 0x7f010033, 0x7f010034
         };
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#RPleftImage}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#RPleftImage}
           attribute's value can be found in the {@link #app} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.hyphenate.chatuidemo:RPleftImage
+          @attr name cn.ucai.superwechat:RPleftImage
         */
         public static final int app_RPleftImage = 1;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#RPmytitle}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#RPmytitle}
           attribute's value can be found in the {@link #app} array.
 
 
@@ -3055,21 +3055,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:RPmytitle
+          @attr name cn.ucai.superwechat:RPmytitle
         */
         public static final int app_RPmytitle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#RPrightImage}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#RPrightImage}
           attribute's value can be found in the {@link #app} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.hyphenate.chatuidemo:RPrightImage
+          @attr name cn.ucai.superwechat:RPrightImage
         */
         public static final int app_RPrightImage = 2;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#RPrightText}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#RPrightText}
           attribute's value can be found in the {@link #app} array.
 
 
@@ -3079,11 +3079,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:RPrightText
+          @attr name cn.ucai.superwechat:RPrightText
         */
         public static final int app_RPrightText = 3;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#RPrightTextColor}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#RPrightTextColor}
           attribute's value can be found in the {@link #app} array.
 
 
@@ -3091,11 +3091,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.hyphenate.chatuidemo:RPrightTextColor
+          @attr name cn.ucai.superwechat:RPrightTextColor
         */
         public static final int app_RPrightTextColor = 4;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#RPrightTextSize}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#RPrightTextSize}
           attribute's value can be found in the {@link #app} array.
 
 
@@ -3107,11 +3107,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:RPrightTextSize
+          @attr name cn.ucai.superwechat:RPrightTextSize
         */
         public static final int app_RPrightTextSize = 5;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#RPsubTitleText}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#RPsubTitleText}
           attribute's value can be found in the {@link #app} array.
 
 
@@ -3121,11 +3121,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:RPsubTitleText
+          @attr name cn.ucai.superwechat:RPsubTitleText
         */
         public static final int app_RPsubTitleText = 6;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#RPsubTitleTextColor}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#RPsubTitleTextColor}
           attribute's value can be found in the {@link #app} array.
 
 
@@ -3133,11 +3133,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.hyphenate.chatuidemo:RPsubTitleTextColor
+          @attr name cn.ucai.superwechat:RPsubTitleTextColor
         */
         public static final int app_RPsubTitleTextColor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#RPsubTitleTextSize}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#RPsubTitleTextSize}
           attribute's value can be found in the {@link #app} array.
 
 
@@ -3149,11 +3149,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:RPsubTitleTextSize
+          @attr name cn.ucai.superwechat:RPsubTitleTextSize
         */
         public static final int app_RPsubTitleTextSize = 8;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#RPtitleBackground}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#RPtitleBackground}
           attribute's value can be found in the {@link #app} array.
 
 
@@ -3161,11 +3161,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.hyphenate.chatuidemo:RPtitleBackground
+          @attr name cn.ucai.superwechat:RPtitleBackground
         */
         public static final int app_RPtitleBackground = 11;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#RPtitleTextColor}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#RPtitleTextColor}
           attribute's value can be found in the {@link #app} array.
 
 
@@ -3173,11 +3173,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.hyphenate.chatuidemo:RPtitleTextColor
+          @attr name cn.ucai.superwechat:RPtitleTextColor
         */
         public static final int app_RPtitleTextColor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.hyphenate.chatuidemo.R.attr#RPtitleTextSize}
+          <p>This symbol is the offset where the {@link cn.ucai.superwechat.R.attr#RPtitleTextSize}
           attribute's value can be found in the {@link #app} array.
 
 
@@ -3189,7 +3189,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.chatuidemo:RPtitleTextSize
+          @attr name cn.ucai.superwechat:RPtitleTextSize
         */
         public static final int app_RPtitleTextSize = 10;
     };

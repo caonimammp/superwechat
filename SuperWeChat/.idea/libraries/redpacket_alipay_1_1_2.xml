@@ -1,5 +1,9 @@
 <component name="libraryTable">
   <library name="redpacket-alipay-1.1.2">
+    <ANNOTATIONS>
+      <root url="jar://D:/Android/.android/build-cache/b7b454d0385f3eff084663bc994b9a74db9a26c6/output/annotations.zip!/" />
+      <root url="jar://D:/Android/.android/build-cache/b7b454d0385f3eff084663bc994b9a74db9a26c6/output/annotations.zip!/" />
+    </ANNOTATIONS>
     <CLASSES>
       <root url="jar://D:/Android/.android/build-cache/b7b454d0385f3eff084663bc994b9a74db9a26c6/output/jars/classes.jar!/" />
       <root url="file://D:/Android/.android/build-cache/b7b454d0385f3eff084663bc994b9a74db9a26c6/output/res" />

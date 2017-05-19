@@ -6,7 +6,888 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd72e275-2e05-46b4-b757-17816eb39dbd" name="Default" comment="" />
+    <list default="true" id="bd72e275-2e05-46b4-b757-17816eb39dbd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/generated/source/buildConfig/androidTest/debug/com/hyphenate/chatuidemo/test/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/taskArtifacts/cache.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_EaseUI_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_EaseUI_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_EaseUI_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_EaseUI_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_EaseUI_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_EaseUI_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_EaseUI_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_EaseUI_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_hyphenatechatsdk_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_hyphenatechatsdk_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_hyphenatechatsdk_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_hyphenatechatsdk_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_hyphenatechatsdk_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_hyphenatechatsdk_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_hyphenatechatsdk_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_hyphenatechatsdk_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_redpacketlibrary_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_redpacketlibrary_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_redpacketlibrary_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_redpacketlibrary_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/taskArtifacts/cache.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/tasks/_EaseUI_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/tasks/_EaseUI_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/tasks/_EaseUI_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/tasks/_EaseUI_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/tasks/_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/tasks/_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/tasks/_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/tasks/_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/tasks/_hyphenatechatsdk_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/tasks/_hyphenatechatsdk_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/tasks/_hyphenatechatsdk_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/tasks/_hyphenatechatsdk_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.gradle/2.14.1/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/gradle.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/libraries/BaiduLBS_Android.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/libraries/HwPush_SDK_V2705_nomap.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/libraries/MiPush_SDK_Client_2_2_19.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/libraries/alipaySdk_20160516.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/libraries/android_support_v4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/libraries/bolts_tasks_1_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/libraries/glide_3_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/libraries/google_play_services.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/libraries/multidex_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/libraries/multidex_instrumentation_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/libraries/org_apache_http_legacy.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/libraries/parse_android_1_13_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/libraries/redpacket_3_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/libraries/umeng_analytics_v5_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/libraries/umeng_update_v2_6_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/libraries/volley_1_0_19.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/runConfigurations.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/copyright.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/gradlew" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/gradlew.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/jni/Android.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/jni/Application.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/libs/android-support-multidex.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/libs/bolts-tasks-1.4.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/libs/parse-android-1.13.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/libs/umeng-analytics-v5.2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/libs/umeng-update-v2.6.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/lint.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/local.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/proguard-project.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/libs/alipaySdk-20161129.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/libs/volley-1.0.19.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/redpacketlibrary.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/drawable-xxhdpi/em_chat_red_packet_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/drawable-xxhdpi/em_chat_red_packet_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/drawable-xxhdpi/em_random_chatfrom_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/drawable-xxhdpi/em_random_chatto_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/drawable-xxhdpi/em_red_packet_ack_message_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/drawable-xxhdpi/em_red_packet_chatfrom_bg_focused.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/drawable-xxhdpi/em_red_packet_chatfrom_bg_normal.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/drawable-xxhdpi/em_red_packet_chatto_bg_focused.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/drawable-xxhdpi/em_red_packet_chatto_bg_normal.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/drawable-xxhdpi/em_red_packet_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/drawable/em_chat_red_packet_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/drawable/em_red_packet_chatfrom_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/drawable/em_red_packet_chatto_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/layout/em_row_received_random_packet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/layout/em_row_received_red_packet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/layout/em_row_red_packet_ack_message.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/layout/em_row_sent_random_packet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/layout/em_row_sent_red_packet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/values-zh/em_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/values/em_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/res/values/em_styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/src/com/easemob/redpacket/utils/RedPacketUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/src/com/easemob/redpacket/widget/ChatRowRandomPacket.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/src/com/easemob/redpacket/widget/ChatRowRedPacket.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/redpacketlibrary/src/com/easemob/redpacket/widget/ChatRowRedPacketAck.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/color/em_main_botton_text_color.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_actionbar_camera_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_add_public_group.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_app_pref_bg.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_btn_style_alert_dialog_background.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_camera_switch_normal.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_camera_switch_pressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_contact_list_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_contact_list_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_conversation_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_conversation_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_create_group.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_default_avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_dx_checkbox_gray_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_dx_checkbox_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_dx_checkbox_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_groups_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_ic_right_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_icon_account.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_icon_pwd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_login_error_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_logo_uidemo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_mm_title_act_btn_normal.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_mm_title_act_btn_pressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_mm_title_back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_msg_state_fail_resend.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_new_friends_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_profile_headphoto_update_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_roominfo_add_btn_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_roominfo_add_btn_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_seabar_input.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_search_bar_icon_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_settings_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_settings_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_show_head_toast_bg.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_smiley_add_btn_nor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_smiley_add_btn_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_smiley_minus_btn_nor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_smiley_minus_btn_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_to_group_details_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_unread_count_bg.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_video_recorder_start_btn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_video_recorder_stop_btn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/em_welcom_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_002.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_002_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_007.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_007_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_010.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_010_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_012.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_012_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_013.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_013_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_018.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_018_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_019.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_019_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_020.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_020_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_021.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_021_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_022.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_022_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_024.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_024_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_027.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_027_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_029.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_029_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_030.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_030_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_035.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_035_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_040.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/icon_040_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/umeng_update_btn_check_off_focused_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/umeng_update_btn_check_off_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/umeng_update_btn_check_off_pressed_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/umeng_update_btn_check_on_focused_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/umeng_update_btn_check_on_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/umeng_update_btn_check_on_pressed_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/umeng_update_close_bg_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-hdpi/umeng_update_close_bg_tap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-ldpi/em_logo_uidemo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-mdpi/em_logo_uidemo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-mdpi/em_unread_count_bg.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-nodpi/em_empty_photo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_add_public_group.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_chat_file_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_chat_file_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_chat_video_call_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_chat_video_call_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_chat_video_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_chat_video_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_chat_voice_call_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_chat_voice_call_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_create_group.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_group_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_groups_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_icon_mute_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_icon_mute_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_icon_speaker_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_icon_speaker_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_logo_uidemo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_new_friends_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_settings_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_settings_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_splash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_splash_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_to_group_details_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_unread_count_bg.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xhdpi/em_unread_dot.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable-xxhdpi/em_logo_uidemo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_appitem_del_btn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_btn_bottom_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_btn_gray_normal_shape.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_btn_gray_pressed_shape.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_btn_gray_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_btn_green_normal_shape.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_btn_green_pressed_shape.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_btn_green_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_btn_logout_normal_shape.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_btn_logout_pressed_shape.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_btn_style_alert_dialog_special.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_button_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_button_login_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_button_myprofile_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_button_normal_shape.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_button_register_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_button_selector_shape.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_call_answer_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_call_hangup_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_camera_switch_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_chat_error_item_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_chat_file_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_chat_video_call_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_chat_video_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_chat_voice_call_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_checkbox_bg_gray_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_checkbox_bg_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_context_menu_item_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_main_bottom_item_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_mm_title_act_btn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_nickename_input_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_photogrid_list_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_roominfo_add_btn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_smiley_add_btn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_smiley_minus_btn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_tab_chat_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_tab_contact_list_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/em_tab_setting_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/umeng_common_gradient_green.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/umeng_common_gradient_orange.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/umeng_common_gradient_red.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/umeng_update_button_cancel_bg_focused.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/umeng_update_button_cancel_bg_normal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/umeng_update_button_cancel_bg_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/umeng_update_button_cancel_bg_tap.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/umeng_update_button_check_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/umeng_update_button_close_bg_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/umeng_update_button_ok_bg_focused.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/umeng_update_button_ok_bg_normal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/umeng_update_button_ok_bg_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/umeng_update_button_ok_bg_tap.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/umeng_update_dialog_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/umeng_update_title_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/drawable/umeng_update_wifi_disable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout-v9/umeng_common_download_notification.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/activity_offline_push_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/activity_pick_at_user.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/activity_set_servers.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_add_contact.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_black_list.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_call_option.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_chat.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_chatroom_details.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_diagnose.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_edit.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_group_blacklist.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_group_details.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_group_pick_contacts.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_group_search_message.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_group_simle_details.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_login.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_new_chat_room.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_new_friends_msg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_new_group.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_offline_push.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_pick_contact_no_checkbox.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_public_groups.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_public_groups_search.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_register.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_splash.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_user_profile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_video_call.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_activity_voice_call.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_chat_neterror_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_chatroom_member_menu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_choose_griditem.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_contacts_header.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_context_menu_for_image.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_context_menu_for_location.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_context_menu_for_text.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_context_menu_for_video.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_context_menu_for_voice.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_fragment_conversation_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_fragment_groups.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_fragment_robots.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_grid.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_grid_owner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_image_grid_fragment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_layout_loading_data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_listview_footer_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_logout_actionsheet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_mail_log.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_recorder_activity.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_row_add_group.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_row_contact_with_checkbox.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_row_group.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_row_invite_msg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_row_robots.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_row_search_message.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_search_bar_with_padding.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/em_widget_contact_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/umeng_common_download_notification.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/layout/umeng_update_dialog.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/menu/em_context_contact_list.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/menu/em_context_tab_contact.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/menu/em_delete_contact.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/menu/em_delete_message.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/menu/em_remove_from_blacklist.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/raw/em_outgoing.ogg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/values-large/em_dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/values-w820dp/em_dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/values-xlarge/em_dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/values-zh/em_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/values-zh/umeng_common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/values-zh/umeng_update_string.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/values/em_attrs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/values/em_colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/values/em_dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/values/em_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/values/em_styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/values/umeng_common_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/res/values/umeng_update_string.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/sdkdemoapp3.0_android-release.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/sdkdemoapp3.0_android.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/settings.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/Constant.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/DemoApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/DemoHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/DemoModel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/adapter/GroupAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/adapter/NewFriendsMsgAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/db/DbOpenHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/db/DemoDBManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/db/InviteMessgeDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/db/UserDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/domain/EmojiconExampleGroupData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/domain/InviteMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/domain/RobotUser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/domain/VideoEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/parse/ParseManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/parse/UserProfileManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/receiver/CallReceiver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/receiver/GCMPushBroadCast.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/receiver/StartServiceReceiver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/runtimepermissions/Permissions.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/runtimepermissions/PermissionsManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/runtimepermissions/PermissionsResultAction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/AddContactActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/BaseActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/BlacklistActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/CallActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/CallOptionActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/ChatActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/ChatFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/ChatRoomDetailsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/ContactListFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/ContextMenuActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/ConversationListFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/DiagnoseActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/EditActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/ExitGroupDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/ForwardMessageActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/GroupBlacklistActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/GroupDetailsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/GroupPickContactsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/GroupSearchMessageActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/GroupSimpleDetailActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/GroupsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/ImageGridActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/ImageGridFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/LoginActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/NewChatRoomActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/NewFriendsMsgActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/NewGroupActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/OfflinePushNickActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/OfflinePushSettingsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/PickAtUserActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/PickContactNoCheckboxActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/PublicChatRoomsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/PublicGroupsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/PublicGroupsSeachActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/RecorderVideoActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/RegisterActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/RobotsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/SetServersActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/SettingsFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/SplashActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/UserProfileActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/VideoCallActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/ui/VoiceCallActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/utils/PreferenceManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/video/util/ImageCache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/video/util/ImageResizer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/video/util/ImageWorker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/video/util/RecyclingBitmapDrawable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/video/util/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/widget/ChatRowVoiceCall.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/widget/ContactItemView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/widget/MyChronometer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/ChatDemoUI3.0/src/com/hyphenate/chatuidemo/widget/RecyclingImageView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/EaseUI.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/hyphenate.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/ic_launcher-web.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/BaiduLBS_Android.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/HwPush_SDK_V2705_nomap.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/MiPush_SDK_Client_2_2_19.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/android-support-v4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/arm64-v8a/libBaiduMapSDK_base_v4_0_0.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/arm64-v8a/libBaiduMapSDK_map_v4_0_0.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/arm64-v8a/libBaiduMapSDK_util_v4_0_0.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/arm64-v8a/libhyphenate.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/arm64-v8a/libhyphenate_av.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/arm64-v8a/libhyphenate_av_recorder.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/arm64-v8a/liblocSDK7.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/arm64-v8a/libsqlite.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/armeabi-v7a/libBaiduMapSDK_base_v4_0_0.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/armeabi-v7a/libBaiduMapSDK_map_v4_0_0.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/armeabi-v7a/libBaiduMapSDK_util_v4_0_0.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/armeabi-v7a/libhyphenate.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/armeabi-v7a/libhyphenate_av.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/armeabi-v7a/libhyphenate_av_recorder.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/armeabi-v7a/liblocSDK7.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/armeabi-v7a/libsqlite.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/glide-3.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/google-play-services.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/hyphenatechat_3.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/org.apache.http.legacy.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/x86/libBaiduMapSDK_base_v4_0_0.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/x86/libBaiduMapSDK_map_v4_0_0.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/x86/libBaiduMapSDK_util_v4_0_0.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/x86/libhyphenate.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/x86/libhyphenate_av.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/x86/libhyphenate_av_recorder.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/x86/liblocSDK7.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/libs/x86/libsqlite.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/lint.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/proguard-project.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/anim/fade_in.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/anim/fade_out.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/anim/head_in.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/anim/head_out.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/anim/hold.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/anim/push_bottom_in.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/anim/push_bottom_out.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/anim/push_top_in.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/anim/push_top_in2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/anim/push_top_out.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/anim/push_top_out2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/anim/slide_in_from_left.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/anim/slide_in_from_right.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/anim/slide_out_to_left.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/anim/slide_out_to_right.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/anim/voice_from_icon.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/anim/voice_to_icon.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_app_panel_video_icon.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_appitem_del_btn_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_appitem_del_btn_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chat_face_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chat_face_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chat_video_mask_to.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chatfrom_bg_focused.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chatfrom_bg_normal.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chatfrom_voice_playing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chatfrom_voice_playing_f1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chatfrom_voice_playing_f2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chatfrom_voice_playing_f3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chatting_biaoqing_btn_enable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chatting_biaoqing_btn_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chatting_setmode_keyboard_btn_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chatting_setmode_keyboard_btn_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chatting_setmode_voice_btn_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chatting_setmode_voice_btn_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chatto_bg_focused.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chatto_bg_normal.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chatto_voice_playing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chatto_voice_playing_f1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chatto_voice_playing_f2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_chatto_voice_playing_f3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_contact_list_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_contact_list_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_conversation_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_conversation_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_default_avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_default_image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_dx_checkbox_gray_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_dx_checkbox_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_dx_checkbox_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_groups_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_icon_marka.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_input_bar_bg_active.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_input_bar_bg_normal.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_location_msg.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_login_error_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_mm_listitem_disable.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_mm_listitem_grey_normal.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_mm_listitem_pressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_mm_listitem_simple.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_mm_title_back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_mm_title_remove.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_msg_state_fail_resend.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_msg_state_fail_resend_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_new_friends_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_record_animate_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_record_animate_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_record_animate_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_record_animate_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_record_animate_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_record_animate_06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_record_animate_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_record_animate_08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_record_animate_09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_record_animate_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_record_animate_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_record_animate_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_record_animate_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_record_animate_14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_seabar_input.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_search_bar_icon_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_search_clear_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_search_clear_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_settings_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_settings_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_show_head_toast_bg.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_slidetab_bg_press.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_to_group_details_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_type_select_btn_nor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_type_select_btn_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_unread_count_bg.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_video_download_btn_nor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_video_play_btn_small_nor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_video_recorder_start_btn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_video_recorder_stop_btn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ease_voice_unread.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-hdpi/ee_9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_blue_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_chat_edit_normal.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_chat_image_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_chat_image_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_chat_item_file.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_chat_location_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_chat_location_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_chat_press_speak_btn_normal.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_chat_press_speak_btn_pressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_chat_send_btn_normal.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_chat_send_btn_pressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_chat_takepic_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_chat_takepic_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_chat_video_call_receive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_chat_video_call_self.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_chat_voice_call_receive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_chat_voice_call_self.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_chatting_biaoqing_btn_enable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_chatting_biaoqing_btn_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_close_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_default_avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_default_expression.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_delete_expression.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_dot_emojicon_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_dot_emojicon_unselected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_group_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_groups_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_mm_title_remove.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_new_friends_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_open_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable-xhdpi/ease_unread_dot.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_btn_blue_normal_shape.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_btn_blue_pressed_shape.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_btn_blue_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_btn_cancel_bj.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_btn_cancel_normal_shape.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_btn_cancel_pressed_shape.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_chat_image_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_chat_location_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_chat_press_speak_btn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_chat_send_btn_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_chat_takepic_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_chatfrom_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_chatting_setmode_keyboard_btn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_chatting_setmode_voice_btn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_chatto_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_common_tab_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_edit_text_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_mm_listitem.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_mm_listitem_grey.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_msg_state_failed_resend.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_recording_hint_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_recording_text_hint_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_search_clear.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_sidebar_background_pressed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_timestampe_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/drawable/ease_type_select_btn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_activity_baidumap.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_activity_show_big_image.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_activity_show_file.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_alert_dialog.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_chat_menu_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_chat_message_list.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_commom_back_btn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_conversation_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_emojicon.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_expression_gridview.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_fragment_chat.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_fragment_contact_list.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_fragment_conversation_list.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_layout_chat_primary_menu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_layout_emojicon_menu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_big_expression.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_chat_history.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_contact.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_expression.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_received_bigexpression.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_received_file.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_received_location.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_received_message.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_received_picture.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_received_video.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_received_video_call.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_received_voice.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_received_voice_call.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_sent_bigexpression.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_sent_file.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_sent_location.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_sent_message.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_sent_picture.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_sent_video.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_sent_video_call.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_sent_voice.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_row_sent_voice_call.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_scroll_tab_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_search_bar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_search_bar_with_padding.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_showvideo_activity.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_widget_chat_input_menu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_widget_chat_primary_menu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_widget_contact_list.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_widget_emojicon.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_widget_emojicon_tab_bar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_widget_switch_button.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_widget_title_bar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/layout/ease_widget_voice_recorder.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/values-large/ease_dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/values-v11/ease_styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/values-w820dp/ease_dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/values-xlarge/ease_dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/values-zh-rCN/ease_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/values/ease_attrs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/values/ease_colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/values/ease_dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/values/ease_strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/res/values/ease_styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/ic_launcher-web.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/proguard-project.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/color/em_main_botton_text_color.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/drawable-hdpi/em_contact_list_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/drawable-hdpi/em_contact_list_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/drawable-hdpi/em_conversation_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/drawable-hdpi/em_conversation_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/drawable-hdpi/em_settings_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/drawable-hdpi/em_settings_selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/drawable-hdpi/em_unread_count_bg.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/drawable-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/drawable-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/drawable-xxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/drawable/em_main_bottom_item_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/drawable/em_tab_chat_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/drawable/em_tab_contact_list_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/drawable/em_tab_setting_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/layout/activity_chat.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/layout/activity_login.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/layout/activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/layout/fragment_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/values-w820dp/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/values/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/src/com/hyphenate/easeuisimpledemo/DemoApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/src/com/hyphenate/easeuisimpledemo/ui/ChatActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/src/com/hyphenate/easeuisimpledemo/ui/LoginActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/src/com/hyphenate/easeuisimpledemo/ui/MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/simpledemo/src/com/hyphenate/easeuisimpledemo/ui/SettingsFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/EaseConstant.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/adapter/EaseContactAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/adapter/EaseConversationAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/adapter/EaseExpressionPagerAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/adapter/EaseMessageAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/adapter/EmojiconGridAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/adapter/EmojiconPagerAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/controller/EaseUI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/domain/EaseEmojicon.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/domain/EaseEmojiconGroupEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/domain/EaseUser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/model/EaseAtMessageHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/model/EaseDefaultEmojiconDatas.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/model/EaseImageCache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/model/EaseNotifier.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/model/EasePreferenceManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/model/EaseVoiceRecorder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/ui/EaseBaiduMapActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/ui/EaseBaseActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/ui/EaseBaseFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/ui/EaseChatFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/ui/EaseChatRoomListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/ui/EaseContactListFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/ui/EaseConversationListFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/ui/EaseGroupListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/ui/EaseShowBigImageActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/ui/EaseShowNormalFileActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/ui/EaseShowVideoActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/utils/EaseCommonUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/utils/EaseImageUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/utils/EaseLoadLocalBigImgTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/utils/EaseSmileUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/utils/EaseUserUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/EaseAlertDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/EaseChatExtendMenu.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/EaseChatInputMenu.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/EaseChatMessageList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/EaseChatPrimaryMenu.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/EaseChatPrimaryMenuBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/EaseContactList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/EaseConversationList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/EaseExpandGridView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/EaseImageView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/EaseSidebar.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/EaseSwitchButton.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/EaseTitleBar.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/EaseVoiceRecorderView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/chatrow/EaseChatRow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/chatrow/EaseChatRowBigExpression.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/chatrow/EaseChatRowFile.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/chatrow/EaseChatRowImage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/chatrow/EaseChatRowLocation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/chatrow/EaseChatRowText.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/chatrow/EaseChatRowVideo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/chatrow/EaseChatRowVoice.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/chatrow/EaseChatRowVoicePlayClickListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/chatrow/EaseCustomChatRowProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/emojicon/EaseEmojiconIndicatorView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/emojicon/EaseEmojiconMenu.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/emojicon/EaseEmojiconMenuBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/emojicon/EaseEmojiconPagerView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/emojicon/EaseEmojiconScrollTabBar.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/photoview/Compat.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/photoview/EasePhotoView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/photoview/IPhotoView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/photoview/PhotoViewAttacher.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/photoview/SDK16.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/photoview/ScrollerProxy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../examples/easeui/src/com/hyphenate/easeui/widget/photoview/VersionedGestureDetector.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/redpacket_alipay_1_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/redpacket_alipay_1_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/buildConfig/debug/com/hyphenate/chatuidemo/BuildConfig.java" afterPath="$PROJECT_DIR$/build/generated/source/buildConfig/debug/com/hyphenate/chatuidemo/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/hyphenate/chatuidemo/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/hyphenate/chatuidemo/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+    </list>
     <ignored path="SuperWeChat.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
@@ -39,60 +920,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-77">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gradle-wrapper.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="77" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redpacketlibrary/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../easeui/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="176">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -2194,7 +3035,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="D:\myproject\SuperWeChat\SuperWeChat" value="5977021457998" />
+        <entry key="D:\myproject\SuperWeChat\SuperWeChat" value="5977024153685" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2705,20 +3546,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
         <option value="$PROJECT_DIR$/redpacketlibrary/build.gradle" />
         <option value="$PROJECT_DIR$/../easeui/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-12" />
-    <option name="y" value="103" />
-    <option name="width" value="1048" />
-    <option name="height" value="638" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -2746,10 +3587,27 @@
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWeChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="AndroidView">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWeChat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="SuperWeChat" />
@@ -2762,7 +3620,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="android.sdk.path" value="D:/Android" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.project.structure.last.selected" value="Project" />
@@ -2887,6 +3745,15 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -3076,8 +3943,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="103" width="1048" height="638" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3089,14 +3956,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42406312" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3340081" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3136,10 +4003,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="88">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../easeui/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redpacketlibrary/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -3152,29 +4038,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redpacketlibrary/build.gradle">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../easeui/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="176">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
