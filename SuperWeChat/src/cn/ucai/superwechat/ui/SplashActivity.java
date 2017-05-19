@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import com.hyphenate.chat.EMClient;
 import cn.ucai.superwechat.SuperWeChatHelper;
+import cn.ucai.superwechat.utils.MFGT;
 
 import com.hyphenate.util.EasyUtils;
 
@@ -23,14 +24,6 @@ public class SplashActivity extends BaseActivity {
 	protected void onCreate(Bundle arg0) {
 		setContentView(cn.ucai.superwechat.R.layout.em_activity_splash);
 		super.onCreate(arg0);
-
-		RelativeLayout rootLayout = (RelativeLayout) findViewById(cn.ucai.superwechat.R.id.splash_root);
-		TextView versionText = (TextView) findViewById(cn.ucai.superwechat.R.id.tv_version);
-
-		versionText.setText(getVersion());
-		AlphaAnimation animation = new AlphaAnimation(0.3f, 1.0f);
-		animation.setDuration(1500);
-		rootLayout.startAnimation(animation);
 	}
 
 	@Override
@@ -67,18 +60,11 @@ public class SplashActivity extends BaseActivity {
 						Thread.sleep(sleepTime);
 					} catch (InterruptedException e) {
 					}
-					startActivity(new Intent(SplashActivity.this, LoginActivity.class));
+					MFGT.gotoLogin(SplashActivity.this);
 					finish();
 				}
 			}
 		}).start();
 
-	}
-	
-	/**
-	 * get sdk version
-	 */
-	private String getVersion() {
-	    return EMClient.getInstance().VERSION;
 	}
 }
