@@ -1,6 +1,6 @@
 package cn.ucai.superwechat.domain;
 
-import cn.ucai.superwechat.DemoApplication;
+import cn.ucai.superwechat.SuperWeChatApplication;
 import cn.ucai.easeui.domain.EaseEmojicon;
 import cn.ucai.easeui.domain.EaseEmojiconGroupEntity;
 
@@ -56,7 +56,7 @@ public class EmojiconExampleGroupData {
             datas[i] = new EaseEmojicon(icons[i], null, EaseEmojicon.Type.BIG_EXPRESSION);
             datas[i].setBigIcon(bigIcons[i]);
             //you can replace this to any you want
-            datas[i].setName(DemoApplication.getInstance().getApplicationContext().getString(cn.ucai.superwechat.R.string.emojicon_test_name)+ (i+1));
+            datas[i].setName(SuperWeChatApplication.getInstance().getApplicationContext().getString(cn.ucai.superwechat.R.string.emojicon_test_name)+ (i+1));
             datas[i].setIdentityCode("em"+ (1000+i+1));
         }
         emojiconGroupEntity.setEmojiconList(Arrays.asList(datas));
