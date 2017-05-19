@@ -16,6 +16,9 @@ package cn.ucai.superwechat.ui;
 import com.hyphenate.EMError;
 import com.hyphenate.chat.EMClient;
 import cn.ucai.superwechat.SuperWeChatHelper;
+import cn.ucai.superwechat.data.net.IUserModel;
+import cn.ucai.superwechat.data.net.OnCompleteListener;
+import cn.ucai.superwechat.data.net.UserModel;
 
 import com.hyphenate.exceptions.HyphenateException;
 
@@ -34,7 +37,11 @@ public class RegisterActivity extends BaseActivity {
 	private EditText userNameEditText;
 	private EditText passwordEditText;
 	private EditText confirmPwdEditText;
-
+	IUserModel model;
+	String username;
+	String pwd;
+	String confirm_pwd;
+	String nick;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -42,12 +49,31 @@ public class RegisterActivity extends BaseActivity {
 		userNameEditText = (EditText) findViewById(cn.ucai.superwechat.R.id.username);
 		passwordEditText = (EditText) findViewById(cn.ucai.superwechat.R.id.password);
 		confirmPwdEditText = (EditText) findViewById(cn.ucai.superwechat.R.id.confirm_password);
+		initData();
 	}
 
+	private void initData() {
+		username = userNameEditText.getText().toString().trim();
+		pwd = passwordEditText.getText().toString().trim();
+		confirm_pwd = confirmPwdEditText.getText().toString().trim();
+	}
+
+	public void ucairegister(){
+		model = new UserModel();
+		model.Register(RegisterActivity.this, username, nick, pwd, new OnCompleteListener<String>() {
+			@Override
+			public void onSuccess(String result) {
+
+			}
+
+			@Override
+			public void onError(String error) {
+
+			}
+		});
+	}
 	public void register(View view) {
-		final String username = userNameEditText.getText().toString().trim();
-		final String pwd = passwordEditText.getText().toString().trim();
-		String confirm_pwd = confirmPwdEditText.getText().toString().trim();
+
 		if (TextUtils.isEmpty(username)) {
 			Toast.makeText(this, getResources().getString(cn.ucai.superwechat.R.string.User_name_cannot_be_empty), Toast.LENGTH_SHORT).show();
 			userNameEditText.requestFocus();
