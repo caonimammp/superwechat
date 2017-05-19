@@ -1,59 +1,95 @@
 [
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_logo_uidemo.png",
-        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_logo_uidemo.png"
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_019_cover.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\icon_019_cover.png"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_splash.png",
-        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_splash.png"
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\w9.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\w9.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_029_cover.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\icon_029_cover.png"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_unread_dot.9.png",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_unread_dot.9.png"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\w13.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\w13.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_empty_photo.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_empty_photo.png"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_new_friends_icon.png",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_new_friends_icon.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_roominfo_add_btn_pressed.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_roominfo_add_btn_pressed.png"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_chat_file_pressed.png",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_chat_file_pressed.png"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_splash_logo.png",
-        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_splash_logo.png"
-    },
-    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_icon_speaker_on.png",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_icon_speaker_on.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_013_cover.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\icon_013_cover.png"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_chat_voice_call_normal.png",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_chat_voice_call_normal.png"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_icon_mute_normal.png",
-        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_icon_mute_normal.png"
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\w3.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\w3.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\w14.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\w14.png"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_groups_icon.png",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_groups_icon.png"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_007_cover.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\icon_007_cover.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_020_cover.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\icon_020_cover.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_010_cover.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\icon_010_cover.png"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_chat_voice_call_pressed.png",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_chat_voice_call_pressed.png"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_create_group.png",
-        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_create_group.png"
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_030_cover.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\icon_030_cover.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_027_cover.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\icon_027_cover.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_tool_send_file.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\chat_tool_send_file.png"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_group_icon.png",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_group_icon.png"
-    },
-    {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_icon_mute_on.png",
-        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_icon_mute_on.png"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_unread_count_bg.9.png",
@@ -64,28 +100,44 @@
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_icon_speaker_normal.png"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_add_public_group.png",
-        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_add_public_group.png"
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_camera_switch_pressed.9.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_camera_switch_pressed.9.png"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_chat_video_call_pressed.png",
-        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_chat_video_call_pressed.png"
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gr.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\gr.png"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_chat_video_pressed.png",
-        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_chat_video_pressed.png"
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_default_avatar.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_default_avatar.png"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_chat_video_normal.png",
-        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_chat_video_normal.png"
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\w5.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\w5.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\w2.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\w2.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\w8.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\w8.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_tool_video.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\chat_tool_video.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_018_cover.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\icon_018_cover.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_021_cover.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\icon_021_cover.png"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_settings_selected.png",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_settings_selected.png"
-    },
-    {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_chat_file_normal.png",
-        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_chat_file_normal.png"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_chat_video_call_normal.png",
@@ -96,7 +148,163 @@
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_to_group_details_normal.png"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_head_group.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\icon_head_group.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_040_cover.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\icon_040_cover.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_video_recorder_stop_btn.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_video_recorder_stop_btn.png"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_settings_normal.png",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_settings_normal.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_035_cover.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\icon_035_cover.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_logo_uidemo.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_logo_uidemo.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_head_addfriend.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\icon_head_addfriend.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_022_cover.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\icon_022_cover.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_splash.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_splash.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\w16.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\w16.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\w10.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\w10.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_012_cover.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\icon_012_cover.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_002_cover.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\icon_002_cover.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\w11.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\w11.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\user_bg.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\user_bg.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_splash_logo.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_splash_logo.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\w6.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\w6.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_icon_mute_normal.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_icon_mute_normal.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_create_group.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_create_group.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_mm_title_back.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_mm_title_back.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_video_recorder_start_btn.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_video_recorder_start_btn.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\w12.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\w12.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_head_public.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\icon_head_public.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_icon_mute_on.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_icon_mute_on.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_seabar_input.9.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_seabar_input.9.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\w4.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\w4.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\w15.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\w15.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_add_public_group.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_add_public_group.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\w7.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\w7.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_chat_video_call_pressed.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_chat_video_call_pressed.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\chat_tool_audio.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\chat_tool_audio.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_chat_video_normal.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_chat_video_normal.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_msg_state_fail_resend.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_msg_state_fail_resend.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_chat_video_pressed.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_chat_video_pressed.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_actionbar_camera_icon.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_actionbar_camera_icon.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_roominfo_add_btn_normal.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_roominfo_add_btn_normal.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_024_cover.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\icon_024_cover.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_camera_switch_normal.9.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_camera_switch_normal.9.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\w1.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\w1.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_chat_file_normal.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-xhdpi\\em_chat_file_normal.png"
     }
 ]

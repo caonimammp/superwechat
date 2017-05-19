@@ -1,19 +1,67 @@
 [
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_out.xml",
-        "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_bottom_out.xml"
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\anim\\push_bottom_out.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_out.xml",
+        "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_top_out.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\head_out.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\anim\\head_out.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_left.xml",
+        "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_in_from_left.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_right.xml",
+        "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_out_to_right.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\push_right_out.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\anim\\push_right_out.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\hold.xml",
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\hold.xml"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\voice_from_icon.xml",
-        "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\voice_from_icon.xml"
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_out.xml",
-        "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_top_out.xml"
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\voice_from_icon.xml",
+        "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\voice_from_icon.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
@@ -24,16 +72,20 @@
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_in_from_right.xml"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\head_out.xml",
-        "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\head_out.xml"
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\push_up_in.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\anim\\push_up_in.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\push_left_in.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\anim\\push_left_in.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
-        "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_bottom_in.xml"
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\anim\\push_bottom_in.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\head_in.xml",
-        "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\head_in.xml"
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\anim\\head_in.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\voice_to_icon.xml",
@@ -48,23 +100,35 @@
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_out_to_left.xml"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\push_right_in.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\anim\\push_right_in.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\push_left_out.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\anim\\push_left_out.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_in2.xml",
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_top_in2.xml"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_left.xml",
-        "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_in_from_left.xml"
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_right.xml",
-        "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_out_to_right.xml"
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\push_up_out.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\anim\\push_up_out.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_in.xml",
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_top_in.xml"
-    },
-    {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
-        "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\fade_out.xml"
     }
 ]

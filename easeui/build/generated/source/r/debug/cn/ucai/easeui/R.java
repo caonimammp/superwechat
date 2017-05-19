@@ -1005,7 +1005,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseChatExtendMenu_numColumns com.hyphenate.easeui:numColumns}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseChatExtendMenu_numColumns cn.ucai.easeui:numColumns}</code></td><td></td></tr>
            </table>
            @see #EaseChatExtendMenu_numColumns
          */
@@ -1023,7 +1023,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:numColumns
+          @attr name cn.ucai.easeui:numColumns
         */
         public static int EaseChatExtendMenu_numColumns = 0;
         /** Attributes that can be used with a EaseChatMessageList.
@@ -1032,10 +1032,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseChatMessageList_msgListMyBubbleBackground com.hyphenate.easeui:msgListMyBubbleBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseChatMessageList_msgListOtherBubbleBackground com.hyphenate.easeui:msgListOtherBubbleBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseChatMessageList_msgListShowUserAvatar com.hyphenate.easeui:msgListShowUserAvatar}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseChatMessageList_msgListShowUserNick com.hyphenate.easeui:msgListShowUserNick}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseChatMessageList_msgListMyBubbleBackground cn.ucai.easeui:msgListMyBubbleBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseChatMessageList_msgListOtherBubbleBackground cn.ucai.easeui:msgListOtherBubbleBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseChatMessageList_msgListShowUserAvatar cn.ucai.easeui:msgListShowUserAvatar}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseChatMessageList_msgListShowUserNick cn.ucai.easeui:msgListShowUserNick}</code></td><td></td></tr>
            </table>
            @see #EaseChatMessageList_msgListMyBubbleBackground
            @see #EaseChatMessageList_msgListOtherBubbleBackground
@@ -1052,7 +1052,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.hyphenate.easeui:msgListMyBubbleBackground
+          @attr name cn.ucai.easeui:msgListMyBubbleBackground
         */
         public static int EaseChatMessageList_msgListMyBubbleBackground = 0;
         /**
@@ -1062,7 +1062,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.hyphenate.easeui:msgListOtherBubbleBackground
+          @attr name cn.ucai.easeui:msgListOtherBubbleBackground
         */
         public static int EaseChatMessageList_msgListOtherBubbleBackground = 1;
         /**
@@ -1076,7 +1076,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:msgListShowUserAvatar
+          @attr name cn.ucai.easeui:msgListShowUserAvatar
         */
         public static int EaseChatMessageList_msgListShowUserAvatar = 2;
         /**
@@ -1090,7 +1090,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:msgListShowUserNick
+          @attr name cn.ucai.easeui:msgListShowUserNick
         */
         public static int EaseChatMessageList_msgListShowUserNick = 3;
         /** Attributes that can be used with a EaseContactList.
@@ -1099,11 +1099,11 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseContactList_ctsListInitialLetterBg com.hyphenate.easeui:ctsListInitialLetterBg}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseContactList_ctsListInitialLetterColor com.hyphenate.easeui:ctsListInitialLetterColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseContactList_ctsListPrimaryTextColor com.hyphenate.easeui:ctsListPrimaryTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseContactList_ctsListPrimaryTextSize com.hyphenate.easeui:ctsListPrimaryTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseContactList_ctsListShowSiderBar com.hyphenate.easeui:ctsListShowSiderBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseContactList_ctsListInitialLetterBg cn.ucai.easeui:ctsListInitialLetterBg}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseContactList_ctsListInitialLetterColor cn.ucai.easeui:ctsListInitialLetterColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseContactList_ctsListPrimaryTextColor cn.ucai.easeui:ctsListPrimaryTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseContactList_ctsListPrimaryTextSize cn.ucai.easeui:ctsListPrimaryTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseContactList_ctsListShowSiderBar cn.ucai.easeui:ctsListShowSiderBar}</code></td><td></td></tr>
            </table>
            @see #EaseContactList_ctsListInitialLetterBg
            @see #EaseContactList_ctsListInitialLetterColor
@@ -1124,7 +1124,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.hyphenate.easeui:ctsListInitialLetterBg
+          @attr name cn.ucai.easeui:ctsListInitialLetterBg
         */
         public static int EaseContactList_ctsListInitialLetterBg = 3;
         /**
@@ -1139,7 +1139,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:ctsListInitialLetterColor
+          @attr name cn.ucai.easeui:ctsListInitialLetterColor
         */
         public static int EaseContactList_ctsListInitialLetterColor = 4;
         /**
@@ -1154,7 +1154,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:ctsListPrimaryTextColor
+          @attr name cn.ucai.easeui:ctsListPrimaryTextColor
         */
         public static int EaseContactList_ctsListPrimaryTextColor = 0;
         /**
@@ -1170,7 +1170,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:ctsListPrimaryTextSize
+          @attr name cn.ucai.easeui:ctsListPrimaryTextSize
         */
         public static int EaseContactList_ctsListPrimaryTextSize = 1;
         /**
@@ -1184,7 +1184,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:ctsListShowSiderBar
+          @attr name cn.ucai.easeui:ctsListShowSiderBar
         */
         public static int EaseContactList_ctsListShowSiderBar = 2;
         /** Attributes that can be used with a EaseConversationList.
@@ -1193,12 +1193,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseConversationList_cvsListPrimaryTextColor com.hyphenate.easeui:cvsListPrimaryTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseConversationList_cvsListPrimaryTextSize com.hyphenate.easeui:cvsListPrimaryTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseConversationList_cvsListSecondaryTextColor com.hyphenate.easeui:cvsListSecondaryTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseConversationList_cvsListSecondaryTextSize com.hyphenate.easeui:cvsListSecondaryTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseConversationList_cvsListTimeTextColor com.hyphenate.easeui:cvsListTimeTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseConversationList_cvsListTimeTextSize com.hyphenate.easeui:cvsListTimeTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseConversationList_cvsListPrimaryTextColor cn.ucai.easeui:cvsListPrimaryTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseConversationList_cvsListPrimaryTextSize cn.ucai.easeui:cvsListPrimaryTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseConversationList_cvsListSecondaryTextColor cn.ucai.easeui:cvsListSecondaryTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseConversationList_cvsListSecondaryTextSize cn.ucai.easeui:cvsListSecondaryTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseConversationList_cvsListTimeTextColor cn.ucai.easeui:cvsListTimeTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseConversationList_cvsListTimeTextSize cn.ucai.easeui:cvsListTimeTextSize}</code></td><td></td></tr>
            </table>
            @see #EaseConversationList_cvsListPrimaryTextColor
            @see #EaseConversationList_cvsListPrimaryTextSize
@@ -1223,7 +1223,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:cvsListPrimaryTextColor
+          @attr name cn.ucai.easeui:cvsListPrimaryTextColor
         */
         public static int EaseConversationList_cvsListPrimaryTextColor = 0;
         /**
@@ -1239,7 +1239,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:cvsListPrimaryTextSize
+          @attr name cn.ucai.easeui:cvsListPrimaryTextSize
         */
         public static int EaseConversationList_cvsListPrimaryTextSize = 3;
         /**
@@ -1254,7 +1254,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:cvsListSecondaryTextColor
+          @attr name cn.ucai.easeui:cvsListSecondaryTextColor
         */
         public static int EaseConversationList_cvsListSecondaryTextColor = 1;
         /**
@@ -1270,7 +1270,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:cvsListSecondaryTextSize
+          @attr name cn.ucai.easeui:cvsListSecondaryTextSize
         */
         public static int EaseConversationList_cvsListSecondaryTextSize = 4;
         /**
@@ -1285,7 +1285,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:cvsListTimeTextColor
+          @attr name cn.ucai.easeui:cvsListTimeTextColor
         */
         public static int EaseConversationList_cvsListTimeTextColor = 2;
         /**
@@ -1301,7 +1301,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:cvsListTimeTextSize
+          @attr name cn.ucai.easeui:cvsListTimeTextSize
         */
         public static int EaseConversationList_cvsListTimeTextSize = 5;
         /** Attributes that can be used with a EaseEmojiconMenu.
@@ -1310,8 +1310,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseEmojiconMenu_bigEmojiconRows com.hyphenate.easeui:bigEmojiconRows}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseEmojiconMenu_emojiconColumns com.hyphenate.easeui:emojiconColumns}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseEmojiconMenu_bigEmojiconRows cn.ucai.easeui:bigEmojiconRows}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseEmojiconMenu_emojiconColumns cn.ucai.easeui:emojiconColumns}</code></td><td></td></tr>
            </table>
            @see #EaseEmojiconMenu_bigEmojiconRows
            @see #EaseEmojiconMenu_emojiconColumns
@@ -1330,7 +1330,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:bigEmojiconRows
+          @attr name cn.ucai.easeui:bigEmojiconRows
         */
         public static int EaseEmojiconMenu_bigEmojiconRows = 0;
         /**
@@ -1344,7 +1344,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:emojiconColumns
+          @attr name cn.ucai.easeui:emojiconColumns
         */
         public static int EaseEmojiconMenu_emojiconColumns = 1;
         /** Attributes that can be used with a EaseImageView.
@@ -1353,12 +1353,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseImageView_ease_border_color com.hyphenate.easeui:ease_border_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseImageView_ease_border_width com.hyphenate.easeui:ease_border_width}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseImageView_ease_press_alpha com.hyphenate.easeui:ease_press_alpha}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseImageView_ease_press_color com.hyphenate.easeui:ease_press_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseImageView_ease_radius com.hyphenate.easeui:ease_radius}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseImageView_ease_shape_type com.hyphenate.easeui:ease_shape_type}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseImageView_ease_border_color cn.ucai.easeui:ease_border_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseImageView_ease_border_width cn.ucai.easeui:ease_border_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseImageView_ease_press_alpha cn.ucai.easeui:ease_press_alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseImageView_ease_press_color cn.ucai.easeui:ease_press_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseImageView_ease_radius cn.ucai.easeui:ease_radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseImageView_ease_shape_type cn.ucai.easeui:ease_shape_type}</code></td><td></td></tr>
            </table>
            @see #EaseImageView_ease_border_color
            @see #EaseImageView_ease_border_width
@@ -1383,7 +1383,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:ease_border_color
+          @attr name cn.ucai.easeui:ease_border_color
         */
         public static int EaseImageView_ease_border_color = 0;
         /**
@@ -1399,7 +1399,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:ease_border_width
+          @attr name cn.ucai.easeui:ease_border_width
         */
         public static int EaseImageView_ease_border_width = 1;
         /**
@@ -1413,7 +1413,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:ease_press_alpha
+          @attr name cn.ucai.easeui:ease_press_alpha
         */
         public static int EaseImageView_ease_press_alpha = 2;
         /**
@@ -1428,7 +1428,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:ease_press_color
+          @attr name cn.ucai.easeui:ease_press_color
         */
         public static int EaseImageView_ease_press_color = 3;
         /**
@@ -1444,7 +1444,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:ease_radius
+          @attr name cn.ucai.easeui:ease_radius
         */
         public static int EaseImageView_ease_radius = 4;
         /**
@@ -1462,7 +1462,7 @@ containing a value of this type.
 <tr><td><code>round</code></td><td>1</td><td></td></tr>
 <tr><td><code>rectangle</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.hyphenate.easeui:ease_shape_type
+          @attr name cn.ucai.easeui:ease_shape_type
         */
         public static int EaseImageView_ease_shape_type = 5;
         /** Attributes that can be used with a EaseSwitchButton.
@@ -1471,9 +1471,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseSwitchButton_switchCloseImage com.hyphenate.easeui:switchCloseImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseSwitchButton_switchOpenImage com.hyphenate.easeui:switchOpenImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseSwitchButton_switchStatus com.hyphenate.easeui:switchStatus}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseSwitchButton_switchCloseImage cn.ucai.easeui:switchCloseImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseSwitchButton_switchOpenImage cn.ucai.easeui:switchOpenImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseSwitchButton_switchStatus cn.ucai.easeui:switchStatus}</code></td><td></td></tr>
            </table>
            @see #EaseSwitchButton_switchCloseImage
            @see #EaseSwitchButton_switchOpenImage
@@ -1489,7 +1489,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.hyphenate.easeui:switchCloseImage
+          @attr name cn.ucai.easeui:switchCloseImage
         */
         public static int EaseSwitchButton_switchCloseImage = 1;
         /**
@@ -1499,7 +1499,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.hyphenate.easeui:switchOpenImage
+          @attr name cn.ucai.easeui:switchOpenImage
         */
         public static int EaseSwitchButton_switchOpenImage = 0;
         /**
@@ -1516,7 +1516,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>open</code></td><td>0</td><td></td></tr>
 <tr><td><code>close</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.hyphenate.easeui:switchStatus
+          @attr name cn.ucai.easeui:switchStatus
         */
         public static int EaseSwitchButton_switchStatus = 2;
         /** Attributes that can be used with a EaseTitleBar.
@@ -1525,10 +1525,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseTitleBar_titleBarBackground com.hyphenate.easeui:titleBarBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseTitleBar_titleBarLeftImage com.hyphenate.easeui:titleBarLeftImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseTitleBar_titleBarRightImage com.hyphenate.easeui:titleBarRightImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseTitleBar_titleBarTitle com.hyphenate.easeui:titleBarTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseTitleBar_titleBarBackground cn.ucai.easeui:titleBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseTitleBar_titleBarLeftImage cn.ucai.easeui:titleBarLeftImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseTitleBar_titleBarRightImage cn.ucai.easeui:titleBarRightImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseTitleBar_titleBarTitle cn.ucai.easeui:titleBarTitle}</code></td><td></td></tr>
            </table>
            @see #EaseTitleBar_titleBarBackground
            @see #EaseTitleBar_titleBarLeftImage
@@ -1547,7 +1547,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.hyphenate.easeui:titleBarBackground
+          @attr name cn.ucai.easeui:titleBarBackground
         */
         public static int EaseTitleBar_titleBarBackground = 3;
         /**
@@ -1557,7 +1557,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.hyphenate.easeui:titleBarLeftImage
+          @attr name cn.ucai.easeui:titleBarLeftImage
         */
         public static int EaseTitleBar_titleBarLeftImage = 1;
         /**
@@ -1567,7 +1567,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.hyphenate.easeui:titleBarRightImage
+          @attr name cn.ucai.easeui:titleBarRightImage
         */
         public static int EaseTitleBar_titleBarRightImage = 2;
         /**
@@ -1581,7 +1581,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hyphenate.easeui:titleBarTitle
+          @attr name cn.ucai.easeui:titleBarTitle
         */
         public static int EaseTitleBar_titleBarTitle = 0;
     };

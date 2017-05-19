@@ -6,7 +6,6 @@ import android.support.v4.app.FragmentActivity;
 import android.text.TextUtils;
 import android.widget.Toast;
 
-import cn.easemob.redpacket.R;
 import com.easemob.redpacketsdk.RPGroupMemberListener;
 import com.easemob.redpacketsdk.RPSendPacketCallback;
 import com.easemob.redpacketsdk.RPValueCallback;
@@ -20,6 +19,8 @@ import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMCmdMessageBody;
 import com.hyphenate.chat.EMGroup;
 import com.hyphenate.chat.EMMessage;
+
+import cn.easemob.redpacket.R;
 import cn.ucai.easeui.EaseConstant;
 import cn.ucai.easeui.domain.EaseUser;
 import cn.ucai.easeui.utils.EaseUserUtils;

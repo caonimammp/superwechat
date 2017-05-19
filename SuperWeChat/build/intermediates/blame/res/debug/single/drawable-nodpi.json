@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\default_nor_avatar.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-nodpi\\default_nor_avatar.png"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\em_empty_photo.png",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-nodpi\\em_empty_photo.png"
     }

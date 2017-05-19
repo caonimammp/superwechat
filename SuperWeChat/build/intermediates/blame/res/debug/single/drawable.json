@@ -1,11 +1,27 @@
 [
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_button_register_bg.xml",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_button_register_bg.xml"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_stroke_red_pressed_shape.xml",
         "source": "D:\\Android\\.android\\build-cache\\b7b454d0385f3eff084663bc994b9a74db9a26c6\\output\\res\\drawable\\rp_stroke_red_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_cancel_pressed_shape.xml",
@@ -16,16 +32,40 @@
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_btn_green_pressed_shape.xml"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_msg_state_failed_resend.xml",
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_msg_state_failed_resend.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_login.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\edittext_login.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_btn_bottom_selector.xml",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_btn_bottom_selector.xml"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\fab_background.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\fab_background.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_recording_hint_bg.xml",
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_recording_hint_bg.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_btn_green_selector.xml",
@@ -48,6 +88,10 @@
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_button_myprofile_selector.xml"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_cancel_shape.xml",
         "source": "D:\\Android\\.android\\build-cache\\b7b454d0385f3eff084663bc994b9a74db9a26c6\\output\\res\\drawable\\rp_btn_cancel_shape.xml"
     },
@@ -60,12 +104,56 @@
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_chatfrom_bg.xml"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\tip_round_red_bg_shape.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\tip_round_red_bg_shape.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_pressed_shape.xml",
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_btn_blue_pressed_shape.xml"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_find.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\tab_find.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_send_btn_selector.xml",
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_chat_send_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_sidebar_background_pressed.xml",
@@ -74,6 +162,10 @@
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_button_normal_shape.xml",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_button_normal_shape.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_loading_bg.xml",
@@ -96,6 +188,10 @@
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_button_login_bg.xml"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_contact_list.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\tab_contact_list.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_cancel_bg_selector.xml",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\umeng_update_button_cancel_bg_selector.xml"
     },
@@ -104,12 +200,24 @@
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_tab_setting_bg.xml"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\titlepop_item_selector.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\titlepop_item_selector.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_location_selector.xml",
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_chat_location_selector.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_cancel_bg_tap.xml",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\umeng_update_button_cancel_bg_tap.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_drawable.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\progressbar_drawable.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_mm_listitem_grey.xml",
@@ -122,6 +230,10 @@
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_btn_logout_pressed_shape.xml",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_btn_logout_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_chat_voice_call_selector.xml",
@@ -160,6 +272,10 @@
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_smiley_minus_btn.xml"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_profile.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\tab_profile.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_chat_red_packet_selector.xml",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\redpacketlibrary\\build\\intermediates\\bundles\\default\\res\\drawable\\em_chat_red_packet_selector.xml"
     },
@@ -172,8 +288,16 @@
         "source": "D:\\Android\\.android\\build-cache\\b7b454d0385f3eff084663bc994b9a74db9a26c6\\output\\res\\drawable\\rp_btn_retry_normal_shape.xml"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_red_packet_chatfrom_bg.xml",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\redpacketlibrary\\build\\intermediates\\bundles\\default\\res\\drawable\\em_red_packet_chatfrom_bg.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_ok_bg_focused.xml",
@@ -188,24 +312,36 @@
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_type_select_btn.xml"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_search_clear.xml",
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_search_clear.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bg_green.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\btn_bg_green.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_cancel_bg_normal.xml",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\umeng_update_button_cancel_bg_normal.xml"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_red_selector.xml",
-        "source": "D:\\Android\\.android\\build-cache\\b7b454d0385f3eff084663bc994b9a74db9a26c6\\output\\res\\drawable\\rp_btn_red_selector.xml"
-    },
-    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_open_normal_shape_unsolid.xml",
         "source": "D:\\Android\\.android\\build-cache\\b7b454d0385f3eff084663bc994b9a74db9a26c6\\output\\res\\drawable\\rp_btn_open_normal_shape_unsolid.xml"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_red_selector.xml",
+        "source": "D:\\Android\\.android\\build-cache\\b7b454d0385f3eff084663bc994b9a74db9a26c6\\output\\res\\drawable\\rp_btn_red_selector.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_chat_video_selector.xml",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_chat_video_selector.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_enable_green.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\btn_enable_green.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_check_selector.xml",
@@ -228,6 +364,10 @@
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_timestampe_bg.xml"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_item_selector.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\setting_item_selector.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_btn_gray_selector.xml",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_btn_gray_selector.xml"
     },
@@ -236,16 +376,24 @@
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_camera_switch_selector.xml"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_red_enable_shape.xml",
-        "source": "D:\\Android\\.android\\build-cache\\b7b454d0385f3eff084663bc994b9a74db9a26c6\\output\\res\\drawable\\rp_btn_red_enable_shape.xml"
-    },
-    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_context_menu_item_bg.xml",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_context_menu_item_bg.xml"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_red_enable_shape.xml",
+        "source": "D:\\Android\\.android\\build-cache\\b7b454d0385f3eff084663bc994b9a74db9a26c6\\output\\res\\drawable\\rp_btn_red_enable_shape.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_recording_text_hint_bg.xml",
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_recording_text_hint_bg.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_open_normal_shape.xml",
@@ -258,6 +406,10 @@
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_stroke_red_normal_shape.xml",
         "source": "D:\\Android\\.android\\build-cache\\b7b454d0385f3eff084663bc994b9a74db9a26c6\\output\\res\\drawable\\rp_stroke_red_normal_shape.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatto_bg.xml",
@@ -280,6 +432,10 @@
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_chat_video_call_selector.xml"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_weixin.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\tab_weixin.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_normal_shape.xml",
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_btn_blue_normal_shape.xml"
     },
@@ -292,8 +448,24 @@
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_chat_file_selector.xml"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_selector.xml",
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_btn_blue_selector.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_cancel_bj.xml",
@@ -308,12 +480,24 @@
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\umeng_common_gradient_red.xml"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_roominfo_add_btn.xml",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_roominfo_add_btn.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_cancel_bg_focused.xml",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\umeng_update_button_cancel_bg_focused.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bg_gray.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\btn_bg_gray.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_common_gradient_orange.xml",
@@ -336,6 +520,14 @@
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_main_bottom_item_bg.xml"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_red_packet_chatto_bg.xml",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\redpacketlibrary\\build\\intermediates\\bundles\\default\\res\\drawable\\em_red_packet_chatto_bg.xml"
     },
@@ -352,6 +544,10 @@
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_chat_press_speak_btn.xml"
     },
     {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_btn_green_normal_shape.xml",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_btn_green_normal_shape.xml"
     },
@@ -364,12 +560,16 @@
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_chatting_setmode_keyboard_btn.xml"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_cancel_normal_shape.xml",
-        "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_btn_cancel_normal_shape.xml"
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\notification_bg_low.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_open_pressed_shape.xml",
         "source": "D:\\Android\\.android\\build-cache\\b7b454d0385f3eff084663bc994b9a74db9a26c6\\output\\res\\drawable\\rp_btn_open_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_cancel_normal_shape.xml",
+        "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_btn_cancel_normal_shape.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_call_answer_bg.xml",
@@ -380,12 +580,12 @@
         "source": "D:\\Android\\.android\\build-cache\\b7b454d0385f3eff084663bc994b9a74db9a26c6\\output\\res\\drawable\\rp_btn_open_selector_unsolid.xml"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_title_bg.xml",
-        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\umeng_update_title_bg.xml"
-    },
-    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_mm_listitem.xml",
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_mm_listitem.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_title_bg.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\umeng_update_title_bg.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_edit_text_bg.xml",
@@ -406,6 +606,10 @@
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_btn_gray_pressed_shape.xml",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_btn_gray_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_common_tab_bg.xml",

@@ -1647,7 +1647,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseChatExtendMenu_numColumns com.easemob.redpacket.test:numColumns}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseChatExtendMenu_numColumns cn.easemob.redpacket.test:numColumns}</code></td><td></td></tr>
            </table>
            @see #EaseChatExtendMenu_numColumns
          */
@@ -1665,7 +1665,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:numColumns
+          @attr name cn.easemob.redpacket.test:numColumns
         */
         public static final int EaseChatExtendMenu_numColumns = 0;
         /** Attributes that can be used with a EaseChatMessageList.
@@ -1674,10 +1674,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseChatMessageList_msgListMyBubbleBackground com.easemob.redpacket.test:msgListMyBubbleBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseChatMessageList_msgListOtherBubbleBackground com.easemob.redpacket.test:msgListOtherBubbleBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseChatMessageList_msgListShowUserAvatar com.easemob.redpacket.test:msgListShowUserAvatar}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseChatMessageList_msgListShowUserNick com.easemob.redpacket.test:msgListShowUserNick}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseChatMessageList_msgListMyBubbleBackground cn.easemob.redpacket.test:msgListMyBubbleBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseChatMessageList_msgListOtherBubbleBackground cn.easemob.redpacket.test:msgListOtherBubbleBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseChatMessageList_msgListShowUserAvatar cn.easemob.redpacket.test:msgListShowUserAvatar}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseChatMessageList_msgListShowUserNick cn.easemob.redpacket.test:msgListShowUserNick}</code></td><td></td></tr>
            </table>
            @see #EaseChatMessageList_msgListMyBubbleBackground
            @see #EaseChatMessageList_msgListOtherBubbleBackground
@@ -1694,7 +1694,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.easemob.redpacket.test:msgListMyBubbleBackground
+          @attr name cn.easemob.redpacket.test:msgListMyBubbleBackground
         */
         public static final int EaseChatMessageList_msgListMyBubbleBackground = 0;
         /**
@@ -1704,7 +1704,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.easemob.redpacket.test:msgListOtherBubbleBackground
+          @attr name cn.easemob.redpacket.test:msgListOtherBubbleBackground
         */
         public static final int EaseChatMessageList_msgListOtherBubbleBackground = 1;
         /**
@@ -1718,7 +1718,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:msgListShowUserAvatar
+          @attr name cn.easemob.redpacket.test:msgListShowUserAvatar
         */
         public static final int EaseChatMessageList_msgListShowUserAvatar = 2;
         /**
@@ -1732,7 +1732,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:msgListShowUserNick
+          @attr name cn.easemob.redpacket.test:msgListShowUserNick
         */
         public static final int EaseChatMessageList_msgListShowUserNick = 3;
         /** Attributes that can be used with a EaseContactList.
@@ -1741,11 +1741,11 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseContactList_ctsListInitialLetterBg com.easemob.redpacket.test:ctsListInitialLetterBg}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseContactList_ctsListInitialLetterColor com.easemob.redpacket.test:ctsListInitialLetterColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseContactList_ctsListPrimaryTextColor com.easemob.redpacket.test:ctsListPrimaryTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseContactList_ctsListPrimaryTextSize com.easemob.redpacket.test:ctsListPrimaryTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseContactList_ctsListShowSiderBar com.easemob.redpacket.test:ctsListShowSiderBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseContactList_ctsListInitialLetterBg cn.easemob.redpacket.test:ctsListInitialLetterBg}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseContactList_ctsListInitialLetterColor cn.easemob.redpacket.test:ctsListInitialLetterColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseContactList_ctsListPrimaryTextColor cn.easemob.redpacket.test:ctsListPrimaryTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseContactList_ctsListPrimaryTextSize cn.easemob.redpacket.test:ctsListPrimaryTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseContactList_ctsListShowSiderBar cn.easemob.redpacket.test:ctsListShowSiderBar}</code></td><td></td></tr>
            </table>
            @see #EaseContactList_ctsListInitialLetterBg
            @see #EaseContactList_ctsListInitialLetterColor
@@ -1766,7 +1766,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.easemob.redpacket.test:ctsListInitialLetterBg
+          @attr name cn.easemob.redpacket.test:ctsListInitialLetterBg
         */
         public static final int EaseContactList_ctsListInitialLetterBg = 3;
         /**
@@ -1781,7 +1781,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:ctsListInitialLetterColor
+          @attr name cn.easemob.redpacket.test:ctsListInitialLetterColor
         */
         public static final int EaseContactList_ctsListInitialLetterColor = 4;
         /**
@@ -1796,7 +1796,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:ctsListPrimaryTextColor
+          @attr name cn.easemob.redpacket.test:ctsListPrimaryTextColor
         */
         public static final int EaseContactList_ctsListPrimaryTextColor = 0;
         /**
@@ -1812,7 +1812,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:ctsListPrimaryTextSize
+          @attr name cn.easemob.redpacket.test:ctsListPrimaryTextSize
         */
         public static final int EaseContactList_ctsListPrimaryTextSize = 1;
         /**
@@ -1826,7 +1826,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:ctsListShowSiderBar
+          @attr name cn.easemob.redpacket.test:ctsListShowSiderBar
         */
         public static final int EaseContactList_ctsListShowSiderBar = 2;
         /** Attributes that can be used with a EaseConversationList.
@@ -1835,12 +1835,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseConversationList_cvsListPrimaryTextColor com.easemob.redpacket.test:cvsListPrimaryTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseConversationList_cvsListPrimaryTextSize com.easemob.redpacket.test:cvsListPrimaryTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseConversationList_cvsListSecondaryTextColor com.easemob.redpacket.test:cvsListSecondaryTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseConversationList_cvsListSecondaryTextSize com.easemob.redpacket.test:cvsListSecondaryTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseConversationList_cvsListTimeTextColor com.easemob.redpacket.test:cvsListTimeTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseConversationList_cvsListTimeTextSize com.easemob.redpacket.test:cvsListTimeTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseConversationList_cvsListPrimaryTextColor cn.easemob.redpacket.test:cvsListPrimaryTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseConversationList_cvsListPrimaryTextSize cn.easemob.redpacket.test:cvsListPrimaryTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseConversationList_cvsListSecondaryTextColor cn.easemob.redpacket.test:cvsListSecondaryTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseConversationList_cvsListSecondaryTextSize cn.easemob.redpacket.test:cvsListSecondaryTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseConversationList_cvsListTimeTextColor cn.easemob.redpacket.test:cvsListTimeTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseConversationList_cvsListTimeTextSize cn.easemob.redpacket.test:cvsListTimeTextSize}</code></td><td></td></tr>
            </table>
            @see #EaseConversationList_cvsListPrimaryTextColor
            @see #EaseConversationList_cvsListPrimaryTextSize
@@ -1865,7 +1865,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:cvsListPrimaryTextColor
+          @attr name cn.easemob.redpacket.test:cvsListPrimaryTextColor
         */
         public static final int EaseConversationList_cvsListPrimaryTextColor = 0;
         /**
@@ -1881,7 +1881,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:cvsListPrimaryTextSize
+          @attr name cn.easemob.redpacket.test:cvsListPrimaryTextSize
         */
         public static final int EaseConversationList_cvsListPrimaryTextSize = 3;
         /**
@@ -1896,7 +1896,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:cvsListSecondaryTextColor
+          @attr name cn.easemob.redpacket.test:cvsListSecondaryTextColor
         */
         public static final int EaseConversationList_cvsListSecondaryTextColor = 1;
         /**
@@ -1912,7 +1912,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:cvsListSecondaryTextSize
+          @attr name cn.easemob.redpacket.test:cvsListSecondaryTextSize
         */
         public static final int EaseConversationList_cvsListSecondaryTextSize = 4;
         /**
@@ -1927,7 +1927,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:cvsListTimeTextColor
+          @attr name cn.easemob.redpacket.test:cvsListTimeTextColor
         */
         public static final int EaseConversationList_cvsListTimeTextColor = 2;
         /**
@@ -1943,7 +1943,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:cvsListTimeTextSize
+          @attr name cn.easemob.redpacket.test:cvsListTimeTextSize
         */
         public static final int EaseConversationList_cvsListTimeTextSize = 5;
         /** Attributes that can be used with a EaseEmojiconMenu.
@@ -1952,8 +1952,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseEmojiconMenu_bigEmojiconRows com.easemob.redpacket.test:bigEmojiconRows}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseEmojiconMenu_emojiconColumns com.easemob.redpacket.test:emojiconColumns}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseEmojiconMenu_bigEmojiconRows cn.easemob.redpacket.test:bigEmojiconRows}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseEmojiconMenu_emojiconColumns cn.easemob.redpacket.test:emojiconColumns}</code></td><td></td></tr>
            </table>
            @see #EaseEmojiconMenu_bigEmojiconRows
            @see #EaseEmojiconMenu_emojiconColumns
@@ -1972,7 +1972,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:bigEmojiconRows
+          @attr name cn.easemob.redpacket.test:bigEmojiconRows
         */
         public static final int EaseEmojiconMenu_bigEmojiconRows = 0;
         /**
@@ -1986,7 +1986,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:emojiconColumns
+          @attr name cn.easemob.redpacket.test:emojiconColumns
         */
         public static final int EaseEmojiconMenu_emojiconColumns = 1;
         /** Attributes that can be used with a EaseImageView.
@@ -1995,12 +1995,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseImageView_ease_border_color com.easemob.redpacket.test:ease_border_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseImageView_ease_border_width com.easemob.redpacket.test:ease_border_width}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseImageView_ease_press_alpha com.easemob.redpacket.test:ease_press_alpha}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseImageView_ease_press_color com.easemob.redpacket.test:ease_press_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseImageView_ease_radius com.easemob.redpacket.test:ease_radius}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseImageView_ease_shape_type com.easemob.redpacket.test:ease_shape_type}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseImageView_ease_border_color cn.easemob.redpacket.test:ease_border_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseImageView_ease_border_width cn.easemob.redpacket.test:ease_border_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseImageView_ease_press_alpha cn.easemob.redpacket.test:ease_press_alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseImageView_ease_press_color cn.easemob.redpacket.test:ease_press_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseImageView_ease_radius cn.easemob.redpacket.test:ease_radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseImageView_ease_shape_type cn.easemob.redpacket.test:ease_shape_type}</code></td><td></td></tr>
            </table>
            @see #EaseImageView_ease_border_color
            @see #EaseImageView_ease_border_width
@@ -2025,7 +2025,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:ease_border_color
+          @attr name cn.easemob.redpacket.test:ease_border_color
         */
         public static final int EaseImageView_ease_border_color = 0;
         /**
@@ -2041,7 +2041,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:ease_border_width
+          @attr name cn.easemob.redpacket.test:ease_border_width
         */
         public static final int EaseImageView_ease_border_width = 1;
         /**
@@ -2055,7 +2055,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:ease_press_alpha
+          @attr name cn.easemob.redpacket.test:ease_press_alpha
         */
         public static final int EaseImageView_ease_press_alpha = 2;
         /**
@@ -2070,7 +2070,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:ease_press_color
+          @attr name cn.easemob.redpacket.test:ease_press_color
         */
         public static final int EaseImageView_ease_press_color = 3;
         /**
@@ -2086,7 +2086,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:ease_radius
+          @attr name cn.easemob.redpacket.test:ease_radius
         */
         public static final int EaseImageView_ease_radius = 4;
         /**
@@ -2104,7 +2104,7 @@ containing a value of this type.
 <tr><td><code>round</code></td><td>1</td><td></td></tr>
 <tr><td><code>rectangle</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.easemob.redpacket.test:ease_shape_type
+          @attr name cn.easemob.redpacket.test:ease_shape_type
         */
         public static final int EaseImageView_ease_shape_type = 5;
         /** Attributes that can be used with a EaseSwitchButton.
@@ -2113,9 +2113,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseSwitchButton_switchCloseImage com.easemob.redpacket.test:switchCloseImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseSwitchButton_switchOpenImage com.easemob.redpacket.test:switchOpenImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseSwitchButton_switchStatus com.easemob.redpacket.test:switchStatus}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseSwitchButton_switchCloseImage cn.easemob.redpacket.test:switchCloseImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseSwitchButton_switchOpenImage cn.easemob.redpacket.test:switchOpenImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseSwitchButton_switchStatus cn.easemob.redpacket.test:switchStatus}</code></td><td></td></tr>
            </table>
            @see #EaseSwitchButton_switchCloseImage
            @see #EaseSwitchButton_switchOpenImage
@@ -2131,7 +2131,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.easemob.redpacket.test:switchCloseImage
+          @attr name cn.easemob.redpacket.test:switchCloseImage
         */
         public static final int EaseSwitchButton_switchCloseImage = 1;
         /**
@@ -2141,7 +2141,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.easemob.redpacket.test:switchOpenImage
+          @attr name cn.easemob.redpacket.test:switchOpenImage
         */
         public static final int EaseSwitchButton_switchOpenImage = 0;
         /**
@@ -2158,7 +2158,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>open</code></td><td>0</td><td></td></tr>
 <tr><td><code>close</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.easemob.redpacket.test:switchStatus
+          @attr name cn.easemob.redpacket.test:switchStatus
         */
         public static final int EaseSwitchButton_switchStatus = 2;
         /** Attributes that can be used with a EaseTitleBar.
@@ -2167,10 +2167,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EaseTitleBar_titleBarBackground com.easemob.redpacket.test:titleBarBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseTitleBar_titleBarLeftImage com.easemob.redpacket.test:titleBarLeftImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseTitleBar_titleBarRightImage com.easemob.redpacket.test:titleBarRightImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #EaseTitleBar_titleBarTitle com.easemob.redpacket.test:titleBarTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseTitleBar_titleBarBackground cn.easemob.redpacket.test:titleBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseTitleBar_titleBarLeftImage cn.easemob.redpacket.test:titleBarLeftImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseTitleBar_titleBarRightImage cn.easemob.redpacket.test:titleBarRightImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseTitleBar_titleBarTitle cn.easemob.redpacket.test:titleBarTitle}</code></td><td></td></tr>
            </table>
            @see #EaseTitleBar_titleBarBackground
            @see #EaseTitleBar_titleBarLeftImage
@@ -2189,7 +2189,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.easemob.redpacket.test:titleBarBackground
+          @attr name cn.easemob.redpacket.test:titleBarBackground
         */
         public static final int EaseTitleBar_titleBarBackground = 3;
         /**
@@ -2199,7 +2199,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.easemob.redpacket.test:titleBarLeftImage
+          @attr name cn.easemob.redpacket.test:titleBarLeftImage
         */
         public static final int EaseTitleBar_titleBarLeftImage = 1;
         /**
@@ -2209,7 +2209,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.easemob.redpacket.test:titleBarRightImage
+          @attr name cn.easemob.redpacket.test:titleBarRightImage
         */
         public static final int EaseTitleBar_titleBarRightImage = 2;
         /**
@@ -2223,7 +2223,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:titleBarTitle
+          @attr name cn.easemob.redpacket.test:titleBarTitle
         */
         public static final int EaseTitleBar_titleBarTitle = 0;
         /** Attributes that can be used with a RPRecyclerView.
@@ -2232,10 +2232,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #RPRecyclerView_RPlayoutManager com.easemob.redpacket.test:RPlayoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RPRecyclerView_RPreverseLayout com.easemob.redpacket.test:RPreverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RPRecyclerView_RPspanCount com.easemob.redpacket.test:RPspanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RPRecyclerView_RPstackFromEnd com.easemob.redpacket.test:RPstackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RPRecyclerView_RPlayoutManager cn.easemob.redpacket.test:RPlayoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RPRecyclerView_RPreverseLayout cn.easemob.redpacket.test:RPreverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RPRecyclerView_RPspanCount cn.easemob.redpacket.test:RPspanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RPRecyclerView_RPstackFromEnd cn.easemob.redpacket.test:RPstackFromEnd}</code></td><td></td></tr>
            <tr><td><code>{@link #RPRecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
            </table>
            @see #RPRecyclerView_RPlayoutManager
@@ -2259,7 +2259,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:RPlayoutManager
+          @attr name cn.easemob.redpacket.test:RPlayoutManager
         */
         public static final int RPRecyclerView_RPlayoutManager = 1;
         /**
@@ -2273,7 +2273,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:RPreverseLayout
+          @attr name cn.easemob.redpacket.test:RPreverseLayout
         */
         public static final int RPRecyclerView_RPreverseLayout = 3;
         /**
@@ -2287,7 +2287,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:RPspanCount
+          @attr name cn.easemob.redpacket.test:RPspanCount
         */
         public static final int RPRecyclerView_RPspanCount = 2;
         /**
@@ -2301,7 +2301,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:RPstackFromEnd
+          @attr name cn.easemob.redpacket.test:RPstackFromEnd
         */
         public static final int RPRecyclerView_RPstackFromEnd = 4;
         /**
@@ -2316,10 +2316,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #RPRoundCard_RPCardBgColor com.easemob.redpacket.test:RPCardBgColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #RPRoundCard_RPCardBgImg com.easemob.redpacket.test:RPCardBgImg}</code></td><td></td></tr>
-           <tr><td><code>{@link #RPRoundCard_RPCardBgType com.easemob.redpacket.test:RPCardBgType}</code></td><td></td></tr>
-           <tr><td><code>{@link #RPRoundCard_RPCardRadius com.easemob.redpacket.test:RPCardRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #RPRoundCard_RPCardBgColor cn.easemob.redpacket.test:RPCardBgColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #RPRoundCard_RPCardBgImg cn.easemob.redpacket.test:RPCardBgImg}</code></td><td></td></tr>
+           <tr><td><code>{@link #RPRoundCard_RPCardBgType cn.easemob.redpacket.test:RPCardBgType}</code></td><td></td></tr>
+           <tr><td><code>{@link #RPRoundCard_RPCardRadius cn.easemob.redpacket.test:RPCardRadius}</code></td><td></td></tr>
            </table>
            @see #RPRoundCard_RPCardBgColor
            @see #RPRoundCard_RPCardBgImg
@@ -2338,7 +2338,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.easemob.redpacket.test:RPCardBgColor
+          @attr name cn.easemob.redpacket.test:RPCardBgColor
         */
         public static final int RPRoundCard_RPCardBgColor = 1;
         /**
@@ -2348,7 +2348,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.easemob.redpacket.test:RPCardBgImg
+          @attr name cn.easemob.redpacket.test:RPCardBgImg
         */
         public static final int RPRoundCard_RPCardBgImg = 0;
         /**
@@ -2362,7 +2362,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:RPCardBgType
+          @attr name cn.easemob.redpacket.test:RPCardBgType
         */
         public static final int RPRoundCard_RPCardBgType = 3;
         /**
@@ -2378,7 +2378,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:RPCardRadius
+          @attr name cn.easemob.redpacket.test:RPCardRadius
         */
         public static final int RPRoundCard_RPCardRadius = 2;
         /** Attributes that can be used with a app.
@@ -2387,18 +2387,18 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #app_RPleftImage com.easemob.redpacket.test:RPleftImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPmytitle com.easemob.redpacket.test:RPmytitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPrightImage com.easemob.redpacket.test:RPrightImage}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPrightText com.easemob.redpacket.test:RPrightText}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPrightTextColor com.easemob.redpacket.test:RPrightTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPrightTextSize com.easemob.redpacket.test:RPrightTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPsubTitleText com.easemob.redpacket.test:RPsubTitleText}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPsubTitleTextColor com.easemob.redpacket.test:RPsubTitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPsubTitleTextSize com.easemob.redpacket.test:RPsubTitleTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPtitleBackground com.easemob.redpacket.test:RPtitleBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPtitleTextColor com.easemob.redpacket.test:RPtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #app_RPtitleTextSize com.easemob.redpacket.test:RPtitleTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPleftImage cn.easemob.redpacket.test:RPleftImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPmytitle cn.easemob.redpacket.test:RPmytitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPrightImage cn.easemob.redpacket.test:RPrightImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPrightText cn.easemob.redpacket.test:RPrightText}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPrightTextColor cn.easemob.redpacket.test:RPrightTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPrightTextSize cn.easemob.redpacket.test:RPrightTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPsubTitleText cn.easemob.redpacket.test:RPsubTitleText}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPsubTitleTextColor cn.easemob.redpacket.test:RPsubTitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPsubTitleTextSize cn.easemob.redpacket.test:RPsubTitleTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPtitleBackground cn.easemob.redpacket.test:RPtitleBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPtitleTextColor cn.easemob.redpacket.test:RPtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #app_RPtitleTextSize cn.easemob.redpacket.test:RPtitleTextSize}</code></td><td></td></tr>
            </table>
            @see #app_RPleftImage
            @see #app_RPmytitle
@@ -2425,7 +2425,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.easemob.redpacket.test:RPleftImage
+          @attr name cn.easemob.redpacket.test:RPleftImage
         */
         public static final int app_RPleftImage = 1;
         /**
@@ -2439,7 +2439,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:RPmytitle
+          @attr name cn.easemob.redpacket.test:RPmytitle
         */
         public static final int app_RPmytitle = 0;
         /**
@@ -2449,7 +2449,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.easemob.redpacket.test:RPrightImage
+          @attr name cn.easemob.redpacket.test:RPrightImage
         */
         public static final int app_RPrightImage = 2;
         /**
@@ -2463,7 +2463,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:RPrightText
+          @attr name cn.easemob.redpacket.test:RPrightText
         */
         public static final int app_RPrightText = 3;
         /**
@@ -2475,7 +2475,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.easemob.redpacket.test:RPrightTextColor
+          @attr name cn.easemob.redpacket.test:RPrightTextColor
         */
         public static final int app_RPrightTextColor = 4;
         /**
@@ -2491,7 +2491,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:RPrightTextSize
+          @attr name cn.easemob.redpacket.test:RPrightTextSize
         */
         public static final int app_RPrightTextSize = 5;
         /**
@@ -2505,7 +2505,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:RPsubTitleText
+          @attr name cn.easemob.redpacket.test:RPsubTitleText
         */
         public static final int app_RPsubTitleText = 6;
         /**
@@ -2517,7 +2517,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.easemob.redpacket.test:RPsubTitleTextColor
+          @attr name cn.easemob.redpacket.test:RPsubTitleTextColor
         */
         public static final int app_RPsubTitleTextColor = 7;
         /**
@@ -2533,7 +2533,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:RPsubTitleTextSize
+          @attr name cn.easemob.redpacket.test:RPsubTitleTextSize
         */
         public static final int app_RPsubTitleTextSize = 8;
         /**
@@ -2545,7 +2545,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.easemob.redpacket.test:RPtitleBackground
+          @attr name cn.easemob.redpacket.test:RPtitleBackground
         */
         public static final int app_RPtitleBackground = 11;
         /**
@@ -2557,7 +2557,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.easemob.redpacket.test:RPtitleTextColor
+          @attr name cn.easemob.redpacket.test:RPtitleTextColor
         */
         public static final int app_RPtitleTextColor = 9;
         /**
@@ -2573,7 +2573,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.easemob.redpacket.test:RPtitleTextSize
+          @attr name cn.easemob.redpacket.test:RPtitleTextSize
         */
         public static final int app_RPtitleTextSize = 10;
     };
