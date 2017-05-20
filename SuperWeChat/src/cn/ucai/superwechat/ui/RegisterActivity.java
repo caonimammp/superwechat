@@ -15,10 +15,14 @@ package cn.ucai.superwechat.ui;
 
 import com.hyphenate.EMError;
 import com.hyphenate.chat.EMClient;
+
+import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.data.net.IUserModel;
 import cn.ucai.superwechat.data.net.OnCompleteListener;
 import cn.ucai.superwechat.data.net.UserModel;
+import cn.ucai.superwechat.utils.CommonUtils;
+import cn.ucai.superwechat.utils.L;
 
 import com.hyphenate.exceptions.HyphenateException;
 
@@ -26,6 +30,7 @@ import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -37,43 +42,57 @@ public class RegisterActivity extends BaseActivity {
 	private EditText userNameEditText;
 	private EditText passwordEditText;
 	private EditText confirmPwdEditText;
+	private EditText userNickEditText;
+
 	IUserModel model;
 	String username;
 	String pwd;
 	String confirm_pwd;
 	String nick;
+	Button btnRegister;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(cn.ucai.superwechat.R.layout.em_activity_register);
+		initView();
+	}
+
+	private void initView() {
+		btnRegister = (Button) findViewById(R.id.btnRegister);
 		userNameEditText = (EditText) findViewById(cn.ucai.superwechat.R.id.username);
+		userNickEditText = (EditText) findViewById(R.id.nickname);
 		passwordEditText = (EditText) findViewById(cn.ucai.superwechat.R.id.password);
 		confirmPwdEditText = (EditText) findViewById(cn.ucai.superwechat.R.id.confirm_password);
-		initData();
 	}
 
 	private void initData() {
 		username = userNameEditText.getText().toString().trim();
+		L.e("main","username"+username);
+		nick = userNickEditText.getText().toString().trim();
 		pwd = passwordEditText.getText().toString().trim();
 		confirm_pwd = confirmPwdEditText.getText().toString().trim();
 	}
 
-	public void ucairegister(){
+	public void register(View view){
+		initData();
 		model = new UserModel();
 		model.Register(RegisterActivity.this, username, nick, pwd, new OnCompleteListener<String>() {
 			@Override
 			public void onSuccess(String result) {
-
+				if(result!=null){
+					CommonUtils.showLongToast(result.toString());
+				}
 			}
 
 			@Override
 			public void onError(String error) {
-
+					CommonUtils.showLongToast("注册失败");
 			}
 		});
+		HXRegister();
 	}
-	public void register(View view) {
-
+	public void HXRegister() {
+		initData();
 		if (TextUtils.isEmpty(username)) {
 			Toast.makeText(this, getResources().getString(cn.ucai.superwechat.R.string.User_name_cannot_be_empty), Toast.LENGTH_SHORT).show();
 			userNameEditText.requestFocus();
@@ -128,6 +147,17 @@ public class RegisterActivity extends BaseActivity {
 								}else{
 									Toast.makeText(getApplicationContext(), getResources().getString(cn.ucai.superwechat.R.string.Registration_failed), Toast.LENGTH_SHORT).show();
 								}
+							}
+						});
+						model.unRegister(RegisterActivity.this, username, new OnCompleteListener<String>() {
+							@Override
+							public void onSuccess(String result) {
+								CommonUtils.showLongToast("注册失败");
+							}
+
+							@Override
+							public void onError(String error) {
+								CommonUtils.showLongToast("服务器异常");
 							}
 						});
 					}

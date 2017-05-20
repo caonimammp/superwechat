@@ -7,6 +7,7 @@ import android.content.Intent;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.ui.LoginActivity;
 import cn.ucai.superwechat.ui.MainActivity;
+import cn.ucai.superwechat.ui.RegisterActivity;
 import cn.ucai.superwechat.ui.SplashActivity;
 import cn.ucai.superwechat.ui.WelcomeActivity;
 
@@ -30,5 +31,9 @@ public class MFGT {
 
     public static void gotoWelcome(Activity activity) {
         mfgt(activity,WelcomeActivity.class);
+    }
+
+    public static void gotoRegister(Activity activity) {
+        mfgt(activity, RegisterActivity.class);
     }
 }
