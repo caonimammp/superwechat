@@ -9,6 +9,6 @@ import android.content.Context;
 
 public interface IUserModel {
     void Register(Context context, String userName, String nick, String passWord, OnCompleteListener<String> listener);
-
     void unRegister(Context context,String userName,OnCompleteListener<String> listener);
+    void findUserByUserName(Context context,String userName,OnCompleteListener<String> listener);
 }
