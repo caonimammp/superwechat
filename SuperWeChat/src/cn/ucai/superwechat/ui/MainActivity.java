@@ -28,6 +28,7 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.LocalBroadcastManager;
+import android.support.v4.view.ViewPager;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
@@ -45,7 +46,9 @@ import com.hyphenate.chat.EMConversation;
 import com.hyphenate.chat.EMConversation.EMConversationType;
 import com.hyphenate.chat.EMMessage;
 import cn.ucai.superwechat.Constant;
+import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatHelper;
+import cn.ucai.superwechat.adapter.MainTabAdpter;
 import cn.ucai.superwechat.db.InviteMessgeDao;
 import cn.ucai.superwechat.db.UserDao;
 import cn.ucai.superwechat.runtimepermissions.PermissionsManager;
@@ -65,8 +68,9 @@ public class MainActivity extends BaseActivity {
 	private TextView unreadLabel;
 	// textview for unread event message
 	private TextView unreadAddressLable;
-
+	MainTabAdpter adapter;
 	private Button[] mTabs;
+	private ConversationListFragment conversationListFragment;
 	private ContactListFragment contactListFragment;
 	private Fragment[] fragments;
 	private int index;
@@ -75,7 +79,7 @@ public class MainActivity extends BaseActivity {
 	public boolean isConflict = false;
 	// user account was removed
 	private boolean isCurrentAccountRemoved = false;
-	
+	ViewPager mLayoutViewpage;
 
 	/**
 	 * check if current user account was remove
@@ -87,20 +91,37 @@ public class MainActivity extends BaseActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-		    String packageName = getPackageName();
-		    PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
-		    if (!pm.isIgnoringBatteryOptimizations(packageName)) {
-		        Intent intent = new Intent();
-		        intent.setAction(android.provider.Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS);
-		        intent.setData(Uri.parse("package:" + packageName));
-		        startActivity(intent);
-		    }
-		}
-		
+		savePower();
+		checkAccount(savedInstanceState);
+
+
+		setContentView(cn.ucai.superwechat.R.layout.em_activity_main);
+		// runtime permission for android 6.0, just require all permissions here for simple
+		requestPermissions();
+
+		initView();
+		initUmeng();
+
+		showExceptionDialogFromIntent(getIntent());
+		inviteMessgeDao = new InviteMessgeDao(this);
+		UserDao userDao = new UserDao(this);
+		initFragment();
+		EMClient.getInstance().contactManager().setContactListener(new MyContactListener());
+		registerBroadcastReceiver();
+	}
+
+
+	private void initUmeng() {
+		//umeng api
+		MobclickAgent.updateOnlineConfig(this);
+		UmengUpdateAgent.setUpdateOnlyWifi(false);
+		UmengUpdateAgent.update(this);
+	}
+
+	private void checkAccount(Bundle savedInstanceState) {
 		//make sure activity will not in background if user is logged into another device or removed
 		if (savedInstanceState != null && savedInstanceState.getBoolean(Constant.ACCOUNT_REMOVED, false)) {
-		    SuperWeChatHelper.getInstance().logout(false,null);
+			SuperWeChatHelper.getInstance().logout(false,null);
 			finish();
 			startActivity(new Intent(this, LoginActivity.class));
 			return;
@@ -109,38 +130,36 @@ public class MainActivity extends BaseActivity {
 			startActivity(new Intent(this, LoginActivity.class));
 			return;
 		}
-		setContentView(cn.ucai.superwechat.R.layout.em_activity_main);
-		// runtime permission for android 6.0, just require all permissions here for simple
-		requestPermissions();
+	}
 
-		initView();
+	private void savePower() {
+		if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+			String packageName = getPackageName();
+			PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
+			if (!pm.isIgnoringBatteryOptimizations(packageName)) {
+				Intent intent = new Intent();
+				intent.setAction(android.provider.Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS);
+				intent.setData(Uri.parse("package:" + packageName));
+				startActivity(intent);
+			}
+		}
+	}
 
-		//umeng api
-		MobclickAgent.updateOnlineConfig(this);
-		UmengUpdateAgent.setUpdateOnlyWifi(false);
-		UmengUpdateAgent.update(this);
-
-		showExceptionDialogFromIntent(getIntent());
-
-		inviteMessgeDao = new InviteMessgeDao(this);
-		UserDao userDao = new UserDao(this);
+	private void initFragment() {
 		conversationListFragment = new ConversationListFragment();
 		contactListFragment = new ContactListFragment();
 		SettingsFragment settingFragment = new SettingsFragment();
-		fragments = new Fragment[] { conversationListFragment, contactListFragment, settingFragment};
-
+		fragments = new Fragment[]{conversationListFragment, contactListFragment, settingFragment};
+		adapter = new MainTabAdpter(getSupportFragmentManager());
+		adapter.addFragment(conversationListFragment, getString(R.string.app_name));
+		adapter.addFragment(contactListFragment, getString(R.string.contacts));
+		adapter.addFragment(settingFragment, getString(R.string.discover));
+		adapter.addFragment(settingFragment, getString(R.string.me));
+		mLayoutViewpage.setAdapter(adapter);
 		getSupportFragmentManager().beginTransaction().add(cn.ucai.superwechat.R.id.fragment_container, conversationListFragment)
 				.add(cn.ucai.superwechat.R.id.fragment_container, contactListFragment).hide(contactListFragment).show(conversationListFragment)
 				.commit();
-
-		//register broadcast receiver to receive the change of group from SuperWeChatHelper
-		registerBroadcastReceiver();
-		
-		
-		EMClient.getInstance().contactManager().setContactListener(new MyContactListener());
-		//debug purpose only
-        registerInternalDebugReceiver();
-	}
+		}
 
 	@TargetApi(23)
 	private void requestPermissions() {
@@ -161,12 +180,13 @@ public class MainActivity extends BaseActivity {
 	 * init views
 	 */
 	private void initView() {
-		unreadLabel = (TextView) findViewById(cn.ucai.superwechat.R.id.unread_msg_number);
-		unreadAddressLable = (TextView) findViewById(cn.ucai.superwechat.R.id.unread_address_number);
+//		unreadLabel = (TextView) findViewById(cn.ucai.superwechat.R.id.unread_msg_number);
+//		unreadAddressLable = (TextView) findViewById(cn.ucai.superwechat.R.id.unread_address_number);
 		mTabs = new Button[3];
-		mTabs[0] = (Button) findViewById(cn.ucai.superwechat.R.id.btn_conversation);
+		mTabs[0] = (Button) findViewById(cn.ucai.superwechat.R.id.);
 		mTabs[1] = (Button) findViewById(cn.ucai.superwechat.R.id.btn_address_list);
 		mTabs[2] = (Button) findViewById(cn.ucai.superwechat.R.id.btn_setting);
+		mTabs[3] = findViewById(R.id.btn)
 		// select first tab
 		mTabs[0].setSelected(true);
 	}
