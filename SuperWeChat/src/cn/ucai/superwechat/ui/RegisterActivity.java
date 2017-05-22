@@ -23,6 +23,7 @@ import cn.ucai.superwechat.data.net.OnCompleteListener;
 import cn.ucai.superwechat.data.net.UserModel;
 import cn.ucai.superwechat.utils.CommonUtils;
 import cn.ucai.superwechat.utils.L;
+import cn.ucai.superwechat.utils.MD5;
 
 import com.hyphenate.exceptions.HyphenateException;
 
@@ -69,8 +70,8 @@ public class RegisterActivity extends BaseActivity {
 		username = userNameEditText.getText().toString().trim();
 		L.e("main","username"+username);
 		nick = userNickEditText.getText().toString().trim();
-		pwd = passwordEditText.getText().toString().trim();
-		confirm_pwd = confirmPwdEditText.getText().toString().trim();
+		pwd = MD5.getMessageDigest(passwordEditText.getText().toString().trim());
+		confirm_pwd = MD5.getMessageDigest(confirmPwdEditText.getText().toString().trim());
 	}
 
 	public void register(View view){
