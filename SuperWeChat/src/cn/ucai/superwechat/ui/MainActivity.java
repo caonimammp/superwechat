@@ -64,13 +64,12 @@ import java.util.List;
 public class MainActivity extends BaseActivity {
 
 	protected static final String TAG = "MainActivity";
-	// textview for unread message count
-	private TextView unreadLabel;
-	// textview for unread event message
-	private TextView unreadAddressLable;
+//	// textview for unread message count
+//	private TextView unreadLabel;
+//	// textview for unread event message
+//	private TextView unreadAddressLable;
 	MainTabAdpter adapter;
-	private Button[] mTabs;
-	private ConversationListFragment conversationListFragment;
+//	private Button[] mTabs;
 	private ContactListFragment contactListFragment;
 	private Fragment[] fragments;
 	private int index;
@@ -156,9 +155,9 @@ public class MainActivity extends BaseActivity {
 		adapter.addFragment(settingFragment, getString(R.string.discover));
 		adapter.addFragment(settingFragment, getString(R.string.me));
 		mLayoutViewpage.setAdapter(adapter);
-		getSupportFragmentManager().beginTransaction().add(cn.ucai.superwechat.R.id.fragment_container, conversationListFragment)
-				.add(cn.ucai.superwechat.R.id.fragment_container, contactListFragment).hide(contactListFragment).show(conversationListFragment)
-				.commit();
+//		getSupportFragmentManager().beginTransaction().add(cn.ucai.superwechat.R.id.fragment_container, conversationListFragment)
+//				.add(cn.ucai.superwechat.R.id.fragment_container, contactListFragment).hide(contactListFragment).show(conversationListFragment)
+//				.commit();
 		}
 
 	@TargetApi(23)
@@ -182,13 +181,13 @@ public class MainActivity extends BaseActivity {
 	private void initView() {
 //		unreadLabel = (TextView) findViewById(cn.ucai.superwechat.R.id.unread_msg_number);
 //		unreadAddressLable = (TextView) findViewById(cn.ucai.superwechat.R.id.unread_address_number);
-		mTabs = new Button[3];
-		mTabs[0] = (Button) findViewById(cn.ucai.superwechat.R.id.);
-		mTabs[1] = (Button) findViewById(cn.ucai.superwechat.R.id.btn_address_list);
-		mTabs[2] = (Button) findViewById(cn.ucai.superwechat.R.id.btn_setting);
-		mTabs[3] = findViewById(R.id.btn)
-		// select first tab
-		mTabs[0].setSelected(true);
+//		mTabs = new Button[3];
+//		mTabs[0] = (Button) findViewById(cn.ucai.superwechat.R.id.);
+//		mTabs[1] = (Button) findViewById(cn.ucai.superwechat.R.id.btn_address_list);
+//		mTabs[2] = (Button) findViewById(cn.ucai.superwechat.R.id.btn_setting);
+//		mTabs[3] = findViewById(R.id.btn)
+//		// select first tab
+//		mTabs[0].setSelected(true);
 	}
 
 	/**
@@ -196,31 +195,31 @@ public class MainActivity extends BaseActivity {
 	 * 
 	 * @param view
 	 */
-	public void onTabClicked(View view) {
-		switch (view.getId()) {
-		case cn.ucai.superwechat.R.id.btn_conversation:
-			index = 0;
-			break;
-		case cn.ucai.superwechat.R.id.btn_address_list:
-			index = 1;
-			break;
-		case cn.ucai.superwechat.R.id.btn_setting:
-			index = 2;
-			break;
-		}
-		if (currentTabIndex != index) {
-			FragmentTransaction trx = getSupportFragmentManager().beginTransaction();
-			trx.hide(fragments[currentTabIndex]);
-			if (!fragments[index].isAdded()) {
-				trx.add(cn.ucai.superwechat.R.id.fragment_container, fragments[index]);
-			}
-			trx.show(fragments[index]).commit();
-		}
-		mTabs[currentTabIndex].setSelected(false);
-		// set current tab selected
-		mTabs[index].setSelected(true);
-		currentTabIndex = index;
-	}
+//	public void onTabClicked(View view) {
+//		switch (view.getId()) {
+//		case cn.ucai.superwechat.R.id.btn_conversation:
+//			index = 0;
+//			break;
+//		case cn.ucai.superwechat.R.id.btn_address_list:
+//			index = 1;
+//			break;
+//		case cn.ucai.superwechat.R.id.btn_setting:
+//			index = 2;
+//			break;
+//		}
+//		if (currentTabIndex != index) {
+//			FragmentTransaction trx = getSupportFragmentManager().beginTransaction();
+//			trx.hide(fragments[currentTabIndex]);
+//			if (!fragments[index].isAdded()) {
+//				trx.add(cn.ucai.superwechat.R.id.fragment_container, fragments[index]);
+//			}
+//			trx.show(fragments[index]).commit();
+//		}
+//		mTabs[currentTabIndex].setSelected(false);
+//		// set current tab selected
+//		mTabs[index].setSelected(true);
+//		currentTabIndex = index;
+//	}
 
 	EMMessageListener messageListener = new EMMessageListener() {
 		
@@ -371,29 +370,29 @@ public class MainActivity extends BaseActivity {
 	 * update unread message count
 	 */
 	public void updateUnreadLabel() {
-		int count = getUnreadMsgCountTotal();
-		if (count > 0) {
-			unreadLabel.setText(String.valueOf(count));
-			unreadLabel.setVisibility(View.VISIBLE);
-		} else {
-			unreadLabel.setVisibility(View.INVISIBLE);
-		}
+//		int count = getUnreadMsgCountTotal();
+//		if (count > 0) {
+//			unreadLabel.setText(String.valueOf(count));
+//			unreadLabel.setVisibility(View.VISIBLE);
+//		} else {
+//			unreadLabel.setVisibility(View.INVISIBLE);
+//		}
 	}
 
 	/**
-	 * update the total unread count 
+	 * update the total unread count
 	 */
 	public void updateUnreadAddressLable() {
-		runOnUiThread(new Runnable() {
-			public void run() {
-				int count = getUnreadAddressCountTotal();
-				if (count > 0) {
-					unreadAddressLable.setVisibility(View.VISIBLE);
-				} else {
-					unreadAddressLable.setVisibility(View.INVISIBLE);
-				}
-			}
-		});
+//		runOnUiThread(new Runnable() {
+//			public void run() {
+//				int count = getUnreadAddressCountTotal();
+//				if (count > 0) {
+//					unreadAddressLable.setVisibility(View.VISIBLE);
+//				} else {
+//					unreadAddressLable.setVisibility(View.INVISIBLE);
+//				}
+//			}
+//		});
 
 	}
 
