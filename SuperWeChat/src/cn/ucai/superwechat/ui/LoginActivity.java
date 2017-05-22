@@ -35,6 +35,7 @@ import cn.ucai.superwechat.SuperWeChatApplication;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.db.SuperWeChatDBManager;
 import cn.ucai.easeui.utils.EaseCommonUtils;
+import cn.ucai.superwechat.utils.MD5;
 
 /**
  * Login screen
@@ -64,8 +65,17 @@ public class LoginActivity extends BaseActivity {
 
 		usernameEditText = (EditText) findViewById(cn.ucai.superwechat.R.id.username);
 		passwordEditText = (EditText) findViewById(cn.ucai.superwechat.R.id.password);
-
+		setlistener();
 		// if user changed, clear the password
+
+
+
+		if (SuperWeChatHelper.getInstance().getCurrentUsernName() != null) {
+			usernameEditText.setText(SuperWeChatHelper.getInstance().getCurrentUsernName());
+		}
+	}
+
+	private void setlistener() {
 		usernameEditText.addTextChangedListener(new TextWatcher() {
 			@Override
 			public void onTextChanged(CharSequence s, int start, int before, int count) {
@@ -82,7 +92,6 @@ public class LoginActivity extends BaseActivity {
 
 			}
 		});
-
 		passwordEditText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
 			@Override
 			public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
@@ -95,10 +104,6 @@ public class LoginActivity extends BaseActivity {
 				}
 			}
 		});
-
-		if (SuperWeChatHelper.getInstance().getCurrentUsernName() != null) {
-			usernameEditText.setText(SuperWeChatHelper.getInstance().getCurrentUsernName());
-		}
 	}
 
 	/**
@@ -147,7 +152,7 @@ public class LoginActivity extends BaseActivity {
 		final long start = System.currentTimeMillis();
 		// call login method
 		Log.d(TAG, "EMClient.getInstance().login");
-		EMClient.getInstance().login(currentUsername, currentPassword, new EMCallBack() {
+		EMClient.getInstance().login(currentUsername, MD5.getMessageDigest(currentPassword), new EMCallBack() {
 
 			@Override
 			public void onSuccess() {
@@ -169,12 +174,11 @@ public class LoginActivity extends BaseActivity {
 				    pd.dismiss();
 				}
 				// get user's info (this should be get from App's server or 3rd party service)
-				SuperWeChatHelper.getInstance().getUserProfileManager().asyncGetCurrentUserInfo();
+				SuperWeChatHelper.getInstance().getUserProfileManager().asyncGetCurrentAPPUserInfo();
 
 				Intent intent = new Intent(LoginActivity.this,
 						MainActivity.class);
 				startActivity(intent);
-
 				finish();
 			}
 
