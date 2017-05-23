@@ -31,34 +31,34 @@ import android.widget.Toast;
 
 import com.hyphenate.EMCallBack;
 import com.hyphenate.chat.EMClient;
+
+import cn.ucai.easeui.widget.EaseTitleBar;
+import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatApplication;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.db.SuperWeChatDBManager;
 import cn.ucai.easeui.utils.EaseCommonUtils;
 import cn.ucai.superwechat.utils.MD5;
+import cn.ucai.superwechat.utils.MFGT;
 
 /**
  * Login screen
- * 
  */
 public class LoginActivity extends BaseActivity {
 	private static final String TAG = "LoginActivity";
 	public static final int REQUEST_CODE_SETNICK = 1;
 	private EditText usernameEditText;
 	private EditText passwordEditText;
-
 	private boolean progressShow;
 	private boolean autoLogin = false;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-
 		// enter the main activity if already logged in
 		if (SuperWeChatHelper.getInstance().isLoggedIn()) {
 			autoLogin = true;
 			startActivity(new Intent(LoginActivity.this, MainActivity.class));
-
 			return;
 		}
 		setContentView(cn.ucai.superwechat.R.layout.em_activity_login);

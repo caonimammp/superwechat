@@ -3,7 +3,6 @@ package cn.ucai.superwechat.utils;
 import java.security.MessageDigest;
 
 public class MD5 {
-
 	private MD5() {}
 
 	public final static String getMessageDigest(String sb){

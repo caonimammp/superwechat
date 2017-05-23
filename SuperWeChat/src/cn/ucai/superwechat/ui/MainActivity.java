@@ -26,14 +26,11 @@ import android.os.Bundle;
 import android.os.PowerManager;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v4.view.ViewPager;
 import android.view.KeyEvent;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TabHost;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.easemob.redpacketsdk.constant.RPConstant;
@@ -154,7 +151,7 @@ public class MainActivity extends BaseActivity implements ViewPager.OnPageChange
 		conversationListFragment = new ConversationListFragment();
 		contactListFragment = new ContactListFragment();
 		dicoverFragment = new DicoverFragment();
-		SettingsFragment settingFragment = new SettingsFragment();
+		SettingsActivity settingFragment = new SettingsActivity();
 		personalFragment = new PersonalFragment();
 		fragments = new Fragment[]{conversationListFragment, contactListFragment, personalFragment};
 		adapter = new MainTabAdpter(getSupportFragmentManager());
