@@ -56,6 +56,8 @@ public class PersonalFragment extends EaseBaseFragment {
 
     @Override
     protected void setUpView() {
+        titleBar.setRightImageResource(R.drawable.em_add);
+        titleBar.setTitle(getString(R.string.me));
         User user = SuperWeChatHelper.getInstance().getUserProfileManager().getCurrentAPPUserInfo();
         if(user!=null){
             tvNick.setText(user.getMUserNick());

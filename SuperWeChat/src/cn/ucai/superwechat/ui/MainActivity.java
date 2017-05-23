@@ -76,6 +76,7 @@ public class MainActivity extends BaseActivity implements ViewPager.OnPageChange
 	private ContactListFragment contactListFragment;
 	private DicoverFragment dicoverFragment;
 	private Fragment[] fragments;
+	private PersonalFragment personalFragment;
 	private int index;
 	private int currentTabIndex;
 	// user logged into another device
@@ -154,12 +155,13 @@ public class MainActivity extends BaseActivity implements ViewPager.OnPageChange
 		contactListFragment = new ContactListFragment();
 		dicoverFragment = new DicoverFragment();
 		SettingsFragment settingFragment = new SettingsFragment();
-		fragments = new Fragment[]{conversationListFragment, contactListFragment, settingFragment};
+		personalFragment = new PersonalFragment();
+		fragments = new Fragment[]{conversationListFragment, contactListFragment, personalFragment};
 		adapter = new MainTabAdpter(getSupportFragmentManager());
 		adapter.addFragment(conversationListFragment, getString(R.string.app_name));
 		adapter.addFragment(contactListFragment, getString(R.string.contacts));
 		adapter.addFragment(dicoverFragment, getString(R.string.discover));
-		adapter.addFragment(settingFragment, getString(R.string.me));
+		adapter.addFragment(personalFragment, getString(R.string.me));
 		mLayoutViewpage.setAdapter(adapter);
 		mTabHost.setCurrentTab(0);
 		mLayoutViewpage.setOnPageChangeListener(this);
