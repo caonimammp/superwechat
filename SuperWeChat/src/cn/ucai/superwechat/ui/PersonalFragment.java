@@ -18,8 +18,10 @@ import butterknife.OnClick;
 import butterknife.Unbinder;
 import cn.ucai.easeui.domain.User;
 import cn.ucai.easeui.ui.EaseBaseFragment;
+import cn.ucai.superwechat.Constant;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatHelper;
+import cn.ucai.superwechat.utils.MFGT;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -55,6 +57,15 @@ public class PersonalFragment extends EaseBaseFragment {
     }
 
     @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        if(((MainActivity)getActivity()).isConflict){
+            outState.putBoolean("isConflict", true);
+        }else if(((MainActivity)getActivity()).getCurrentAccountRemoved()){
+            outState.putBoolean(Constant.ACCOUNT_REMOVED, true);
+        }
+    }
+    @Override
     protected void setUpView() {
         titleBar.setRightImageResource(R.drawable.em_add);
         titleBar.setTitle(getString(R.string.me));
@@ -84,6 +95,7 @@ public class PersonalFragment extends EaseBaseFragment {
             case R.id.layout_Money:
                 break;
             case R.id.layout_Setting:
+                MFGT.gotoSettings((MainActivity)getActivity());
                 break;
         }
     }
