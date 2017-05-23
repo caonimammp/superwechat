@@ -1,6 +1,7 @@
 package cn.ucai.superwechat.ui;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.text.TextUtils;
@@ -11,6 +12,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.easemob.redpacketui.utils.RPRedPacketUtil;
+import com.hyphenate.chat.EMClient;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -91,8 +94,13 @@ public class PersonalFragment extends EaseBaseFragment {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.layout_Perfile:
+                startActivity(new Intent(getContext(), UserProfileActivity.class).putExtra("setting", true)
+                        .putExtra("username", EMClient.getInstance().getCurrentUser()));
                 break;
             case R.id.layout_Money:
+                RPRedPacketUtil.getInstance().startRecordActivity(getContext());
+                //钱包版红包SDK调用如下方法进入零钱页面
+//				RPRedPacketUtil.getInstance().startChangeActivity(getActivity());
                 break;
             case R.id.layout_Setting:
                 MFGT.gotoSettings((MainActivity)getActivity());

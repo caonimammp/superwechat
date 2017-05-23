@@ -5,6 +5,10 @@
     android:layout_height="fill_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical">
+    <cn.ucai.easeui.widget.EaseTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
     <ScrollView
         android:layout_width="fill_parent"
