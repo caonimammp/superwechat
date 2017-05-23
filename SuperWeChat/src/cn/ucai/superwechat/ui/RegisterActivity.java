@@ -16,14 +16,17 @@ package cn.ucai.superwechat.ui;
 import com.hyphenate.EMError;
 import com.hyphenate.chat.EMClient;
 
+import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatHelper;
+import cn.ucai.superwechat.data.Result;
 import cn.ucai.superwechat.data.net.IUserModel;
 import cn.ucai.superwechat.data.net.OnCompleteListener;
 import cn.ucai.superwechat.data.net.UserModel;
 import cn.ucai.superwechat.utils.CommonUtils;
 import cn.ucai.superwechat.utils.L;
 import cn.ucai.superwechat.utils.MD5;
+import cn.ucai.superwechat.utils.ResultUtils;
 
 import com.hyphenate.exceptions.HyphenateException;
 
@@ -44,7 +47,8 @@ public class RegisterActivity extends BaseActivity {
 	private EditText passwordEditText;
 	private EditText confirmPwdEditText;
 	private EditText userNickEditText;
-
+	boolean isSuccess=false;
+	ProgressDialog pd;
 	IUserModel model;
 	String username;
 	String pwd;
@@ -64,8 +68,17 @@ public class RegisterActivity extends BaseActivity {
 		userNickEditText = (EditText) findViewById(R.id.nickname);
 		passwordEditText = (EditText) findViewById(cn.ucai.superwechat.R.id.password);
 		confirmPwdEditText = (EditText) findViewById(cn.ucai.superwechat.R.id.confirm_password);
+		pd = new ProgressDialog(RegisterActivity.this);
 	}
-
+	private void initDialog(){
+		pd.setMessage("注册中");
+		pd.show();
+	}
+	private void dismissDialog(){
+		if(pd!=null&&pd.isShowing()){
+			pd.dismiss();
+		}
+	}
 	private void initData() {
 		username = userNameEditText.getText().toString().trim();
 		L.e("main","username"+username);
@@ -79,9 +92,20 @@ public class RegisterActivity extends BaseActivity {
 		model = new UserModel();
 		model.Register(RegisterActivity.this, username, nick, pwd, new OnCompleteListener<String>() {
 			@Override
-			public void onSuccess(String result) {
-				if(result!=null){
-					CommonUtils.showLongToast(result.toString());
+			public void onSuccess(String s) {
+				if(s!=null){
+					Result result = ResultUtils.getResultFromJson(s,null);
+					if(result.getRetCode()== I.MSG_REGISTER_USERNAME_EXISTS){
+						CommonUtils.showLongToast(R.string.User_already_exists);
+					}else if(result.getRetCode()==I.MSG_REGISTER_FAIL){
+						CommonUtils.showLongToast(R.string.Registration_failed);
+					}else {
+						isSuccess = false;
+						HXRegister();
+					}
+				}
+				if(isSuccess){
+					dismissDialog();
 				}
 			}
 
@@ -90,7 +114,7 @@ public class RegisterActivity extends BaseActivity {
 					CommonUtils.showLongToast("注册失败");
 			}
 		});
-		HXRegister();
+
 	}
 	public void HXRegister() {
 		initData();

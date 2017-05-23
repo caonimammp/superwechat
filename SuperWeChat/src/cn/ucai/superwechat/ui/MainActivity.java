@@ -32,6 +32,7 @@ import android.support.v4.view.ViewPager;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TabHost;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -54,6 +55,8 @@ import cn.ucai.superwechat.db.UserDao;
 import cn.ucai.superwechat.runtimepermissions.PermissionsManager;
 import cn.ucai.superwechat.runtimepermissions.PermissionsResultAction;
 import cn.ucai.easeui.utils.EaseCommonUtils;
+import cn.ucai.superwechat.widget.DMTabHost;
+
 import com.hyphenate.util.EMLog;
 import com.umeng.analytics.MobclickAgent;
 import com.umeng.update.UmengUpdateAgent;
@@ -61,7 +64,7 @@ import com.umeng.update.UmengUpdateAgent;
 import java.util.List;
 
 @SuppressLint("NewApi")
-public class MainActivity extends BaseActivity {
+public class MainActivity extends BaseActivity implements ViewPager.OnPageChangeListener,DMTabHost.OnCheckedChangeListener{
 
 	protected static final String TAG = "MainActivity";
 //	// textview for unread message count
@@ -71,6 +74,7 @@ public class MainActivity extends BaseActivity {
 	MainTabAdpter adapter;
 //	private Button[] mTabs;
 	private ContactListFragment contactListFragment;
+	private DicoverFragment dicoverFragment;
 	private Fragment[] fragments;
 	private int index;
 	private int currentTabIndex;
@@ -79,7 +83,8 @@ public class MainActivity extends BaseActivity {
 	// user account was removed
 	private boolean isCurrentAccountRemoved = false;
 	ViewPager mLayoutViewpage;
-
+	TabHost mTabHost;
+	DMTabHost mLayoutTabHost;
 	/**
 	 * check if current user account was remove
 	 */
@@ -147,14 +152,19 @@ public class MainActivity extends BaseActivity {
 	private void initFragment() {
 		conversationListFragment = new ConversationListFragment();
 		contactListFragment = new ContactListFragment();
+		dicoverFragment = new DicoverFragment();
 		SettingsFragment settingFragment = new SettingsFragment();
 		fragments = new Fragment[]{conversationListFragment, contactListFragment, settingFragment};
 		adapter = new MainTabAdpter(getSupportFragmentManager());
 		adapter.addFragment(conversationListFragment, getString(R.string.app_name));
 		adapter.addFragment(contactListFragment, getString(R.string.contacts));
-		adapter.addFragment(settingFragment, getString(R.string.discover));
+		adapter.addFragment(dicoverFragment, getString(R.string.discover));
 		adapter.addFragment(settingFragment, getString(R.string.me));
 		mLayoutViewpage.setAdapter(adapter);
+		mTabHost.setCurrentTab(0);
+		mLayoutViewpage.setOnPageChangeListener(this);
+		mLayoutTabHost.setOnCheckedChangeListener(this);
+
 //		getSupportFragmentManager().beginTransaction().add(cn.ucai.superwechat.R.id.fragment_container, conversationListFragment)
 //				.add(cn.ucai.superwechat.R.id.fragment_container, contactListFragment).hide(contactListFragment).show(conversationListFragment)
 //				.commit();
@@ -179,6 +189,9 @@ public class MainActivity extends BaseActivity {
 	 * init views
 	 */
 	private void initView() {
+		mTabHost = new TabHost(MainActivity.this);
+		mLayoutViewpage = (ViewPager) findViewById(R.id.layout_viewpage);
+		mLayoutTabHost = (DMTabHost) findViewById(R.id.layout_tabhost);
 //		unreadLabel = (TextView) findViewById(cn.ucai.superwechat.R.id.unread_msg_number);
 //		unreadAddressLable = (TextView) findViewById(cn.ucai.superwechat.R.id.unread_address_number);
 //		mTabs = new Button[3];
@@ -317,7 +330,27 @@ public class MainActivity extends BaseActivity {
         };
         broadcastManager.registerReceiver(broadcastReceiver, intentFilter);
     }
-	
+
+	@Override
+	public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+	}
+
+	@Override
+	public void onPageSelected(int position) {
+		mLayoutTabHost.setChecked(position);
+	}
+
+	@Override
+	public void onPageScrollStateChanged(int state) {
+
+	}
+
+	@Override
+	public void onCheckedChange(int checkedPosition, boolean byUser) {
+		mLayoutViewpage.setCurrentItem(checkedPosition,false);
+	}
+
 	public class MyContactListener implements EMContactListener {
         @Override
         public void onContactAdded(String username) {}
