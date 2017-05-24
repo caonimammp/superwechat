@@ -29,8 +29,15 @@ import butterknife.OnClick;
 import cn.ucai.easeui.domain.EaseUser;
 import cn.ucai.easeui.domain.User;
 import cn.ucai.easeui.utils.EaseUserUtils;
+import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatHelper;
+import cn.ucai.superwechat.data.Result;
+import cn.ucai.superwechat.data.net.IUserModel;
+import cn.ucai.superwechat.data.net.OnCompleteListener;
+import cn.ucai.superwechat.data.net.UserModel;
+import cn.ucai.superwechat.utils.CommonUtils;
+import cn.ucai.superwechat.utils.ResultUtils;
 
 public class UserProfileActivity extends BaseActivity implements View.OnClickListener {
 
@@ -53,7 +60,8 @@ public class UserProfileActivity extends BaseActivity implements View.OnClickLis
     @BindView(R.id.tv_userinfo_sign)
     TextView tvUserinfoSign;
     private ProgressDialog dialog;
-
+    IUserModel model;
+    User user;
 
     @Override
     protected void onCreate(Bundle arg0) {
@@ -65,6 +73,8 @@ public class UserProfileActivity extends BaseActivity implements View.OnClickLis
     }
 
     private void initView() {
+        model = new UserModel();
+        user = SuperWeChatHelper.getInstance().getUserProfileManager().getCurrentAPPUserInfo();
         titleBar.setLeftLayoutClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -77,7 +87,7 @@ public class UserProfileActivity extends BaseActivity implements View.OnClickLis
         String username = EMClient.getInstance().getCurrentUser();
         if(username!=null){
             tvUserinfoName.setText("微信号： "+username);
-            EaseUserUtils.setAPPUserNick(username,tvUserinfoName);
+            EaseUserUtils.setAPPUserNick(username,tvUserinfoNick);
             EaseUserUtils.setAPPUserAvatar(this,username,userHeadAvatar);
         }
     }
@@ -138,8 +148,32 @@ public class UserProfileActivity extends BaseActivity implements View.OnClickLis
 
     private void updateRemoteNick(final String nickName) {
         dialog = ProgressDialog.show(this, getString(R.string.dl_update_nick), getString(R.string.dl_waiting));
-        new Thread(new Runnable() {
+        model.updateUserNick(UserProfileActivity.this, user.getMUserName(), nickName, new OnCompleteListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                if(s!=null){
+                    Result<User> result = ResultUtils.getResultFromJson(s,User.class);
+                    if (result!=null){
+                        if(result.getRetCode()== I.MSG_USER_SAME_NICK){
+                            CommonUtils.showLongToast(R.string.toast_nick_not_modfy);
+                        }else if(result.getRetCode()==I.MSG_USER_UPDATE_NICK_FAIL){
+                            CommonUtils.showLongToast(R.string.toast_updatenick_fail);
+                        }else if(result.isRetMsg()){
+                            CommonUtils.showLongToast(R.string.toast_updatenick_success);
+                            tvUserinfoName.setText(nickName);
+                            SuperWeChatHelper.getInstance().getUserProfileManager().updateCurrentUserNickName(nickName);
+                        }
+                    }
+                }
+                dialog.dismiss();
+            }
 
+            @Override
+            public void onError(String error) {
+                Toast.makeText(UserProfileActivity.this, getString(R.string.toast_updatenick_fail), Toast.LENGTH_SHORT).show();
+            }
+        });
+        new Thread(new Runnable() {
             @Override
             public void run() {
                 boolean updatenick = SuperWeChatHelper.getInstance().getUserProfileManager().updateCurrentUserNickName(nickName);
@@ -261,6 +295,8 @@ public class UserProfileActivity extends BaseActivity implements View.OnClickLis
                 break;
             case R.id.layout_userinfo_nick:
                 final EditText editText = new EditText(this);
+                editText.setText(user.getMUserNick());
+                editText.selectAll();
                 new AlertDialog.Builder(this).setTitle(R.string.setting_nickname).setIcon(android.R.drawable.ic_dialog_info).setView(editText)
                         .setPositiveButton(R.string.dl_ok, new DialogInterface.OnClickListener() {
 
