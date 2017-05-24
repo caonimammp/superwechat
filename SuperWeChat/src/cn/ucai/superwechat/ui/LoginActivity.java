@@ -32,14 +32,11 @@ import android.widget.Toast;
 import com.hyphenate.EMCallBack;
 import com.hyphenate.chat.EMClient;
 
-import cn.ucai.easeui.widget.EaseTitleBar;
-import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatApplication;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.db.SuperWeChatDBManager;
 import cn.ucai.easeui.utils.EaseCommonUtils;
 import cn.ucai.superwechat.utils.MD5;
-import cn.ucai.superwechat.utils.MFGT;
 
 /**
  * Login screen
@@ -54,6 +51,7 @@ public class LoginActivity extends BaseActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		setContentView(cn.ucai.superwechat.R.layout.em_activitylogin);
 		super.onCreate(savedInstanceState);
 		// enter the main activity if already logged in
 		if (SuperWeChatHelper.getInstance().isLoggedIn()) {
@@ -61,18 +59,25 @@ public class LoginActivity extends BaseActivity {
 			startActivity(new Intent(LoginActivity.this, MainActivity.class));
 			return;
 		}
-		setContentView(cn.ucai.superwechat.R.layout.em_activity_login);
+		initView();
 
 		usernameEditText = (EditText) findViewById(cn.ucai.superwechat.R.id.username);
 		passwordEditText = (EditText) findViewById(cn.ucai.superwechat.R.id.password);
 		setlistener();
 		// if user changed, clear the password
 
-
-
 		if (SuperWeChatHelper.getInstance().getCurrentUsernName() != null) {
 			usernameEditText.setText(SuperWeChatHelper.getInstance().getCurrentUsernName());
 		}
+	}
+
+	private void initView() {
+		titleBar.setLeftLayoutClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				finish();
+			}
+		});
 	}
 
 	private void setlistener() {
