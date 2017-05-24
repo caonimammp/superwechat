@@ -1,11 +1,13 @@
 package cn.ucai.superwechat.parse;
 
 import android.content.Context;
+import android.content.Intent;
 
 import com.hyphenate.EMValueCallBack;
 import com.hyphenate.chat.EMClient;
 
 import cn.ucai.easeui.domain.User;
+import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.SuperWeChatHelper.DataSyncListener;
 import cn.ucai.superwechat.data.Result;
@@ -16,6 +18,7 @@ import cn.ucai.superwechat.utils.PreferenceManager;
 import cn.ucai.easeui.domain.EaseUser;
 import cn.ucai.superwechat.utils.ResultUtils;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -149,7 +152,7 @@ public class UserProfileManager {
 	public boolean updateCurrentUserNickName(final String nickname) {
 		boolean isSuccess = ParseManager.getInstance().updateParseNickName(nickname);
 		if (isSuccess) {
-			setCurrentUserNick(nickname);
+			setCurrentAPPUserNick(nickname);
 		}
 		return isSuccess;
 	}
@@ -203,6 +206,37 @@ public class UserProfileManager {
 		});
 
 	}
+	public void uploadAppUserAvatar(File file){
+		model.updateAvatar(appContext, EMClient.getInstance().getCurrentUser(), I.AVATAR_TYPE_USER_PATH,
+				file, new OnCompleteListener<String>() {
+					@Override
+					public void onSuccess(String s) {
+						boolean isSuccess = false;
+						if (s!=null){
+							Result<User> result = ResultUtils.getResultFromJson(s, User.class);
+							if (result!=null){
+								if (result.isRetMsg()){
+									User user = result.getRetData();
+									if (user!=null){
+										isSuccess = true;
+										setCurrentAPPUserAvatar(user.getAvatar());
+									}
+								}
+							}
+						}
+						appContext.sendBroadcast(new Intent(I.REQUEST_UPDATE_AVATAR)
+								.putExtra(I.Avatar.UPDATE_TIME,isSuccess));
+					}
+
+					@Override
+					public void onError(String error) {
+						appContext.sendBroadcast(new Intent(I.REQUEST_UPDATE_AVATAR)
+								.putExtra(I.Avatar.UPDATE_TIME,false));
+					}
+				});
+	}
+
+
 	public void asyncGetUserInfo(final String username,final EMValueCallBack<EaseUser> callback){
 		ParseManager.getInstance().asyncGetUserInfo(username, callback);
 	}

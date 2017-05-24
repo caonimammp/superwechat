@@ -94,4 +94,15 @@ public class UserModel implements IUserModel{
                 .targetClass(String.class)
                 .execute(listener);
     }
+    @Override
+    public void updateAvatar(Context context, String username, String avatarType, File file, OnCompleteListener<String> listener) {
+        OkHttpUtils<String> utils = new OkHttpUtils<>(context);
+        utils.setRequestUrl(I.REQUEST_UPDATE_AVATAR)
+                .addParam(I.NAME_OR_HXID,username)
+                .addParam(I.AVATAR_TYPE,avatarType)
+                .addFile2(file)
+                .targetClass(String.class)
+                .post()
+                .execute(listener);
+    }
 }
