@@ -277,7 +277,7 @@ public class SuperWeChatHelper {
 
             @Override
             public User getAPPUser(String username) {
-                return getAPPUser(username);
+                return getAPPUserInfo(username);
             }
         });
 

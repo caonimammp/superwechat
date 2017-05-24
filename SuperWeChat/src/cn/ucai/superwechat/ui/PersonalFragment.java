@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -46,6 +47,11 @@ public class PersonalFragment extends EaseBaseFragment {
 
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        updatePersonalUI();
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -73,14 +79,19 @@ public class PersonalFragment extends EaseBaseFragment {
     protected void setUpView() {
         titleBar.setRightImageResource(R.drawable.em_add);
         titleBar.setTitle(getString(R.string.me));
+        updatePersonalUI();
+    }
+
+    private void updatePersonalUI() {
         User user = SuperWeChatHelper.getInstance().getUserProfileManager().getCurrentAPPUserInfo();
+        Log.i("main","PersonalFragment.user.usernick:"+user.getMUserNick());
         if(user!=null){
             tvNick.setText(user.getMUserNick());
             tvUserName.setText("微信号： "+user.getMUserName());
             if(!TextUtils.isEmpty(user.getAvatar())){
-                Glide.with(getContext()).load(user.getAvatar()).placeholder(cn.ucai.superwechat.R.drawable.em_default_avatar).into(ivAvatar);
+                Glide.with(getContext()).load(user.getAvatar()).placeholder(R.drawable.em_default_avatar).into(ivAvatar);
             }else{
-                Glide.with(getContext()).load(cn.ucai.superwechat.R.drawable.em_default_avatar).into(ivAvatar);
+                Glide.with(getContext()).load(R.drawable.em_default_avatar).into(ivAvatar);
             }
         }
     }

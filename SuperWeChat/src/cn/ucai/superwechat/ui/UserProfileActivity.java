@@ -11,6 +11,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -31,6 +32,7 @@ import cn.ucai.easeui.domain.User;
 import cn.ucai.easeui.utils.EaseUserUtils;
 import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.R;
+import cn.ucai.superwechat.SuperWeChatApplication;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.data.Result;
 import cn.ucai.superwechat.data.net.IUserModel;
@@ -69,6 +71,11 @@ public class UserProfileActivity extends BaseActivity implements View.OnClickLis
         ButterKnife.bind(this);
         super.onCreate(arg0);
         initView();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
         initListener();
     }
 
@@ -86,7 +93,7 @@ public class UserProfileActivity extends BaseActivity implements View.OnClickLis
     private void initListener() {
         String username = EMClient.getInstance().getCurrentUser();
         if(username!=null){
-            tvUserinfoName.setText("微信号： "+username);
+            tvUserinfoName.setText(username);
             EaseUserUtils.setAPPUserNick(username,tvUserinfoNick);
             EaseUserUtils.setAPPUserAvatar(this,username,userHeadAvatar);
         }
@@ -160,7 +167,7 @@ public class UserProfileActivity extends BaseActivity implements View.OnClickLis
                             CommonUtils.showLongToast(R.string.toast_updatenick_fail);
                         }else if(result.isRetMsg()){
                             CommonUtils.showLongToast(R.string.toast_updatenick_success);
-                            tvUserinfoName.setText(nickName);
+                            tvUserinfoNick.setText(nickName);
                             SuperWeChatHelper.getInstance().getUserProfileManager().updateCurrentUserNickName(nickName);
                         }
                     }
@@ -195,7 +202,7 @@ public class UserProfileActivity extends BaseActivity implements View.OnClickLis
                             dialog.dismiss();
                             Toast.makeText(UserProfileActivity.this, getString(R.string.toast_updatenick_success), Toast.LENGTH_SHORT)
                                     .show();
-                            tvUserinfoName.setText(nickName);
+                            tvUserinfoName.setText(user.getMUserName());
                         }
                     });
                 }
