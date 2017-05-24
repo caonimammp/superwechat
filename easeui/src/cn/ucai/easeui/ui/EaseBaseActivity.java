@@ -24,10 +24,11 @@ import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 
 import cn.ucai.easeui.controller.EaseUI;
+import cn.ucai.easeui.widget.EaseTitleBar;
 
 @SuppressLint({"NewApi", "Registered"})
 public class EaseBaseActivity extends FragmentActivity {
-
+    protected EaseTitleBar titleBar;
     protected InputMethodManager inputMethodManager;
 
     @Override
@@ -43,10 +44,20 @@ public class EaseBaseActivity extends FragmentActivity {
                 return;
             }
         }
-        
+        titleBar = (EaseTitleBar) findViewById(cn.ucai.easeui.R.id.title_bar);
         inputMethodManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
     }
-    
+    public void showTitleBar(){
+        if(titleBar != null){
+            titleBar.setVisibility(View.VISIBLE);
+        }
+    }
+
+    public void hideTitleBar(){
+        if(titleBar != null){
+            titleBar.setVisibility(View.GONE);
+        }
+    }
 
     @Override
     protected void onResume() {
