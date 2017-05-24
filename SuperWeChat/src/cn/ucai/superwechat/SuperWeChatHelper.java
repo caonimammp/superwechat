@@ -28,6 +28,8 @@ import com.hyphenate.chat.EMMessage.Status;
 import com.hyphenate.chat.EMMessage.Type;
 import com.hyphenate.chat.EMOptions;
 import com.hyphenate.chat.EMTextMessageBody;
+
+import cn.ucai.easeui.domain.User;
 import cn.ucai.superwechat.db.SuperWeChatDBManager;
 import cn.ucai.superwechat.db.InviteMessgeDao;
 import cn.ucai.superwechat.db.UserDao;
@@ -271,6 +273,11 @@ public class SuperWeChatHelper {
             @Override
             public EaseUser getUser(String username) {
                 return getUserInfo(username);
+            }
+
+            @Override
+            public User getAPPUser(String username) {
+                return getAPPUser(username);
             }
         });
 
@@ -837,6 +844,26 @@ public class SuperWeChatHelper {
         return user;
 	}
 	
+	private User getAPPUserInfo(String username){
+		// To get instance of EaseUser, here we get it from the user list in memory
+		// You'd better cache it if you get it from your server
+        EaseUser user = null;
+        if(username.equals(EMClient.getInstance().getCurrentUser()))
+            return getUserProfileManager().getCurrentAPPUserInfo();
+//        user = getContactList().get(username);
+//        if(user == null && getRobotList() != null){
+//            user = getRobotList().get(username);
+//        }
+//
+//        // if user is not in your contacts, set inital letter for him/her
+//        if(user == null){
+//            user = new EaseUser(username);
+//            EaseCommonUtils.setUserInitialLetter(user);
+//        }
+//        return user;
+        return null;
+	}
+
 	 /**
      * Global listener
      * If this event already handled by an activity, you don't need handle it again

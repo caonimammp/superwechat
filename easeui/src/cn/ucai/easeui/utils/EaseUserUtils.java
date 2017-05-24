@@ -10,6 +10,7 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import cn.ucai.easeui.controller.EaseUI;
 import cn.ucai.easeui.controller.EaseUI.EaseUserProfileProvider;
 import cn.ucai.easeui.domain.EaseUser;
+import cn.ucai.easeui.domain.User;
 
 public class EaseUserUtils {
     
@@ -30,7 +31,13 @@ public class EaseUserUtils {
         
         return null;
     }
-    
+    public static User getAPPUserInfo(String username){
+        if(userProvider != null)
+            return userProvider.getAPPUser(username);
+
+        return null;
+    }
+
     /**
      * set user avatar
      * @param username
@@ -49,7 +56,21 @@ public class EaseUserUtils {
             Glide.with(context).load(cn.ucai.easeui.R.drawable.ease_default_avatar).into(imageView);
         }
     }
-    
+    public static void setAPPUserAvatar(Context context, String username, ImageView imageView){
+    	User user = getAPPUserInfo(username);
+        if(user != null && user.getAvatar() != null){
+            try {
+                int avatarResId = Integer.parseInt(user.getAvatar());
+                Glide.with(context).load(avatarResId).into(imageView);
+            } catch (Exception e) {
+                //use default avatar
+                Glide.with(context).load(user.getAvatar()).diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(cn.ucai.easeui.R.drawable.ease_default_avatar).into(imageView);
+            }
+        }else{
+            Glide.with(context).load(cn.ucai.easeui.R.drawable.ease_default_avatar).into(imageView);
+        }
+    }
+
     /**
      * set user's nickname
      */
@@ -63,5 +84,15 @@ public class EaseUserUtils {
         	}
         }
     }
-    
+    public static void setAPPUserNick(String username,TextView textView){
+        if(textView != null){
+        	User user = getAPPUserInfo(username);
+        	if(user != null && user.getMUserNick() != null){
+        		textView.setText(user.getMUserNick());
+        	}else{
+        		textView.setText(username);
+        	}
+        }
+    }
+
 }

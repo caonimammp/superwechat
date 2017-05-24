@@ -152,12 +152,12 @@
         "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-mdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",

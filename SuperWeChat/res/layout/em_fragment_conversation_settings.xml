@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         app:titleBarTitle="@string/set"
         app:titleBarLeftImage="@drawable/icon_back"
-        android:id="@+id/back"
+        android:id="@+id/title_bar"
         />
 
     <ScrollView

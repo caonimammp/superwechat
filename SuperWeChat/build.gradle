@@ -11,7 +11,9 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        maven {  url "https://raw.githubusercontent.com/HyphenateInc/Hyphenate-SDK-Android/master/repository" }
+        maven {
+            url "https://raw.githubusercontent.com/HyphenateInc/Hyphenate-SDK-Android/master/repository"
+        }
     }
 }
 
@@ -55,18 +57,18 @@ android {
         release.setRoot('build-types/release')
     }
 
-    
-	signingConfigs {
-		release {
-			storeFile file("../emclient-android/hyphenate.keystore")
-			storePassword "easemob"
-			keyAlias "easemob"
-			keyPassword "easemob"
-		}
-	}
-	buildTypes {
+
+    signingConfigs {
         release {
-			signingConfig android.signingConfigs.release
+            storeFile file("../emclient-android/hyphenate.keystore")
+            storePassword "easemob"
+            keyAlias "easemob"
+            keyPassword "easemob"
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig android.signingConfigs.release
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
@@ -88,5 +90,6 @@ dependencies {
     compile 'com.google.code.gson:gson:2.7'
     compile 'com.android.support:multidex:1.0.1'
     compile 'com.jakewharton:butterknife:8.4.0'
+    compile 'com.android.support:support-v4:25.0.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
 }

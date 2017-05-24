@@ -123,9 +123,9 @@ public class SettingsActivity extends BaseActivity implements OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
         setContentView(R.layout.em_fragment_conversation_settings);
         ButterKnife.bind(this);
+        super.onCreate(savedInstanceState);
         if (savedInstanceState != null && savedInstanceState.getBoolean("isConflict", false))
             return;
         initView();
@@ -239,6 +239,12 @@ public class SettingsActivity extends BaseActivity implements OnClickListener {
     }
 
     private void initView() {
+        titleBar.setLeftLayoutClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
         rl_switch_notification = (RelativeLayout) findViewById(R.id.rl_switch_notification);
         rl_switch_sound = (RelativeLayout) findViewById(R.id.rl_switch_sound);
         rl_switch_vibrate = (RelativeLayout) findViewById(R.id.rl_switch_vibrate);
@@ -265,7 +271,7 @@ public class SettingsActivity extends BaseActivity implements OnClickListener {
         switch_adaptive_video_encode = (EaseSwitchButton) findViewById(R.id.switch_adaptive_video_encode);
         logoutBtn = (Button) findViewById(R.id.btn_logout);
         if (!TextUtils.isEmpty(EMClient.getInstance().getCurrentUser())) {
-//			logoutBtn.setText(getString(R.string.button_logout) + "(" + EMClient.getInstance().getCurrentUser() + ")");
+			logoutBtn.setText(getString(R.string.button_logout) + "(" + EMClient.getInstance().getCurrentUser() + ")");
         }
         customServerSwitch = (EaseSwitchButton) findViewById(R.id.switch_custom_server);
         customAppkeySwitch = (EaseSwitchButton) findViewById(R.id.switch_custom_appkey);

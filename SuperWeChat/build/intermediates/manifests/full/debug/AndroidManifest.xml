@@ -140,6 +140,11 @@
             android:name="cn.ucai.superwechat.ui.PickAtUserActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
+        <activity
+            android:name="cn.ucai.superwechat.ui.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="stateHidden" />
         <!-- 地图 -->
         <activity
             android:name="cn.ucai.easeui.ui.EaseBaiduMapActivity"

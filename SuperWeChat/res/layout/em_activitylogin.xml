@@ -7,12 +7,11 @@
     android:orientation="vertical">
 
     <cn.ucai.easeui.widget.EaseTitleBar
+        android:id="@+id/title_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:titleBarTitle="@string/set"
+        app:titleBarTitle="@string/login"
         app:titleBarLeftImage="@drawable/icon_back"
-        android:id="@+id/back"
-        android:onClick="OnBack"
         />
 
     <RelativeLayout

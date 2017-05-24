@@ -43,6 +43,7 @@ public class PersonalFragment extends EaseBaseFragment {
     Unbinder unbinder;
 
     public PersonalFragment() {
+
     }
 
 
