@@ -48,7 +48,7 @@ public class ContactListFragment extends EaseContactListFragment {
 	
     private static final String TAG = ContactListFragment.class.getSimpleName();
     private ContactSyncListener contactSyncListener;
-    private BlackListSyncListener blackListSyncListener;
+//    private BlackListSyncListener blackListSyncListener;
     private ContactInfoSyncListener contactInfoSyncListener;
     private View loadingView;
     private ContactItemView applicationItem;
@@ -139,8 +139,8 @@ public class ContactListFragment extends EaseContactListFragment {
         contactSyncListener = new ContactSyncListener();
         SuperWeChatHelper.getInstance().addSyncContactListener(contactSyncListener);
         
-        blackListSyncListener = new BlackListSyncListener();
-        SuperWeChatHelper.getInstance().addSyncBlackListListener(blackListSyncListener);
+//        blackListSyncListener = new BlackListSyncListener();
+//        SuperWeChatHelper.getInstance().addSyncBlackListListener(blackListSyncListener);
         
         contactInfoSyncListener = new ContactInfoSyncListener();
         SuperWeChatHelper.getInstance().getUserProfileManager().addSyncContactInfoListener(contactInfoSyncListener);
@@ -160,9 +160,9 @@ public class ContactListFragment extends EaseContactListFragment {
             contactSyncListener = null;
         }
         
-        if(blackListSyncListener != null){
-            SuperWeChatHelper.getInstance().removeSyncBlackListListener(blackListSyncListener);
-        }
+//        if(blackListSyncListener != null){
+//            SuperWeChatHelper.getInstance().removeSyncBlackListListener(blackListSyncListener);
+//        }
         
         if(contactInfoSyncListener != null){
             SuperWeChatHelper.getInstance().getUserProfileManager().removeSyncContactInfoListener(contactInfoSyncListener);
@@ -221,10 +221,11 @@ public class ContactListFragment extends EaseContactListFragment {
                 e.printStackTrace();
             }
 			return true;
-		}else if(item.getItemId() == cn.ucai.superwechat.R.id.add_to_blacklist){
-			moveToBlacklist(toBeProcessUsername);
-			return true;
 		}
+//        else if(item.getItemId() == cn.ucai.superwechat.R.id.add_to_blacklist){
+//			moveToBlacklist(toBeProcessUsername);
+//			return true;
+//		}
 		return super.onContextItemSelected(item);
 	}
 
@@ -232,7 +233,7 @@ public class ContactListFragment extends EaseContactListFragment {
 	/**
 	 * delete contact
 	 * 
-	 * @param toDeleteUser
+	 * @param
 	 */
 	public void deleteContact(final EaseUser tobeDeleteUser) {
 		String st1 = getResources().getString(cn.ucai.superwechat.R.string.deleting);
@@ -298,20 +299,20 @@ public class ContactListFragment extends EaseContactListFragment {
         }
     }
     
-    class BlackListSyncListener implements SuperWeChatHelper.DataSyncListener {
-
-        @Override
-        public void onSyncComplete(boolean success) {
-            getActivity().runOnUiThread(new Runnable(){
-
-                @Override
-                public void run() {
-                    refresh();
-                }
-            });
-        }
-        
-    }
+//    class BlackListSyncListener implements SuperWeChatHelper.DataSyncListener {
+//
+//        @Override
+//        public void onSyncComplete(boolean success) {
+//            getActivity().runOnUiThread(new Runnable(){
+//
+//                @Override
+//                public void run() {
+//                    refresh();
+//                }
+//            });
+//        }
+//
+//    }
 
     class ContactInfoSyncListener implements SuperWeChatHelper.DataSyncListener {
 
