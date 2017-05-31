@@ -5270,8 +5270,8 @@
                     "startLine": 279,
                     "startColumn": 4,
                     "startOffset": 14961,
-                    "endColumn": 50,
-                    "endOffset": 15007
+                    "endColumn": 55,
+                    "endOffset": 15012
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -5279,8 +5279,8 @@
                         "startLine": 279,
                         "startColumn": 4,
                         "startOffset": 14961,
-                        "endColumn": 50,
-                        "endOffset": 15007
+                        "endColumn": 55,
+                        "endOffset": 15012
                     }
                 }
             },
@@ -5288,18 +5288,18 @@
                 "to": {
                     "startLine": 280,
                     "startColumn": 4,
-                    "startOffset": 15012,
-                    "endColumn": 57,
-                    "endOffset": 15065
+                    "startOffset": 15017,
+                    "endColumn": 50,
+                    "endOffset": 15063
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
                         "startLine": 280,
                         "startColumn": 4,
-                        "startOffset": 15012,
-                        "endColumn": 57,
-                        "endOffset": 15065
+                        "startOffset": 15017,
+                        "endColumn": 50,
+                        "endOffset": 15063
                     }
                 }
             },
@@ -5307,18 +5307,18 @@
                 "to": {
                     "startLine": 281,
                     "startColumn": 4,
-                    "startOffset": 15070,
-                    "endColumn": 60,
-                    "endOffset": 15126
+                    "startOffset": 15068,
+                    "endColumn": 57,
+                    "endOffset": 15121
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
                         "startLine": 281,
                         "startColumn": 4,
-                        "startOffset": 15070,
-                        "endColumn": 60,
-                        "endOffset": 15126
+                        "startOffset": 15068,
+                        "endColumn": 57,
+                        "endOffset": 15121
                     }
                 }
             },
@@ -5326,18 +5326,18 @@
                 "to": {
                     "startLine": 282,
                     "startColumn": 4,
-                    "startOffset": 15131,
-                    "endColumn": 58,
-                    "endOffset": 15185
+                    "startOffset": 15126,
+                    "endColumn": 60,
+                    "endOffset": 15182
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
                         "startLine": 282,
                         "startColumn": 4,
-                        "startOffset": 15131,
-                        "endColumn": 58,
-                        "endOffset": 15185
+                        "startOffset": 15126,
+                        "endColumn": 60,
+                        "endOffset": 15182
                     }
                 }
             },
@@ -5345,18 +5345,18 @@
                 "to": {
                     "startLine": 283,
                     "startColumn": 4,
-                    "startOffset": 15190,
-                    "endColumn": 61,
-                    "endOffset": 15247
+                    "startOffset": 15187,
+                    "endColumn": 58,
+                    "endOffset": 15241
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
                         "startLine": 283,
                         "startColumn": 4,
-                        "startOffset": 15190,
-                        "endColumn": 61,
-                        "endOffset": 15247
+                        "startOffset": 15187,
+                        "endColumn": 58,
+                        "endOffset": 15241
                     }
                 }
             },
@@ -5364,18 +5364,18 @@
                 "to": {
                     "startLine": 284,
                     "startColumn": 4,
-                    "startOffset": 15252,
-                    "endColumn": 54,
-                    "endOffset": 15302
+                    "startOffset": 15246,
+                    "endColumn": 61,
+                    "endOffset": 15303
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
                         "startLine": 284,
                         "startColumn": 4,
-                        "startOffset": 15252,
-                        "endColumn": 54,
-                        "endOffset": 15302
+                        "startOffset": 15246,
+                        "endColumn": 61,
+                        "endOffset": 15303
                     }
                 }
             },
@@ -5383,18 +5383,18 @@
                 "to": {
                     "startLine": 285,
                     "startColumn": 4,
-                    "startOffset": 15307,
-                    "endColumn": 63,
-                    "endOffset": 15366
+                    "startOffset": 15308,
+                    "endColumn": 54,
+                    "endOffset": 15358
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
                         "startLine": 285,
                         "startColumn": 4,
-                        "startOffset": 15307,
-                        "endColumn": 63,
-                        "endOffset": 15366
+                        "startOffset": 15308,
+                        "endColumn": 54,
+                        "endOffset": 15358
                     }
                 }
             },
@@ -5402,18 +5402,18 @@
                 "to": {
                     "startLine": 286,
                     "startColumn": 4,
-                    "startOffset": 15371,
-                    "endColumn": 51,
-                    "endOffset": 15418
+                    "startOffset": 15363,
+                    "endColumn": 63,
+                    "endOffset": 15422
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
                         "startLine": 286,
                         "startColumn": 4,
-                        "startOffset": 15371,
-                        "endColumn": 51,
-                        "endOffset": 15418
+                        "startOffset": 15363,
+                        "endColumn": 63,
+                        "endOffset": 15422
                     }
                 }
             },
@@ -5421,18 +5421,18 @@
                 "to": {
                     "startLine": 287,
                     "startColumn": 4,
-                    "startOffset": 15423,
-                    "endColumn": 60,
-                    "endOffset": 15479
+                    "startOffset": 15427,
+                    "endColumn": 51,
+                    "endOffset": 15474
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
                         "startLine": 287,
                         "startColumn": 4,
-                        "startOffset": 15423,
-                        "endColumn": 60,
-                        "endOffset": 15479
+                        "startOffset": 15427,
+                        "endColumn": 51,
+                        "endOffset": 15474
                     }
                 }
             },
@@ -5440,8 +5440,8 @@
                 "to": {
                     "startLine": 288,
                     "startColumn": 4,
-                    "startOffset": 15484,
-                    "endColumn": 55,
+                    "startOffset": 15479,
+                    "endColumn": 60,
                     "endOffset": 15535
                 },
                 "from": {
@@ -5449,8 +5449,8 @@
                     "position": {
                         "startLine": 288,
                         "startColumn": 4,
-                        "startOffset": 15484,
-                        "endColumn": 55,
+                        "startOffset": 15479,
+                        "endColumn": 60,
                         "endOffset": 15535
                     }
                 }
@@ -5460,8 +5460,8 @@
                     "startLine": 289,
                     "startColumn": 4,
                     "startOffset": 15540,
-                    "endColumn": 64,
-                    "endOffset": 15600
+                    "endColumn": 55,
+                    "endOffset": 15591
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -5469,8 +5469,8 @@
                         "startLine": 289,
                         "startColumn": 4,
                         "startOffset": 15540,
-                        "endColumn": 64,
-                        "endOffset": 15600
+                        "endColumn": 55,
+                        "endOffset": 15591
                     }
                 }
             },
@@ -5478,18 +5478,18 @@
                 "to": {
                     "startLine": 290,
                     "startColumn": 4,
-                    "startOffset": 15605,
-                    "endColumn": 46,
-                    "endOffset": 15647
+                    "startOffset": 15596,
+                    "endColumn": 64,
+                    "endOffset": 15656
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
                         "startLine": 290,
                         "startColumn": 4,
-                        "startOffset": 15605,
-                        "endColumn": 46,
-                        "endOffset": 15647
+                        "startOffset": 15596,
+                        "endColumn": 64,
+                        "endOffset": 15656
                     }
                 }
             },
@@ -5497,8 +5497,8 @@
                 "to": {
                     "startLine": 291,
                     "startColumn": 4,
-                    "startOffset": 15652,
-                    "endColumn": 55,
+                    "startOffset": 15661,
+                    "endColumn": 46,
                     "endOffset": 15703
                 },
                 "from": {
@@ -5506,8 +5506,8 @@
                     "position": {
                         "startLine": 291,
                         "startColumn": 4,
-                        "startOffset": 15652,
-                        "endColumn": 55,
+                        "startOffset": 15661,
+                        "endColumn": 46,
                         "endOffset": 15703
                     }
                 }
@@ -5517,8 +5517,8 @@
                     "startLine": 292,
                     "startColumn": 4,
                     "startOffset": 15708,
-                    "endColumn": 40,
-                    "endOffset": 15744
+                    "endColumn": 55,
+                    "endOffset": 15759
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -5526,8 +5526,8 @@
                         "startLine": 292,
                         "startColumn": 4,
                         "startOffset": 15708,
-                        "endColumn": 40,
-                        "endOffset": 15744
+                        "endColumn": 55,
+                        "endOffset": 15759
                     }
                 }
             },
@@ -5535,18 +5535,18 @@
                 "to": {
                     "startLine": 293,
                     "startColumn": 4,
-                    "startOffset": 15749,
-                    "endColumn": 41,
-                    "endOffset": 15786
+                    "startOffset": 15764,
+                    "endColumn": 40,
+                    "endOffset": 15800
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
                         "startLine": 293,
                         "startColumn": 4,
-                        "startOffset": 15749,
-                        "endColumn": 41,
-                        "endOffset": 15786
+                        "startOffset": 15764,
+                        "endColumn": 40,
+                        "endOffset": 15800
                     }
                 }
             },
@@ -5554,18 +5554,18 @@
                 "to": {
                     "startLine": 294,
                     "startColumn": 4,
-                    "startOffset": 15791,
-                    "endColumn": 38,
-                    "endOffset": 15825
+                    "startOffset": 15805,
+                    "endColumn": 41,
+                    "endOffset": 15842
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
                         "startLine": 294,
                         "startColumn": 4,
-                        "startOffset": 15791,
-                        "endColumn": 38,
-                        "endOffset": 15825
+                        "startOffset": 15805,
+                        "endColumn": 41,
+                        "endOffset": 15842
                     }
                 }
             },
@@ -5573,18 +5573,18 @@
                 "to": {
                     "startLine": 295,
                     "startColumn": 4,
-                    "startOffset": 15830,
-                    "endColumn": 45,
-                    "endOffset": 15871
+                    "startOffset": 15847,
+                    "endColumn": 38,
+                    "endOffset": 15881
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
                         "startLine": 295,
                         "startColumn": 4,
-                        "startOffset": 15830,
-                        "endColumn": 45,
-                        "endOffset": 15871
+                        "startOffset": 15847,
+                        "endColumn": 38,
+                        "endOffset": 15881
                     }
                 }
             },
@@ -5592,18 +5592,18 @@
                 "to": {
                     "startLine": 296,
                     "startColumn": 4,
-                    "startOffset": 15876,
-                    "endColumn": 36,
-                    "endOffset": 15908
+                    "startOffset": 15886,
+                    "endColumn": 45,
+                    "endOffset": 15927
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
                         "startLine": 296,
                         "startColumn": 4,
-                        "startOffset": 15876,
-                        "endColumn": 36,
-                        "endOffset": 15908
+                        "startOffset": 15886,
+                        "endColumn": 45,
+                        "endOffset": 15927
                     }
                 }
             },
@@ -5611,18 +5611,18 @@
                 "to": {
                     "startLine": 297,
                     "startColumn": 4,
-                    "startOffset": 15913,
-                    "endColumn": 45,
-                    "endOffset": 15954
+                    "startOffset": 15932,
+                    "endColumn": 36,
+                    "endOffset": 15964
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
                         "startLine": 297,
                         "startColumn": 4,
-                        "startOffset": 15913,
-                        "endColumn": 45,
-                        "endOffset": 15954
+                        "startOffset": 15932,
+                        "endColumn": 36,
+                        "endOffset": 15964
                     }
                 }
             },
@@ -5630,18 +5630,18 @@
                 "to": {
                     "startLine": 298,
                     "startColumn": 4,
-                    "startOffset": 15959,
+                    "startOffset": 15969,
                     "endColumn": 45,
-                    "endOffset": 16000
+                    "endOffset": 16010
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
                         "startLine": 298,
                         "startColumn": 4,
-                        "startOffset": 15959,
+                        "startOffset": 15969,
                         "endColumn": 45,
-                        "endOffset": 16000
+                        "endOffset": 16010
                     }
                 }
             },
@@ -5649,18 +5649,18 @@
                 "to": {
                     "startLine": 299,
                     "startColumn": 4,
-                    "startOffset": 16005,
-                    "endColumn": 49,
-                    "endOffset": 16050
+                    "startOffset": 16015,
+                    "endColumn": 45,
+                    "endOffset": 16056
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
                         "startLine": 299,
                         "startColumn": 4,
-                        "startOffset": 16005,
-                        "endColumn": 49,
-                        "endOffset": 16050
+                        "startOffset": 16015,
+                        "endColumn": 45,
+                        "endOffset": 16056
                     }
                 }
             },
@@ -5668,18 +5668,18 @@
                 "to": {
                     "startLine": 300,
                     "startColumn": 4,
-                    "startOffset": 16055,
+                    "startOffset": 16061,
                     "endColumn": 49,
-                    "endOffset": 16100
+                    "endOffset": 16106
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
                         "startLine": 300,
                         "startColumn": 4,
-                        "startOffset": 16055,
+                        "startOffset": 16061,
                         "endColumn": 49,
-                        "endOffset": 16100
+                        "endOffset": 16106
                     }
                 }
             },
@@ -5687,18 +5687,37 @@
                 "to": {
                     "startLine": 301,
                     "startColumn": 4,
-                    "startOffset": 16105,
-                    "endColumn": 54,
-                    "endOffset": 16155
+                    "startOffset": 16111,
+                    "endColumn": 49,
+                    "endOffset": 16156
                 },
                 "from": {
                     "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "position": {
                         "startLine": 301,
                         "startColumn": 4,
-                        "startOffset": 16105,
+                        "startOffset": 16111,
+                        "endColumn": 49,
+                        "endOffset": 16156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 302,
+                    "startColumn": 4,
+                    "startOffset": 16161,
+                    "endColumn": 54,
+                    "endOffset": 16211
+                },
+                "from": {
+                    "file": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 302,
+                        "startColumn": 4,
+                        "startOffset": 16161,
                         "endColumn": 54,
-                        "endOffset": 16155
+                        "endOffset": 16211
                     }
                 }
             }

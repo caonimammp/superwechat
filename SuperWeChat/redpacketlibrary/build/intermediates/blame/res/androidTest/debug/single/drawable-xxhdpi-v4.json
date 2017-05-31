@@ -108,12 +108,12 @@
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\em_red_packet_chatfrom_bg_normal.9.png"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\em_red_packet_chatto_bg_normal.9.png",
-        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\em_red_packet_chatto_bg_normal.9.png"
-    },
-    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\em_red_packet_ack_message_icon.png",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\em_red_packet_ack_message_icon.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\em_red_packet_chatto_bg_normal.9.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\em_red_packet_chatto_bg_normal.9.png"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rp_arrow_forward.png",
