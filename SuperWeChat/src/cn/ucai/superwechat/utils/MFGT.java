@@ -4,12 +4,16 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 
+import cn.ucai.easeui.domain.User;
+import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.ui.LoginActivity;
 import cn.ucai.superwechat.ui.MainActivity;
+import cn.ucai.superwechat.ui.ProfileActivity;
 import cn.ucai.superwechat.ui.RegisterActivity;
+import cn.ucai.superwechat.ui.SendMessageActivity;
 import cn.ucai.superwechat.ui.SettingsActivity;
-import cn.ucai.superwechat.ui.SplashActivity;
+import cn.ucai.superwechat.ui.UserProfileActivity;
 import cn.ucai.superwechat.ui.WelcomeActivity;
 
 /**
@@ -50,5 +54,10 @@ public class MFGT {
 
     public static void logout(Activity activity) {
         mfgt(activity,new Intent(activity,LoginActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_SINGLE_TOP));
+    }
+
+    public static void gotoProfile(Activity activity, User user) {
+        mfgt(activity,new Intent(activity,ProfileActivity.class)
+                .putExtra(I.User.TABLE_NAME,user));
     }
 }

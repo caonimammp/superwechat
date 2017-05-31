@@ -381,7 +381,9 @@ public class UserProfileActivity extends BaseActivity implements View.OnClickLis
     }
 
     private void updateAvatarView(boolean success) {
-        dialog.dismiss();
+        if (dialog!=null){
+            dialog.dismiss();
+        }
         if (success) {
             Toast.makeText(UserProfileActivity.this, getString(R.string.toast_updatephoto_success),
                     Toast.LENGTH_SHORT).show();

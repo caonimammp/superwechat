@@ -187,6 +187,8 @@ public class SuperWeChatDBManager {
             values.put(InviteMessgeDao.COLUMN_NAME_GROUP_Name, message.getGroupName());
             values.put(InviteMessgeDao.COLUMN_NAME_REASON, message.getReason());
             values.put(InviteMessgeDao.COLUMN_NAME_TIME, message.getTime());
+            values.put(InviteMessgeDao.COLUMN_NAME_NICK, message.getNickname());
+            values.put(InviteMessgeDao.COLUMN_NAME_AVATAR, message.getAvatar());
             values.put(InviteMessgeDao.COLUMN_NAME_STATUS, message.getStatus().ordinal());
             values.put(InviteMessgeDao.COLUMN_NAME_GROUPINVITER, message.getGroupInviter());
             db.insert(InviteMessgeDao.TABLE_NAME, null, values);

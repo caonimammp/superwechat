@@ -5,7 +5,6 @@
     <string name="Add_group_members_fail">添加群成员失败:</string>
     <string name="Agree_with_failure">同意失败:</string>
     <string name="Agreed_to_your_group_chat_application">同意了你的群聊申请</string>
-    <string name="Application_and_notify">申请与通知</string>
     <string name="Apply_to_the_group_of">申请加入群：</string>
     <string name="Are_agree_with">正在同意……</string>
     <string name="Are_connected_to_each_other">正在连接对方……</string>
@@ -68,6 +67,7 @@
     <string name="Move_into_blacklist_success">移入黑名单成功</string>
     <string name="Move_into_the_blacklist_new">移入到黑名单</string>
     <string name="Network_error">网络出错</string>
+    <string name="New_Friend">新的朋友</string>
     <string name="Not_Set">未设置</string>
     <string name="Open_group_chat">公开的群聊</string>
     <string name="Open_group_members_invited">开放群成员邀请</string>
@@ -134,6 +134,7 @@
     <string name="add_friend">添加好友</string>
     <string name="add_public_chat_room">添加聊天室</string>
     <string name="add_public_group_chat">添加公开群</string>
+    <string name="addcontact_send_title">验证申请</string>
     <string name="address_book">通讯录</string>
     <string name="agree">同意</string>
     <string name="all_members">所有成员</string>

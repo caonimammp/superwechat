@@ -34,7 +34,9 @@ public class InviteMessgeDao {
 	static final String COLUMN_NAME_GROUPINVITER = "groupinviter";
 	
 	static final String COLUMN_NAME_UNREAD_MSG_COUNT = "unreadMsgCount";
-	
+	static final String COLUMN_NAME_NICK = "nickname";
+	static final String COLUMN_NAME_AVATAR = "avatar";
+
 		
 	public InviteMessgeDao(Context context){
 	}

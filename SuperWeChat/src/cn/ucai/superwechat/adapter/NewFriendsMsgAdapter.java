@@ -17,6 +17,11 @@ import java.util.List;
 
 import com.hyphenate.chat.EMClient;
 
+import cn.ucai.easeui.domain.User;
+import cn.ucai.superwechat.SuperWeChatHelper;
+import cn.ucai.superwechat.data.net.IUserModel;
+import cn.ucai.superwechat.data.net.OnCompleteListener;
+import cn.ucai.superwechat.data.net.UserModel;
 import cn.ucai.superwechat.db.InviteMessgeDao;
 import cn.ucai.superwechat.domain.InviteMessage;
 import cn.ucai.superwechat.domain.InviteMessage.InviteMesageStatus;
@@ -37,10 +42,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
-
+	IUserModel model;
+	User user;
 	private Context context;
 	private InviteMessgeDao messgeDao;
-
 	public NewFriendsMsgAdapter(Context context, int textViewResourceId, List<InviteMessage> objects) {
 		super(context, textViewResourceId, objects);
 		this.context = context;
@@ -52,6 +57,8 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 		final ViewHolder holder;
 		if (convertView == null) {
 			holder = new ViewHolder();
+			model = new UserModel();
+			user = SuperWeChatHelper.getInstance().getUserProfileManager().getCurrentAPPUserInfo();
 			convertView = View.inflate(context, cn.ucai.superwechat.R.layout.em_row_invite_msg, null);
 			holder.avator = (ImageView) convertView.findViewById(cn.ucai.superwechat.R.id.avatar);
 			holder.reason = (TextView) convertView.findViewById(cn.ucai.superwechat.R.id.message);
@@ -125,6 +132,22 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 				}
 				
 				// set click listener
+				holder.agree.setOnClickListener(new OnClickListener() {
+					@Override
+					public void onClick(View v) {
+						model.addContact(getContext(), user.getMUserName(), holder.name.getText().toString(), new OnCompleteListener<String>() {
+							@Override
+							public void onSuccess(String result) {
+
+							}
+
+							@Override
+							public void onError(String error) {
+
+							}
+						});
+					}
+				});
                 holder.agree.setOnClickListener(new OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -166,8 +189,8 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 	/**
 	 * accept invitation
 	 * 
-	 * @param button
-	 * @param username
+	 * @param
+	 * @param
 	 */
 	private void acceptInvitation(final Button buttonAgree, final Button buttonRefuse, final InviteMessage msg) {
 		final ProgressDialog pd = new ProgressDialog(context);
@@ -224,8 +247,8 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 	/**
      * decline invitation
      * 
-     * @param button
-     * @param username
+     * @param
+     * @param
      */
     private void refuseInvitation(final Button buttonAgree, final Button buttonRefuse, final InviteMessage msg) {
         final ProgressDialog pd = new ProgressDialog(context);

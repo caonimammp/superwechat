@@ -35,14 +35,10 @@
     <permission
         android:name="com.hyphenate.chatuidemo.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
-
-    <uses-permission android:name="com.hyphenate.chatuidemo.permission.C2D_MESSAGE" />
-
     <permission
         android:name="com.hyphenate.chatuidemo.permission.MIPUSH_RECEIVE"
         android:protectionLevel="signatureOrSystem" />
 
-    <uses-permission android:name="com.hyphenate.chatuidemo.permission.MIPUSH_RECEIVE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
@@ -106,7 +102,10 @@
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan" />
-
+        <activity
+            android:name="cn.ucai.superwechat.ui.SendMessageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" />
         <!-- 聊天室详情 -->
         <activity
             android:name="cn.ucai.superwechat.ui.ChatRoomDetailsActivity"
@@ -118,7 +117,10 @@
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan" />
-
+        <activity
+            android:name="cn.ucai.superwechat.ui.ProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" />
         <!-- 新建群组 -->
         <activity
             android:name="cn.ucai.superwechat.ui.NewGroupActivity"
