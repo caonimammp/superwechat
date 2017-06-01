@@ -850,6 +850,10 @@ public class SuperWeChatHelper {
                     Result<User> result = ResultUtils.getListResultFromJson(s,User.class);
                     if(result!=null&&result.isRetMsg()){
                         user = result.getRetData();
+                        if (user!=null){
+                            msg.setNickname(user.getMUserNick());
+                            msg.setAvatar(user.getAvatar());
+                        }
                     }
                 }
                 inviteMessgeDao.saveMessage(msg);
@@ -858,6 +862,7 @@ public class SuperWeChatHelper {
             @Override
             public void onError(String error) {
                 inviteMessgeDao.saveMessage(msg);
+                Log.i("main","999999999999999999999999999999999999:");
                 User user = new User(msg.getFrom());
                 msg.setNickname(user.getMUserNick());
                 msg.setAvatar(user.getAvatar());
@@ -907,7 +912,6 @@ public class SuperWeChatHelper {
         if(username.equals(EMClient.getInstance().getCurrentUser()))
             return getUserProfileManager().getCurrentAPPUserInfo();
         user = getAPPContactList().get(username);
-
         // if user is not in your contacts, set inital letter for him/her
         if(user == null){
             user = new User(username);
@@ -1088,7 +1092,6 @@ public class SuperWeChatHelper {
         if (isLoggedIn() && appContactList == null) {
             appContactList = demoModel.getAPPContactList();
         }
-
         // return a empty non-null object to avoid app crash
         if(appContactList == null){
             return new Hashtable<String, User>();
@@ -1277,9 +1280,9 @@ public class SuperWeChatHelper {
        new Thread(){
            @Override
            public void run(){
-               List<String> usernames = null;
+//               List<String> usernames = null;
                try {
-                   usernames = EMClient.getInstance().contactManager().getAllContactsFromServer();
+//                   usernames = EMClient.getInstance().contactManager().getAllContactsFromServer();
                    // in case that logout already before server returns, we should return immediately
                    if(!isLoggedIn()){
                        isContactsSyncedWithServer = false;
@@ -1288,19 +1291,19 @@ public class SuperWeChatHelper {
                        return;
                    }
                   
-                   Map<String, EaseUser> userlist = new HashMap<String, EaseUser>();
-                   for (String username : usernames) {
-                       EaseUser user = new EaseUser(username);
-                       EaseCommonUtils.setUserInitialLetter(user);
-                       userlist.put(username, user);
-                   }
+//                   Map<String, EaseUser> userlist = new HashMap<String, EaseUser>();
+//                   for (String username : usernames) {
+//                       EaseUser user = new EaseUser(username);
+//                       EaseCommonUtils.setUserInitialLetter(user);
+//                       userlist.put(username, user);
+//                   }
                    // save the contact list to cache
-                   getContactList().clear();
-                   getContactList().putAll(userlist);
+                   getAPPContactList().clear();
+//                   getContactList().putAll(userlist);
                     // save the contact list to database
-                   UserDao dao = new UserDao(appContext);
-                   List<EaseUser> users = new ArrayList<EaseUser>(userlist.values());
-                   dao.saveContactList(users);
+//                   UserDao dao = new UserDao(appContext);
+//                   List<EaseUser> users = new ArrayList<EaseUser>(userlist.values());
+//                   dao.saveContactList(users);
 
                    demoModel.setContactSynced(true);
                    EMLog.d(TAG, "set contact syn status to true");
@@ -1311,29 +1314,45 @@ public class SuperWeChatHelper {
                    //notify sync success
                    notifyContactsSyncListener(true);
                    
-                   getUserProfileManager().asyncFetchContactInfosFromServer(usernames,new EMValueCallBack<List<EaseUser>>() {
-
+//                   getUserProfileManager().asyncFetchContactInfosFromServer(usernames,new EMValueCallBack<List<EaseUser>>() {
+//
+//                       @Override
+//                       public void onSuccess(List<EaseUser> uList) {
+//                           updateContactList(uList);
+//
+//                       }
+//
+//                       @Override
+//                       public void onError(int error, String errorMsg) {
+//                       }
+//                   });
+                   model.loadContact(appContext, EMClient.getInstance().getCurrentUser(), new OnCompleteListener<String>() {
                        @Override
-                       public void onSuccess(List<EaseUser> uList) {
-                           updateContactList(uList);
-                           getUserProfileManager().notifyContactInfosSyncListener(true);
+                       public void onSuccess(String s) {
+                            Result<List<User>> result =  ResultUtils.getListResultFromJson(s,User.class);
+                            if(result!=null&&result.isRetMsg()){
+                                List<User> list = result.getRetData();
+                                updateAPPContactList(list);
+                                getUserProfileManager().notifyContactInfosSyncListener(true);
+                            }
                        }
 
                        @Override
-                       public void onError(int error, String errorMsg) {
+                       public void onError(String error) {
+
                        }
                    });
                    if(callback != null){
-                       callback.onSuccess(usernames);
+                       callback.onSuccess(null);
                    }
-               } catch (HyphenateException e) {
+               } catch (Exception e) {
                    demoModel.setContactSynced(false);
                    isContactsSyncedWithServer = false;
                    isSyncingContactsWithServer = false;
                    notifyContactsSyncListener(false);
                    e.printStackTrace();
                    if(callback != null){
-                       callback.onError(e.getErrorCode(), e.toString());
+                       callback.onError(e.hashCode(), e.toString());
                    }
                }
                
@@ -1341,7 +1360,16 @@ public class SuperWeChatHelper {
        }.start();
    }
 
-   public void notifyContactsSyncListener(boolean success){
+    private void updateAPPContactList(List<User> list) {
+        for (User u : list) {
+            appContactList.put(u.getMUserName(), u);
+        }
+        ArrayList<User> mList = new ArrayList<User>();
+        mList.addAll(appContactList.values());
+        demoModel.saveAPPContactList(mList);
+    }
+
+    public void notifyContactsSyncListener(boolean success){
        for (DataSyncListener listener : syncContactsListeners) {
            listener.onSyncComplete(success);
        }

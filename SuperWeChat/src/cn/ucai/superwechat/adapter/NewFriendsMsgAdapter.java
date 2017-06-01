@@ -101,8 +101,8 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 			
 			holder.reason.setText(msg.getReason());
 //			holder.name.setText(msg.getFrom());
-			Log.i("main",msg.toString());
-			EaseUserUtils.setAPPUserNick(msg.getFrom(),holder.name);
+			Log.i("main","00000000000000000000:"+msg.getNickname());
+			EaseUserUtils.setUserNick(msg.getFrom(),holder.name);
 			EaseUserUtils.setAvatar(context,msg.getAvatar(),holder.avator);
 			// holder.time.setText(DateUtils.getTimestampString(new
 			// Date(msg.getTime())));

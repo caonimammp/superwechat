@@ -298,6 +298,12 @@ public class SuperWeChatModel {
         return dao.getAPPContactList();
     }
 
+    public boolean saveAPPContactList(ArrayList<User> mList) {
+        UserDao dao = new UserDao(context);
+        dao.saveAPPContactList(mList);
+        return true;
+    }
+
     enum Key{
         VibrateAndPlayToneOn,
         VibrateOn,

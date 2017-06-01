@@ -13,6 +13,7 @@
  */
 package cn.ucai.superwechat.db;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -110,5 +111,9 @@ public class UserDao {
 
 	public void deleteAPPContact(String username) {
 		SuperWeChatDBManager.getInstance().deleteAPPContact(username);
+	}
+
+	public void saveAPPContactList(ArrayList<User> mList) {
+		SuperWeChatDBManager.getInstance().saveAppContactList(mList);
 	}
 }

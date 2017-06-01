@@ -23,23 +23,6 @@ public class InviteMessage {
 	private String groupName;
 	private String groupInviter;
 	private String nickname;
-
-	@Override
-	public String toString() {
-		return "InviteMessage{" +
-				"from='" + from + '\'' +
-				", time=" + time +
-				", reason='" + reason + '\'' +
-				", status=" + status +
-				", groupId='" + groupId + '\'' +
-				", groupName='" + groupName + '\'' +
-				", groupInviter='" + groupInviter + '\'' +
-				", nickname='" + nickname + '\'' +
-				", avatar='" + avatar + '\'' +
-				", id=" + id +
-				'}';
-	}
-
 	private String avatar;
 
 	public String getNickname() {

@@ -4,6 +4,7 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.text.TextUtils;
+import android.util.Log;
 
 import cn.ucai.easeui.domain.User;
 import cn.ucai.superwechat.Constant;
@@ -407,6 +408,7 @@ public class SuperWeChatDBManager {
                 User user = new User(username);
                 user.setMUserNick(nick);
                 user.setAvatar(avatar);
+                Log.i("main","SuperWeChatDBManager.getAppContakList.user:"+user);
                 if (username.equals(Constant.NEW_FRIENDS_USERNAME) || username.equals(Constant.GROUP_USERNAME)
                         || username.equals(Constant.CHAT_ROOM)|| username.equals(Constant.CHAT_ROBOT)) {
                     user.setInitialLetter("");
@@ -425,5 +427,22 @@ public class SuperWeChatDBManager {
         if(db.isOpen()){
             db.delete(UserDao.TABLE_NAME, UserDao.COLUMN_NAME_ID + " = ?", new String[]{username});
         }
+    }
+
+    public void saveAppContactList(ArrayList<User> mList) {
+        SQLiteDatabase db = dbHelper.getWritableDatabase();
+        if (db.isOpen()) {
+            db.delete(UserDao.TABLE_NAME, null, null);
+            for (User user : mList) {
+                ContentValues values = new ContentValues();
+                values.put(UserDao.COLUMN_NAME_ID, user.getMUserName());
+                if(user.getMUserNick() != null)
+                    values.put(UserDao.COLUMN_NAME_NICK, user.getMUserNick());
+                if(user.getAvatar() != null)
+                    values.put(UserDao.COLUMN_NAME_AVATAR, user.getAvatar());
+                db.replace(UserDao.TABLE_NAME, null, values);
+            }
+        }
+
     }
 }
