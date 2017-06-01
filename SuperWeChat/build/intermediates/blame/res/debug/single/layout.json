@@ -16,24 +16,24 @@
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_video.xml"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\em_fragment_conversation_settings.xml",
-        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\layout\\em_fragment_conversation_settings.xml"
-    },
-    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_received_record_list_header.xml",
         "source": "D:\\Android\\.android\\build-cache\\b7b454d0385f3eff084663bc994b9a74db9a26c6\\output\\res\\layout\\rp_received_record_list_header.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\em_fragment_conversation_settings.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\layout\\em_fragment_conversation_settings.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_record_fragment.xml",
         "source": "D:\\Android\\.android\\build-cache\\b7b454d0385f3eff084663bc994b9a74db9a26c6\\output\\res\\layout\\rp_record_fragment.xml"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_send_record_list_header.xml",
-        "source": "D:\\Android\\.android\\build-cache\\b7b454d0385f3eff084663bc994b9a74db9a26c6\\output\\res\\layout\\rp_send_record_list_header.xml"
-    },
-    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_send_record_list_header.xml",
+        "source": "D:\\Android\\.android\\build-cache\\b7b454d0385f3eff084663bc994b9a74db9a26c6\\output\\res\\layout\\rp_send_record_list_header.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\em_recorder_activity.xml",
@@ -72,24 +72,24 @@
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\layout\\em_activity_video_call.xml"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\em_grid.xml",
-        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\layout\\em_grid.xml"
-    },
-    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
         "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\em_grid.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\layout\\em_grid.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_record_list_footer.xml",
         "source": "D:\\Android\\.android\\build-cache\\b7b454d0385f3eff084663bc994b9a74db9a26c6\\output\\res\\layout\\rp_record_list_footer.xml"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_video_call.xml",
-        "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_video_call.xml"
-    },
-    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_group_member_header.xml",
         "source": "D:\\Android\\.android\\build-cache\\b7b454d0385f3eff084663bc994b9a74db9a26c6\\output\\res\\layout\\rp_group_member_header.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_video_call.xml",
+        "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_video_call.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
@@ -120,12 +120,12 @@
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\layout\\activity_welcome.xml"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_send_record_list_item.xml",
-        "source": "D:\\Android\\.android\\build-cache\\b7b454d0385f3eff084663bc994b9a74db9a26c6\\output\\res\\layout\\rp_send_record_list_item.xml"
-    },
-    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
         "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_send_record_list_item.xml",
+        "source": "D:\\Android\\.android\\build-cache\\b7b454d0385f3eff084663bc994b9a74db9a26c6\\output\\res\\layout\\rp_send_record_list_item.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_emojicon.xml",
@@ -208,12 +208,12 @@
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\layout\\activity_offline_push_settings.xml"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\emactivity_userprofile.xml",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\layout\\emactivity_userprofile.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\em_logout_actionsheet.xml",
@@ -268,12 +268,12 @@
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\layout\\em_activity_register.xml"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_public_groups.xml",
-        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\layout\\em_activity_public_groups.xml"
-    },
-    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
         "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_public_groups.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\layout\\em_activity_public_groups.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_received_record_list_item.xml",
@@ -284,12 +284,12 @@
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_sent_video.xml"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
-        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\layout\\notification_template_custom_big.xml"
-    },
-    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_red_packet_ack_message.xml",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\redpacketlibrary\\build\\intermediates\\bundles\\default\\res\\layout\\em_row_red_packet_ack_message.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\layout\\notification_template_custom_big.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_expression.xml",

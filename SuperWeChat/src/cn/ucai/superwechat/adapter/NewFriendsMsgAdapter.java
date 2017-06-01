@@ -90,7 +90,6 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 		
 		final InviteMessage msg = getItem(position);
 		if (msg != null) {
-		    
 		    holder.agree.setVisibility(View.INVISIBLE);
 		    
 			if(msg.getGroupId() != null){ // show group name
@@ -103,7 +102,7 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 			holder.reason.setText(msg.getReason());
 //			holder.name.setText(msg.getFrom());
 			Log.i("main",msg.toString());
-			EaseUserUtils.setUserNick(msg.getFrom(),holder.name);
+			EaseUserUtils.setAPPUserNick(msg.getFrom(),holder.name);
 			EaseUserUtils.setAvatar(context,msg.getAvatar(),holder.avator);
 			// holder.time.setText(DateUtils.getTimestampString(new
 			// Date(msg.getTime())));

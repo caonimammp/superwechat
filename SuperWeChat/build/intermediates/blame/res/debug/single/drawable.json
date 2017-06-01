@@ -24,12 +24,12 @@
         "source": "D:\\Android\\.android\\build-cache\\db85afb399ce1a7142cc4170b90e6d74c29fe174\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_btn_green_pressed_shape.xml",
-        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_btn_green_pressed_shape.xml"
-    },
-    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_cancel_pressed_shape.xml",
         "source": "D:\\myproject\\SuperWeChat\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_btn_cancel_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_btn_green_pressed_shape.xml",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable\\em_btn_green_pressed_shape.xml"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",

@@ -819,6 +819,7 @@ public class SuperWeChatHelper {
     }
 
     private void saveContact2DB(User user) {
+        Log.e("helper","saveContact2DB,user="+user);
         // save contact
         Map<String, User> localUsers = getAPPContactList();
         Map<String, User> toAddUsers = new HashMap<String, User>();
@@ -898,28 +899,21 @@ public class SuperWeChatHelper {
         }
         return user;
 	}
-	
-	private User getAPPUserInfo(String username){
-		// To get instance of EaseUser, here we get it from the user list in memory
-		// You'd better cache it if you get it from your server
-        EaseUser user = null;
-        if(username!=null){
 
-            if(username.equals(EMClient.getInstance().getCurrentUser()))
-                return getUserProfileManager().getCurrentAPPUserInfo();
-//        user = getContactList().get(username);
-//        if(user == null && getRobotList() != null){
-//            user = getRobotList().get(username);
-//        }
-//
-//        // if user is not in your contacts, set inital letter for him/her
-//        if(user == null){
-//            user = new EaseUser(username);
-//            EaseCommonUtils.setUserInitialLetter(user);
-//        }
-//        return user;
+    private User getAPPUserInfo(String username){
+        // To get instance of EaseUser, here we get it from the user list in memory
+        // You'd better cache it if you get it from your server
+        User user = null;
+        if(username.equals(EMClient.getInstance().getCurrentUser()))
+            return getUserProfileManager().getCurrentAPPUserInfo();
+        user = getAPPContactList().get(username);
+
+        // if user is not in your contacts, set inital letter for him/her
+        if(user == null){
+            user = new User(username);
+            EaseCommonUtils.setAPPUserInitialLetter(user);
         }
-        return null;
+        return user;
     }
 
 	 /**
