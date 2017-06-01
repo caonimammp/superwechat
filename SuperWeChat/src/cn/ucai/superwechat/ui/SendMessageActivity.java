@@ -66,24 +66,8 @@ public class SendMessageActivity extends BaseActivity {
     @OnClick(R.id.btn_send)
     public void sendMsg() {
         if (toAddUserName!=null){
-            addAPPContact();
             addContact();
         }
-    }
-
-    private void addAPPContact() {
-        user = SuperWeChatHelper.getInstance().getUserProfileManager().getCurrentAPPUserInfo();
-        model.addContact(SendMessageActivity.this, user.getMUserName(), toAddUserName, new OnCompleteListener<String>() {
-            @Override
-            public void onSuccess(String result) {
-
-            }
-
-            @Override
-            public void onError(String error) {
-
-            }
-        });
     }
 
     /**

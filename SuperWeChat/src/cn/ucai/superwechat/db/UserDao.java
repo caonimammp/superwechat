@@ -18,6 +18,7 @@ import java.util.Map;
 
 import android.content.Context;
 
+import cn.ucai.easeui.domain.User;
 import cn.ucai.superwechat.domain.RobotUser;
 import cn.ucai.easeui.domain.EaseUser;
 
@@ -58,7 +59,11 @@ public class UserDao {
 		
 	    return SuperWeChatDBManager.getInstance().getContactList();
 	}
-	
+	public Map<String, User> getAPPContactList() {
+
+	    return SuperWeChatDBManager.getInstance().getAPPContactList();
+	}
+
 	/**
 	 * delete a contact
 	 * @param username
@@ -98,4 +103,8 @@ public class UserDao {
     public void saveRobotUser(List<RobotUser> robotList){
     	SuperWeChatDBManager.getInstance().saveRobotList(robotList);
     }
+
+	public void saveAPPContact(User user) {
+		SuperWeChatDBManager.getInstance().saveAPPContact(user);
+	}
 }

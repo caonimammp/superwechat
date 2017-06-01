@@ -191,7 +191,6 @@ public class ContactListFragment extends EaseContactListFragment {
                 //进入Robot列表页面
                 startActivity(new Intent(getActivity(), RobotsActivity.class));
                 break;
-
             default:
                 break;
             }

@@ -32,6 +32,7 @@ import android.app.ProgressDialog;
 import android.content.ContentValues;
 import android.content.Context;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
@@ -101,8 +102,9 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 			
 			holder.reason.setText(msg.getReason());
 //			holder.name.setText(msg.getFrom());
-			EaseUserUtils.setAPPUserNick(msg.getNickname(),holder.name);
-			EaseUserUtils.setAPPUserAvatar(getContext(),msg.getAvatar(),holder.avator);
+			Log.i("main",msg.toString());
+			EaseUserUtils.setUserNick(msg.getFrom(),holder.name);
+			EaseUserUtils.setAvatar(context,msg.getAvatar(),holder.avator);
 			// holder.time.setText(DateUtils.getTimestampString(new
 			// Date(msg.getTime())));
 			if (msg.getStatus() == InviteMesageStatus.BEAGREED) {
@@ -135,22 +137,6 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 				}
 				
 				// set click listener
-				holder.agree.setOnClickListener(new OnClickListener() {
-					@Override
-					public void onClick(View v) {
-						model.addContact(getContext(), user.getMUserName(), holder.name.getText().toString(), new OnCompleteListener<String>() {
-							@Override
-							public void onSuccess(String result) {
-
-							}
-
-							@Override
-							public void onError(String error) {
-
-							}
-						});
-					}
-				});
                 holder.agree.setOnClickListener(new OnClickListener() {
                     @Override
                     public void onClick(View v) {

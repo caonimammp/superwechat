@@ -14,6 +14,7 @@
 package cn.ucai.superwechat.ui;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
 
@@ -39,6 +40,7 @@ public class NewFriendsMsgActivity extends BaseActivity {
 		List<InviteMessage> msgs = dao.getMessagesList();
 
 		NewFriendsMsgAdapter adapter = new NewFriendsMsgAdapter(this, 1, msgs);
+		Log.i("main",msgs.toString()+"000000000000");
 		listView.setAdapter(adapter);
 		dao.saveUnreadMessageCount(0);
 		

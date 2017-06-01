@@ -5,6 +5,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.text.TextUtils;
 
+import cn.ucai.easeui.domain.User;
 import cn.ucai.superwechat.Constant;
 import cn.ucai.superwechat.SuperWeChatApplication;
 import cn.ucai.superwechat.domain.InviteMessage;
@@ -234,9 +235,13 @@ public class SuperWeChatDBManager {
                 long time = cursor.getLong(cursor.getColumnIndex(InviteMessgeDao.COLUMN_NAME_TIME));
                 int status = cursor.getInt(cursor.getColumnIndex(InviteMessgeDao.COLUMN_NAME_STATUS));
                 String groupInviter = cursor.getString(cursor.getColumnIndex(InviteMessgeDao.COLUMN_NAME_GROUPINVITER));
-                
+                String nickname = cursor.getString(cursor.getColumnIndex(InviteMessgeDao.COLUMN_NAME_NICK));
+                String avatar = cursor.getString(cursor.getColumnIndex(InviteMessgeDao.COLUMN_NAME_AVATAR));
+
+                msg.setAvatar(avatar);
                 msg.setId(id);
                 msg.setFrom(from);
+                msg.setNickname(nickname);
                 msg.setGroupId(groupid);
                 msg.setGroupName(groupname);
                 msg.setReason(reason);
@@ -375,4 +380,43 @@ public class SuperWeChatDBManager {
 		}
 		return users;
 	}
+
+    public void saveAPPContact(User user) {
+        SQLiteDatabase db = dbHelper.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put(UserDao.COLUMN_NAME_ID, user.getMUserName());
+        if(user.getMUserNick() != null)
+            values.put(UserDao.COLUMN_NAME_NICK, user.getMUserNick());
+        if(user.getAvatar() != null)
+            values.put(UserDao.COLUMN_NAME_AVATAR, user.getAvatar());
+        if(db.isOpen()){
+            db.replace(UserDao.TABLE_NAME, null, values);
+        }
+    }
+
+
+    public Map<String, User> getAPPContactList() {
+        SQLiteDatabase db = dbHelper.getReadableDatabase();
+        Map<String, User> users = new Hashtable<String, User>();
+        if (db.isOpen()) {
+            Cursor cursor = db.rawQuery("select * from " + UserDao.TABLE_NAME /* + " desc" */, null);
+            while (cursor.moveToNext()) {
+                String username = cursor.getString(cursor.getColumnIndex(UserDao.COLUMN_NAME_ID));
+                String nick = cursor.getString(cursor.getColumnIndex(UserDao.COLUMN_NAME_NICK));
+                String avatar = cursor.getString(cursor.getColumnIndex(UserDao.COLUMN_NAME_AVATAR));
+                User user = new User(username);
+                user.setMUserNick(nick);
+                user.setAvatar(avatar);
+                if (username.equals(Constant.NEW_FRIENDS_USERNAME) || username.equals(Constant.GROUP_USERNAME)
+                        || username.equals(Constant.CHAT_ROOM)|| username.equals(Constant.CHAT_ROBOT)) {
+                    user.setInitialLetter("");
+                } else {
+                    EaseCommonUtils.setAPPUserInitialLetter(user);
+                }
+                users.put(username, user);
+            }
+            cursor.close();
+        }
+        return users;
+    }
 }

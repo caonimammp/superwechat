@@ -93,6 +93,8 @@ public class SuperWeChatHelper {
 
 	private Map<String, EaseUser> contactList;
 
+    private Map<String, User> appContactList;
+
 	private Map<String, RobotUser> robotList;
 
 	private UserProfileManager userProManager;
@@ -734,18 +736,7 @@ public class SuperWeChatHelper {
 
         @Override
         public void onContactAdded(String username) {
-            // save contact
-            Map<String, EaseUser> localUsers = getContactList();
-            Map<String, EaseUser> toAddUsers = new HashMap<String, EaseUser>();
-            EaseUser user = new EaseUser(username);
-
-            if (!localUsers.containsKey(username)) {
-                userDao.saveContact(user);
-            }
-            toAddUsers.put(username, user);
-            localUsers.putAll(toAddUsers);
-
-            broadcastManager.sendBroadcast(new Intent(Constant.ACTION_CONTACT_CHANAGED));
+            contactAddtoAPP(username);
         }
 
         @Override
@@ -805,7 +796,41 @@ public class SuperWeChatHelper {
             Log.d(username, username + " refused to your request");
         }
     }
-    
+    private void contactAddtoAPP(String username){
+        model.addContact(appContext, EMClient.getInstance().getCurrentUser(), username, new OnCompleteListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                if (s!=null){
+                    Result<User> result = ResultUtils.getResultFromJson(s, User.class);
+                    if (result!=null && result.isRetMsg()){
+                        User user = result.getRetData();
+                        if (user!=null){
+                            saveContact2DB(user);
+                        }
+                    }
+                }
+            }
+
+            @Override
+            public void onError(String error) {
+
+            }
+        });
+    }
+
+    private void saveContact2DB(User user) {
+        // save contact
+        Map<String, User> localUsers = getAPPContactList();
+        Map<String, User> toAddUsers = new HashMap<String, User>();
+        if (!localUsers.containsKey(user.getMUserName())) {
+            userDao.saveAPPContact(user);
+        }
+        toAddUsers.put(user.getMUserName(), user);
+        localUsers.putAll(toAddUsers);
+
+        broadcastManager.sendBroadcast(new Intent(Constant.ACTION_CONTACT_CHANAGED));
+    }
+
     /**
      * save and notify invitation message
      * @param msg
@@ -878,8 +903,10 @@ public class SuperWeChatHelper {
 		// To get instance of EaseUser, here we get it from the user list in memory
 		// You'd better cache it if you get it from your server
         EaseUser user = null;
-        if(username.equals(EMClient.getInstance().getCurrentUser()))
-            return getUserProfileManager().getCurrentAPPUserInfo();
+        if(username!=null){
+
+            if(username.equals(EMClient.getInstance().getCurrentUser()))
+                return getUserProfileManager().getCurrentAPPUserInfo();
 //        user = getContactList().get(username);
 //        if(user == null && getRobotList() != null){
 //            user = getRobotList().get(username);
@@ -891,8 +918,9 @@ public class SuperWeChatHelper {
 //            EaseCommonUtils.setUserInitialLetter(user);
 //        }
 //        return user;
+        }
         return null;
-	}
+    }
 
 	 /**
      * Global listener
@@ -1061,6 +1089,18 @@ public class SuperWeChatHelper {
         }
         
         return contactList;
+    }
+    public Map<String, User> getAPPContactList() {
+        if (isLoggedIn() && appContactList == null) {
+            appContactList = demoModel.getAPPContactList();
+        }
+
+        // return a empty non-null object to avoid app crash
+        if(appContactList == null){
+            return new Hashtable<String, User>();
+        }
+
+        return appContactList;
     }
     
     /**
