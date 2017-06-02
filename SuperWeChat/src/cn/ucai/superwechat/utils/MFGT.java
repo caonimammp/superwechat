@@ -3,6 +3,9 @@ package cn.ucai.superwechat.utils;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.widget.Toast;
+
+import com.hyphenate.chat.EMClient;
 
 import cn.ucai.easeui.domain.User;
 import cn.ucai.superwechat.I;
@@ -14,6 +17,7 @@ import cn.ucai.superwechat.ui.RegisterActivity;
 import cn.ucai.superwechat.ui.SendMessageActivity;
 import cn.ucai.superwechat.ui.SettingsActivity;
 import cn.ucai.superwechat.ui.UserProfileActivity;
+import cn.ucai.superwechat.ui.VideoCallActivity;
 import cn.ucai.superwechat.ui.WelcomeActivity;
 
 /**
@@ -60,4 +64,17 @@ public class MFGT {
         mfgt(activity,new Intent(activity,ProfileActivity.class)
                 .putExtra(I.User.TABLE_NAME,user));
     }
+    public static void gotoProfile(Activity activity, String username) {
+        mfgt(activity,new Intent(activity,ProfileActivity.class)
+                .putExtra(I.User.USER_NAME,username));
+    }
+    public static void gotoVideo(Activity activity, String username) {
+        if (!EMClient.getInstance().isConnected())
+            Toast.makeText(activity, R.string.not_connect_to_server, Toast.LENGTH_SHORT).show();
+        else {
+            mfgt(activity,new Intent(activity, VideoCallActivity.class).putExtra("username", username)
+                    .putExtra("isComingCall", false));
+        }
+    }
+
 }

@@ -16,6 +16,7 @@ import cn.ucai.easeui.utils.EaseUserUtils;
 import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatHelper;
+import cn.ucai.superwechat.utils.MFGT;
 
 /**
  * Created by clawpo on 2017/5/25.
@@ -96,7 +97,7 @@ public class ProfileActivity extends BaseActivity {
                 startActivity(new Intent(ProfileActivity.this, ChatActivity.class).putExtra("userId", user.getMUserName()));
                 break;
             case R.id.btn_send_video:
-                startActivity(new Intent(ProfileActivity.this,VideoCallActivity.class).putExtra("userId",user.getMUserName()));
+                MFGT.gotoVideo(ProfileActivity.this,user.getMUserName());
                 break;
         }
     }
