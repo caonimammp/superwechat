@@ -63,6 +63,7 @@ public class ProfileActivity extends BaseActivity {
         }
         if (user == null) {
             user = (User) getIntent().getSerializableExtra(I.User.TABLE_NAME);
+            user = SuperWeChatHelper.getInstance().getUserProfileManager().getCurrentAPPUserInfo();
         }
         if (user != null) {
             showInfo();
@@ -83,6 +84,11 @@ public class ProfileActivity extends BaseActivity {
         mBtnAddContact.setVisibility(isContact ? View.GONE : View.VISIBLE);
         mBtnSendMsg.setVisibility(isContact ? View.VISIBLE : View.GONE);
         mBtnSendVideo.setVisibility(isContact ? View.VISIBLE : View.GONE);
+        if(user==SuperWeChatHelper.getInstance().getUserProfileManager().getCurrentAPPUserInfo()){
+            mBtnAddContact.setVisibility(View.GONE );
+            mBtnSendMsg.setVisibility(View.GONE);
+            mBtnSendVideo.setVisibility(View.GONE);
+        }
     }
 
     @OnClick(R.id.btn_add_contact)
