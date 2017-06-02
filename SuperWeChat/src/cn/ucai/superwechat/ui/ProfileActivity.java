@@ -48,6 +48,12 @@ public class ProfileActivity extends BaseActivity {
                 finish();
             }
         });
+        mBtnSendMsg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ProfileActivity.this, ChatActivity.class).putExtra("userId", user.getMUserName()));
+            }
+        });
     }
 
     @Override
