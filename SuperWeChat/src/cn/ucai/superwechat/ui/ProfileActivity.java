@@ -57,10 +57,16 @@ public class ProfileActivity extends BaseActivity {
     }
 
     private void initData() {
-        user = (User) getIntent().getSerializableExtra(I.User.TABLE_NAME);
-        if (user != null) {
+        String username = getIntent().getStringExtra(I.User.USER_NAME);
+        if(username!=null){
+            user = SuperWeChatHelper.getInstance().getAPPContactList().get(username);
+        }
+        if(user==null){
+            user = (User)getIntent().getSerializableExtra(I.User.TABLE_NAME);
+        }
+        if(user!=null){
             showInfo();
-        } else {
+        }else {
             finish();
         }
     }
