@@ -32,6 +32,9 @@ public class MFGT {
     public static void gotoMain(Activity activity) {
         mfgt(activity,MainActivity.class);
     }
+    public static void gotoMain(Activity activity,boolean ischat) {
+        mfgt(activity,new Intent(activity,MainActivity.class).putExtra("ischat",ischat));
+    }
     public static void finish(Activity activity){
         activity.finish();
         activity.overridePendingTransition(R.anim.push_right_in,R.anim.push_right_out);

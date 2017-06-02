@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.hyphenate.chat.EMClient;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -63,6 +65,8 @@ public class ProfileActivity extends BaseActivity {
         }
         if (user == null) {
             user = (User) getIntent().getSerializableExtra(I.User.TABLE_NAME);
+        }
+        if(user==null&&username.equals(SuperWeChatHelper.getInstance().getCurrentUsernName())){
             user = SuperWeChatHelper.getInstance().getUserProfileManager().getCurrentAPPUserInfo();
         }
         if (user != null) {
@@ -73,9 +77,8 @@ public class ProfileActivity extends BaseActivity {
     }
 
     private void showInfo() {
-        Log.i("main", "ProfileActivity.showInfo:" + user.toString());
         mTvUserinfoName.setText(user.getMUserName());
-        EaseUserUtils.setAPPUserNick(user.getMUserName(), mTvUserinfoNick);
+        EaseUserUtils.setNick(user.getMUserNick(), mTvUserinfoNick);
         EaseUserUtils.setAPPUserAvatar(ProfileActivity.this, user, mProfileImage);
         showButton(SuperWeChatHelper.getInstance().getContactList().containsKey(user.getMUserName()));
     }

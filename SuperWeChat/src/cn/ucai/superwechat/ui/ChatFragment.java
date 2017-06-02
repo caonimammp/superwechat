@@ -11,6 +11,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -51,6 +52,8 @@ import java.io.FileOutputStream;
 import java.util.List;
 import java.util.Map;
 
+import static android.R.attr.clearTaskOnLaunch;
+
 public class ChatFragment extends EaseChatFragment implements EaseChatFragmentHelper{
 
 	// constant start from 11 to avoid conflict with constant in base class
@@ -89,6 +92,7 @@ public class ChatFragment extends EaseChatFragment implements EaseChatFragmentHe
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return super.onCreateView(inflater, container, savedInstanceState);
+
     }
 
     @Override
@@ -106,10 +110,11 @@ public class ChatFragment extends EaseChatFragment implements EaseChatFragmentHe
 
             @Override
             public void onClick(View v) {
-                if (EasyUtils.isSingleActivity(getActivity())) {
-                    Intent intent = new Intent(getActivity(), MainActivity.class);
-                    startActivity(intent);
-                }
+//                if (EasyUtils.isSingleActivity(getActivity())) {
+//                    Intent intent = new Intent(getActivity(), MainActivity.class);
+//                    startActivityForResult(intent,0);
+//                }
+                MFGT.gotoMain(getActivity(),true);
                 onBackPressed();
             }
         });
@@ -122,6 +127,8 @@ public class ChatFragment extends EaseChatFragment implements EaseChatFragmentHe
                     if(count == 1 && "@".equals(String.valueOf(s.charAt(start)))){
                         startActivityForResult(new Intent(getActivity(), PickAtUserActivity.class).
                                 putExtra("groupId", toChatUsername), REQUEST_CODE_SELECT_AT_USER);
+
+
                     }
                 }
                 @Override
@@ -253,9 +260,10 @@ public class ChatFragment extends EaseChatFragment implements EaseChatFragmentHe
     public void onAvatarClick(String username) {
         //handling when user click avatar
         if(username.equals(SuperWeChatHelper.getInstance().getCurrentUsernName())){
-            Intent intent = new Intent(getActivity(), UserProfileActivity.class);
-            intent.putExtra("username", username);
-            startActivity(intent);
+//            Intent intent = new Intent(getActivity(), UserProfileActivity.class);
+//            intent.putExtra("username", username);
+//            startActivity(intent);
+            MFGT.gotoProfile(getActivity(),username);
         }else {
             MFGT.gotoProfile(getActivity(),username);
         }

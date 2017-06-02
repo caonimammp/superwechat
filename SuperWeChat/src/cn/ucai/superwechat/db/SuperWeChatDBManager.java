@@ -408,7 +408,6 @@ public class SuperWeChatDBManager {
                 User user = new User(username);
                 user.setMUserNick(nick);
                 user.setAvatar(avatar);
-                Log.i("main","SuperWeChatDBManager.getAppContakList.user:"+user);
                 if (username.equals(Constant.NEW_FRIENDS_USERNAME) || username.equals(Constant.GROUP_USERNAME)
                         || username.equals(Constant.CHAT_ROOM)|| username.equals(Constant.CHAT_ROBOT)) {
                     user.setInitialLetter("");

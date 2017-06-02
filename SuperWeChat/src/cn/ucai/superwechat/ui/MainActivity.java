@@ -28,6 +28,7 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.TabHost;
@@ -110,6 +111,7 @@ public class MainActivity extends BaseActivity implements ViewPager.OnPageChange
 		initFragment();
 		EMClient.getInstance().contactManager().setContactListener(new MyContactListener());
 		registerBroadcastReceiver();
+		mLayoutTabHost.setChecked(0);
 	}
 
 
@@ -455,9 +457,7 @@ public class MainActivity extends BaseActivity implements ViewPager.OnPageChange
 
 	@Override
 	protected void onResume() {
-		mLayoutTabHost.setChecked(0);
 		super.onResume();
-
 		if (!isConflict && !isCurrentAccountRemoved) {
 			updateUnreadLabel();
 			updateUnreadAddressLable();
@@ -470,6 +470,7 @@ public class MainActivity extends BaseActivity implements ViewPager.OnPageChange
 
 		EMClient.getInstance().chatManager().addMessageListener(messageListener);
 	}
+
 
 	@Override
 	protected void onStop() {
@@ -564,6 +565,11 @@ public class MainActivity extends BaseActivity implements ViewPager.OnPageChange
 	protected void onNewIntent(Intent intent) {
 		super.onNewIntent(intent);
 		showExceptionDialogFromIntent(intent);
+		boolean ischat = getIntent().getBooleanExtra("ischat",false);
+		if (ischat){
+			mLayoutTabHost.setChecked(0);
+			mLayoutViewpage.setCurrentItem(0);
+		}
 	}
 	
 	/**

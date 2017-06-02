@@ -3,13 +3,17 @@ package cn.ucai.superwechat.ui;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.view.View;
+
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.runtimepermissions.PermissionsManager;
 import cn.ucai.easeui.ui.EaseChatFragment;
+import cn.ucai.superwechat.utils.MFGT;
+
 import com.hyphenate.util.EasyUtils;
 
 /**
- * chat activity，EaseChatFragment was used {@link #EaseChatFragment}
+ * chat activity，EaseChatFragment was used {@link #}
  *
  */
 public class ChatActivity extends BaseActivity{
@@ -29,7 +33,6 @@ public class ChatActivity extends BaseActivity{
         //pass parameters to chat fragment
         chatFragment.setArguments(getIntent().getExtras());
         getSupportFragmentManager().beginTransaction().add(R.id.container, chatFragment).commit();
-        
     }
     
     @Override

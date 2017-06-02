@@ -97,12 +97,13 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 				holder.groupname.setText(msg.getGroupName());
 			} else{
 				holder.groupContainer.setVisibility(View.GONE);
+
 			}
 			
 			holder.reason.setText(msg.getReason());
-//			holder.name.setText(msg.getFrom());
+			//holder.name.setText(msg.getNickname());
 			Log.i("main","00000000000000000000:"+msg.getNickname());
-			EaseUserUtils.setUserNick(msg.getFrom(),holder.name);
+			EaseUserUtils.setAPPUserNick(msg.getNickname(),holder.name);
 			EaseUserUtils.setAvatar(context,msg.getAvatar(),holder.avator);
 			// holder.time.setText(DateUtils.getTimestampString(new
 			// Date(msg.getTime())));

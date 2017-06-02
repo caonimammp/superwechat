@@ -76,11 +76,6 @@
                 style="@style/list_txt_Style_without_right"
                 android:layout_marginTop="20dp"
                 android:text="@string/userinfo_txt_note_mark" />
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="先随便设置一个"
-                />
 
             <Button
                 android:id="@+id/btn_add_contact"
