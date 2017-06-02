@@ -23,46 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd72e275-2e05-46b4-b757-17816eb39dbd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/BaiduLBS_Android.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/HwPush_SDK_V2705_nomap.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/MiPush_SDK_Client_2_2_19.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/alipaySdk_20161129.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/bolts_tasks_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/glide_3_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/google_play_services.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/hyphenatechat_3_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/multidex_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/multidex_instrumentation_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_http_legacy.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/parse_android_1_13_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/redpacket_alipay_1_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/umeng_analytics_v5_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/umeng_update_v2_6_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/volley_1_0_19.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_profile.xml" afterPath="$PROJECT_DIR$/res/layout/activity_profile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/db/SuperWeChatDBManager.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/db/SuperWeChatDBManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ChatActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ChatActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ChatFragment.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ChatFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/MainActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ProfileActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ProfileActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/MFGT.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/MFGT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/adapter/EaseConversationAdapter.java" afterPath="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/adapter/EaseConversationAdapter.java" />
     </list>
     <ignored path="SuperWeChat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -160,7 +122,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatFragment.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChatFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ChatFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
@@ -169,6 +131,16 @@
                 <element signature="e#4198#4622#0" expanded="true" />
                 <element signature="e#4621#4622#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EaseConversationAdapter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/adapter/EaseConversationAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="251" column="45" selection-start-line="251" selection-start-column="45" selection-end-line="251" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2860,7 +2832,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/PersonalFragment.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/data/net/UserModel.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/parse/UserProfileManager.java" />
         <option value="$PROJECT_DIR$/res/values-zh/strings.xml" />
@@ -2911,6 +2882,7 @@
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ProfileActivity.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ChatFragment.java" />
+        <option value="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/adapter/EaseConversationAdapter.java" />
       </list>
     </option>
   </component>
@@ -3021,7 +2993,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.project.structure.last.selected" value="SuperWeChat" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="SearchEverywhereHistoryKey" value="Mf&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/utils/MFGT.java&#10;Main&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/MainActivity.java&#10;chat&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ChatActivity.java&#10;pro&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ProfileActivity.java&#10;EaseAda&#9;FILE&#9;file://D:/myproject/SuperWeChat/easeui/src/cn/ucai/easeui/adapter/EaseContactAdapter.java&#10;Contactlist&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.ContactListFragment&#10;ContactLis&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ContactListFragment.java&#10;NewF&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/NewFriendsMsgActivity.java&#10;add&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/AddContactActivity.java&#10;main&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/MainActivity.java&#10;new&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/NewFriendsMsgActivity.java&#10;suhe&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/SuperWeChatHelper.java&#10;Iuser&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/data/net/IUserModel.java&#10;SuperW&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/SuperWeChatHelper.java&#10;Super&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/SuperWeChatHelper.java&#10;Superhel&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/SuperWeChatHelper.java&#10;Conta&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ContactListFragment.java&#10;Conv&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ConversationListFragment.java&#10;con&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ContactListFragment.java&#10;Userp&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/UserProfileActivity.java&#10;New&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.java&#10;Con&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ContactListFragment.java&#10;newAda&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.java&#10;send&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/SendMessageActivity.java&#10;User&#9;FILE&#9;file://D:/myproject/SuperWeChat/easeui/src/cn/ucai/easeui/domain/User.java&#10;Superhe&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/SuperWeChatHelper.java&#10;SuperDb&#9;PSI&#9;JAVA://cn.ucai.superwechat.db.SuperWeChatDBManager&#10;DBopen&#9;PSI&#9;JAVA://cn.ucai.superwechat.db.DbOpenHelper&#10;I&#9;PSI&#9;JAVA://cn.ucai.superwechat.I&#10;Per&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/PersonalFragment.java&#10;person&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/PersonalFragment.java&#10;userP&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/parse/UserProfileManager.java&#10;Eui&#9;PSI&#9;JAVA://cn.ucai.easeui.controller.EaseUI&#10;superchathe&#9;PSI&#9;JAVA://cn.ucai.superwechat.SuperWeChatHelper&#10;login&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/LoginActivity.java&#10;baseF&#9;FILE&#9;file://D:/myproject/SuperWeChat/easeui/src/cn/ucai/easeui/ui/EaseBaseFragment.java&#10;p&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/UserProfileActivity.java&#10;per&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/PersonalFragment.java&#10;d&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/DicoverFragment.java&#10;Setting&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/SettingsFragment.java&#10;dico&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.DicoverFragment&#10;set&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.SettingsFragment&#10;Layoutta&#9;PSI&#9;JAVA://cn.ucai.superwechat.R.id#layout_tabhost&#10;discoverFragment&#9;FILE&#9;file://D:/Android/sources/android-25/android/support/v7/app/MediaRouteDiscoveryFragment.java&#10;regis&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/RegisterActivity.java&#10;MD5&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/utils/MD5.java&#10;MD&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/utils/MD5.java&#10;MFGT&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/utils/MFGT.java&#10;manifest&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/redpacketlibrary/AndroidManifest.xml" />
+    <property name="SearchEverywhereHistoryKey" value="EaseConversationAdapter.java&#9;FILE&#9;file://D:/myproject/SuperWeChat/easeui/src/cn/ucai/easeui/adapter/EaseConversationAdapter.java&#10;Mf&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/utils/MFGT.java&#10;Main&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/MainActivity.java&#10;chat&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ChatActivity.java&#10;pro&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ProfileActivity.java&#10;EaseAda&#9;FILE&#9;file://D:/myproject/SuperWeChat/easeui/src/cn/ucai/easeui/adapter/EaseContactAdapter.java&#10;Contactlist&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.ContactListFragment&#10;ContactLis&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ContactListFragment.java&#10;NewF&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/NewFriendsMsgActivity.java&#10;add&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/AddContactActivity.java&#10;main&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/MainActivity.java&#10;new&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/NewFriendsMsgActivity.java&#10;suhe&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/SuperWeChatHelper.java&#10;Iuser&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/data/net/IUserModel.java&#10;SuperW&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/SuperWeChatHelper.java&#10;Super&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/SuperWeChatHelper.java&#10;Superhel&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/SuperWeChatHelper.java&#10;Conta&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ContactListFragment.java&#10;Conv&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ConversationListFragment.java&#10;con&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ContactListFragment.java&#10;Userp&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/UserProfileActivity.java&#10;New&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.java&#10;Con&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ContactListFragment.java&#10;newAda&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.java&#10;send&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/SendMessageActivity.java&#10;User&#9;FILE&#9;file://D:/myproject/SuperWeChat/easeui/src/cn/ucai/easeui/domain/User.java&#10;Superhe&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/SuperWeChatHelper.java&#10;SuperDb&#9;PSI&#9;JAVA://cn.ucai.superwechat.db.SuperWeChatDBManager&#10;DBopen&#9;PSI&#9;JAVA://cn.ucai.superwechat.db.DbOpenHelper&#10;I&#9;PSI&#9;JAVA://cn.ucai.superwechat.I&#10;Per&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/PersonalFragment.java&#10;person&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/PersonalFragment.java&#10;userP&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/parse/UserProfileManager.java&#10;Eui&#9;PSI&#9;JAVA://cn.ucai.easeui.controller.EaseUI&#10;superchathe&#9;PSI&#9;JAVA://cn.ucai.superwechat.SuperWeChatHelper&#10;login&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/LoginActivity.java&#10;baseF&#9;FILE&#9;file://D:/myproject/SuperWeChat/easeui/src/cn/ucai/easeui/ui/EaseBaseFragment.java&#10;p&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/UserProfileActivity.java&#10;per&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/PersonalFragment.java&#10;d&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/DicoverFragment.java&#10;Setting&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/SettingsFragment.java&#10;dico&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.DicoverFragment&#10;set&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.SettingsFragment&#10;Layoutta&#9;PSI&#9;JAVA://cn.ucai.superwechat.R.id#layout_tabhost&#10;discoverFragment&#9;FILE&#9;file://D:/Android/sources/android-25/android/support/v7/app/MediaRouteDiscoveryFragment.java&#10;regis&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/RegisterActivity.java&#10;MD5&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/utils/MD5.java&#10;MD&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/utils/MD5.java&#10;MFGT&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/utils/MFGT.java&#10;manifest&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/redpacketlibrary/AndroidManifest.xml" />
     <property name="device.picker.selection" value="iPhone_7_Plus" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
   </component>
@@ -3357,13 +3329,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495115967350</updated>
-    </task>
-    <task id="LOCAL-00005" summary="修改项目图标">
-      <created>1495165039570</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1495165039570</updated>
     </task>
     <task id="LOCAL-00006" summary="修改闪屏界面">
       <created>1495175603360</created>
@@ -3701,7 +3666,14 @@
       <option name="project" value="LOCAL" />
       <updated>1496377108310</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="聊天界面TitleBar返回键回到消息列表">
+      <created>1496407125731</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1496407125732</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3755,7 +3727,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改昵称，下载头像接口的定义和实现" />
     <MESSAGE value="EaseBaseActivity中添加TatilBar" />
     <MESSAGE value="修改登录页面的titleBar" />
     <MESSAGE value="仿写环信的用户数据提供逻辑，添加APP方法" />
@@ -3780,7 +3751,8 @@
     <MESSAGE value="用户详情点击视频功能实现" />
     <MESSAGE value="聊天页面点击自己头像不显示发消息，视频" />
     <MESSAGE value="点击到用户详情返回到会话列表" />
-    <option name="LAST_COMMIT_MESSAGE" value="点击到用户详情返回到会话列表" />
+    <MESSAGE value="聊天界面TitleBar返回键回到消息列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="聊天界面TitleBar返回键回到消息列表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3796,14 +3768,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/SendMessageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Android/sources/android-25/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -4314,6 +4278,14 @@
             <element signature="e#4198#4622#0" expanded="true" />
             <element signature="e#4621#4622#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/adapter/EaseConversationAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="251" column="45" selection-start-line="251" selection-start-column="45" selection-end-line="251" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>

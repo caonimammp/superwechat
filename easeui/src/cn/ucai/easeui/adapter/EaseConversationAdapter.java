@@ -21,6 +21,7 @@ import com.hyphenate.chat.EMGroup;
 import com.hyphenate.chat.EMMessage;
 import cn.ucai.easeui.R;
 import cn.ucai.easeui.domain.EaseUser;
+import cn.ucai.easeui.domain.User;
 import cn.ucai.easeui.model.EaseAtMessageHelper;
 import cn.ucai.easeui.utils.EaseCommonUtils;
 import cn.ucai.easeui.utils.EaseSmileUtils;
@@ -236,17 +237,18 @@ public class EaseConversationAdapter extends ArrayAdapter<EMConversation> {
                     String username = value.conversationId();
                     
                     EMGroup group = EMClient.getInstance().groupManager().getGroup(username);
+                    String nickname = "";
                     if(group != null){
                         username = group.getGroupName();
                     }else{
-                        EaseUser user = EaseUserUtils.getUserInfo(username);
-                        // TODO: not support Nick anymore
-//                        if(user != null && user.getNick() != null)
-//                            username = user.getNick();
+                        User user= EaseUserUtils.getAPPUserInfo(username);
+                                           if (user!=null){
+                                                       nickname = user.getMUserNick();
+                                                  }
                     }
 
                     // First match against the whole ,non-splitted value
-                    if (username.startsWith(prefixString)) {
+                    if (username.contains(prefixString) || nickname.contains(prefixString)) {
                         newValues.add(value);
                     } else{
                           final String[] words = username.split(" ");
