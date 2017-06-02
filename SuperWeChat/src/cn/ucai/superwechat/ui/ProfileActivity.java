@@ -16,7 +16,6 @@ import cn.ucai.easeui.utils.EaseUserUtils;
 import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatHelper;
-import cn.ucai.superwechat.utils.MFGT;
 
 /**
  * Created by clawpo on 2017/5/25.
@@ -48,12 +47,6 @@ public class ProfileActivity extends BaseActivity {
                 finish();
             }
         });
-        mBtnSendMsg.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(ProfileActivity.this, ChatActivity.class).putExtra("userId", user.getMUserName()));
-            }
-        });
     }
 
     @Override
@@ -64,21 +57,21 @@ public class ProfileActivity extends BaseActivity {
 
     private void initData() {
         String username = getIntent().getStringExtra(I.User.USER_NAME);
-        if(username!=null){
+        if (username != null) {
             user = SuperWeChatHelper.getInstance().getAPPContactList().get(username);
         }
-        if(user==null){
-            user = (User)getIntent().getSerializableExtra(I.User.TABLE_NAME);
+        if (user == null) {
+            user = (User) getIntent().getSerializableExtra(I.User.TABLE_NAME);
         }
-        if(user!=null){
+        if (user != null) {
             showInfo();
-        }else {
+        } else {
             finish();
         }
     }
 
     private void showInfo() {
-        Log.i("main", "ProfileActivity.showInfo:"+user.toString());
+        Log.i("main", "ProfileActivity.showInfo:" + user.toString());
         mTvUserinfoName.setText(user.getMUserName());
         EaseUserUtils.setAPPUserNick(user.getMUserName(), mTvUserinfoNick);
         EaseUserUtils.setAPPUserAvatar(ProfileActivity.this, user, mProfileImage);
@@ -93,6 +86,18 @@ public class ProfileActivity extends BaseActivity {
 
     @OnClick(R.id.btn_add_contact)
     public void onClick() {
-        startActivity(new Intent(this,SendMessageActivity.class).putExtra(I.User.USER_NAME,user.getMUserName()));
+        startActivity(new Intent(this, SendMessageActivity.class).putExtra(I.User.USER_NAME, user.getMUserName()));
+    }
+
+    @OnClick({R.id.btn_send_msg, R.id.btn_send_video})
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.btn_send_msg:
+                startActivity(new Intent(ProfileActivity.this, ChatActivity.class).putExtra("userId", user.getMUserName()));
+                break;
+            case R.id.btn_send_video:
+                startActivity(new Intent(ProfileActivity.this,VideoCallActivity.class).putExtra("userId",user.getMUserName()));
+                break;
+        }
     }
 }
