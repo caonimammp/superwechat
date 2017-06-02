@@ -455,8 +455,9 @@ public class MainActivity extends BaseActivity implements ViewPager.OnPageChange
 
 	@Override
 	protected void onResume() {
+		mLayoutTabHost.setChecked(0);
 		super.onResume();
-		
+
 		if (!isConflict && !isCurrentAccountRemoved) {
 			updateUnreadLabel();
 			updateUnreadAddressLable();
