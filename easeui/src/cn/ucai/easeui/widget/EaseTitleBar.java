@@ -111,4 +111,8 @@ public class EaseTitleBar extends RelativeLayout{
     public RelativeLayout getRightLayout(){
         return rightLayout;
     }
+
+    public boolean getLeftImage(){
+        return leftImage.getDrawable()!=null?true:false;
+    }
 }

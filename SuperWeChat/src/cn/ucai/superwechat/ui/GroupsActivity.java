@@ -68,9 +68,9 @@ public class GroupsActivity extends BaseActivity {
 		
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
 		setContentView(cn.ucai.superwechat.R.layout.em_fragment_groups);
-
+		super.onCreate(savedInstanceState);
+		showLeftBack();
 		instance = this;
 		inputMethodManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
 		grouplist = EMClient.getInstance().groupManager().getAllGroups();
