@@ -31,8 +31,19 @@ import com.hyphenate.chat.EMGroup;
 import com.hyphenate.chat.EMGroupManager.EMGroupOptions;
 import com.hyphenate.chat.EMGroupManager.EMGroupStyle;
 
+import cn.ucai.easeui.domain.Group;
 import cn.ucai.easeui.widget.EaseAlertDialog;
+import cn.ucai.superwechat.R;
+import cn.ucai.superwechat.data.Result;
+import cn.ucai.superwechat.data.net.IUserModel;
+import cn.ucai.superwechat.data.net.OnCompleteListener;
+import cn.ucai.superwechat.data.net.UserModel;
+import cn.ucai.superwechat.utils.CommonUtils;
+import cn.ucai.superwechat.utils.ResultUtils;
+
 import com.hyphenate.exceptions.HyphenateException;
+
+import java.io.File;
 
 public class NewGroupActivity extends BaseActivity {
 	private EditText groupNameEditText;
@@ -41,6 +52,8 @@ public class NewGroupActivity extends BaseActivity {
 	private CheckBox publibCheckBox;
 	private CheckBox memberCheckbox;
 	private TextView secondTextView;
+	IUserModel model;
+	File file = null;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +78,7 @@ public class NewGroupActivity extends BaseActivity {
 		    }
 		});
 		setListener();
+		model = new UserModel();
 			}
 
 				private void setListener() {
@@ -93,7 +107,6 @@ public class NewGroupActivity extends BaseActivity {
 	protected void onActivityResult(int requestCode, int resultCode, final Intent data) {
 		super.onActivityResult(requestCode, resultCode, data);
 		String st1 = getResources().getString(cn.ucai.superwechat.R.string.Is_to_create_a_group_chat);
-		final String st2 = getResources().getString(cn.ucai.superwechat.R.string.Failed_to_create_groups);
 		if (resultCode == Activity.RESULT_OK) {
 			//new group
 			progressDialog = new ProgressDialog(this);
@@ -121,25 +134,64 @@ public class NewGroupActivity extends BaseActivity {
 						    option.style = memberCheckbox.isChecked()?EMGroupStyle.EMGroupStylePrivateMemberCanInvite:EMGroupStyle.EMGroupStylePrivateOnlyOwnerInvite;
 						}
 						EMGroup group = EMClient.getInstance().groupManager().createGroup(groupName, desc, members, reason, option);
-						runOnUiThread(new Runnable() {
-							public void run() {
-								progressDialog.dismiss();
-								setResult(Activity.RESULT_OK);
-								finish();
-							}
-						});
+						createAppGroup(group);
 					} catch (final HyphenateException e) {
-						runOnUiThread(new Runnable() {
-							public void run() {
-								progressDialog.dismiss();
-								Toast.makeText(NewGroupActivity.this, st2 + e.getLocalizedMessage(), Toast.LENGTH_LONG).show();
-							}
-						});
+						createFaile(e);
 					}
 					
 				}
 			}).start();
 		}
+	}
+
+	private void createFaile(final HyphenateException e) {
+		final String st2 = getResources().getString(R.string.Failed_to_create_groups);
+				runOnUiThread(new Runnable() {
+						public void run() {
+							progressDialog.dismiss();
+							if (e!=null) {
+								Toast.makeText(NewGroupActivity.this, st2 + e.getLocalizedMessage(), Toast.LENGTH_LONG).show();
+								}else{
+										CommonUtils.showLongToast(st2);
+									}
+							}
+					});
+	}
+
+	private void createAppGroup(EMGroup group) {
+		model.createGroup(NewGroupActivity.this, group.getGroupId(), group.getGroupName(), group.getDescription(),
+				group.getOwner(), group.isPublic(), group.isMemberAllowToInvite(), file,
+				new OnCompleteListener<String>() {
+						@Override
+						public void onSuccess(String s) {
+								boolean isSuccess = false;
+								if (s!=null){
+										Result<Group> result = ResultUtils.getResultFromJson(s, Group.class);
+										if (result!=null && result.isRetMsg()){
+							isSuccess = true;
+							createSuccess();
+										}
+								}
+							if (!isSuccess){
+									createFaile(null);
+								}
+						}
+
+							@Override
+					public void onError(String error) {
+							createFaile(null);
+						}
+				});
+	}
+
+	private void createSuccess() {
+		runOnUiThread(new Runnable() {
+			public void run() {
+					progressDialog.dismiss();
+					setResult(RESULT_OK);
+					finish();
+				}
+		});
 	}
 
 	public void back(View view) {
