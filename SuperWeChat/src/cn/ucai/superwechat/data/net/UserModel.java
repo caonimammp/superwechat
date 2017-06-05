@@ -1,6 +1,7 @@
 package cn.ucai.superwechat.data.net;
 
 import android.content.Context;
+import android.util.Log;
 
 import java.io.File;
 
@@ -130,5 +131,15 @@ public class UserModel implements IUserModel{
                        .addParam(I.Member.GROUP_HX_ID,hxid)
                        .targetClass(String.class)
                        .execute(listener);
+    }
+
+    @Override
+    public void updateGroupNameByHXID(Context context, String groupId, String newGroupName, OnCompleteListener<String> listener) {
+        OkHttpUtils<String> utils = new OkHttpUtils<>(context);
+        utils.setRequestUrl(I.REQUEST_UPDATE_GROUP_NAME_BYHXID)
+                .addParam(I.Group.HX_ID,groupId)
+                .addParam(I.Group.NAME,newGroupName)
+                .targetClass(String.class)
+                .execute(listener);
     }
 }

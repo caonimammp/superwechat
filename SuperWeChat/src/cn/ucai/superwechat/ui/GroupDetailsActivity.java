@@ -19,6 +19,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -39,13 +40,19 @@ import com.hyphenate.chat.EMCursorResult;
 import com.hyphenate.chat.EMGroup;
 import com.hyphenate.chat.EMPushConfigs;
 
+import cn.ucai.easeui.domain.Group;
 import cn.ucai.easeui.ui.EaseGroupListener;
 import cn.ucai.easeui.utils.EaseUserUtils;
 import cn.ucai.easeui.widget.EaseAlertDialog;
 import cn.ucai.easeui.widget.EaseAlertDialog.AlertDialogUser;
 import cn.ucai.easeui.widget.EaseExpandGridView;
 import cn.ucai.easeui.widget.EaseSwitchButton;
+import cn.ucai.superwechat.data.Result;
+import cn.ucai.superwechat.data.net.IUserModel;
+import cn.ucai.superwechat.data.net.OnCompleteListener;
+import cn.ucai.superwechat.data.net.UserModel;
 import cn.ucai.superwechat.utils.MFGT;
+import cn.ucai.superwechat.utils.ResultUtils;
 
 import com.hyphenate.exceptions.HyphenateException;
 import com.hyphenate.util.EMLog;
@@ -71,9 +78,9 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 	private GridAdapter membersAdapter;
 	private OwnerAdminAdapter ownerAdminAdapter;
 	private ProgressDialog progressDialog;
-
+	Group appGroup;
 	public static GroupDetailsActivity instance;
-
+	IUserModel model;
 	
 	String st = "";
 
@@ -97,7 +104,7 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 	    showLeftBack();
         groupId = getIntent().getStringExtra("groupId");
         group = EMClient.getInstance().groupManager().getGroup(groupId);
-
+		model = new UserModel();
         // we are not supposed to show the group if we don't find the group
         if(group == null){
             finish();
@@ -279,6 +286,23 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 					new Thread(new Runnable() {
 						public void run() {
 							try {
+								model.updateGroupNameByHXID(GroupDetailsActivity.this, groupId, returnData, new OnCompleteListener<String>() {
+									@Override
+									public void onSuccess(String s) {
+										if(s!=null){
+											Log.i("main",s.toString());
+											Result<Group> result = ResultUtils.getResultFromJson(s, Group.class);
+											if (result != null && result.isRetMsg()) {
+//												appGroup = result.getRetData();
+											}
+										}
+									}
+
+									@Override
+									public void onError(String error) {
+										return;
+									}
+								});
 								EMClient.getInstance().groupManager().changeGroupName(groupId, returnData);
 								runOnUiThread(new Runnable() {
 									public void run() {
@@ -286,7 +310,6 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 										Toast.makeText(getApplicationContext(), st6, Toast.LENGTH_SHORT).show();
 									}
 								});
-
 							} catch (HyphenateException e) {
 								e.printStackTrace();
 								runOnUiThread(new Runnable() {
