@@ -90,8 +90,9 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		setContentView(cn.ucai.superwechat.R.layout.em_activity_group_details);
 	    super.onCreate(savedInstanceState);
-	    
+	    showLeftBack();
         groupId = getIntent().getStringExtra("groupId");
         group = EMClient.getInstance().groupManager().getGroup(groupId);
 
@@ -100,8 +101,6 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
             finish();
             return;
         }
-        
-		setContentView(cn.ucai.superwechat.R.layout.em_activity_group_details);
 
 		instance = this;
 		st = getResources().getString(cn.ucai.superwechat.R.string.people);
@@ -142,7 +141,6 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 		groupChangeListener = new GroupChangeListener();
 		EMClient.getInstance().groupManager().addGroupChangeListener(groupChangeListener);
 		
-		((TextView) findViewById(cn.ucai.superwechat.R.id.group_name)).setText(group.getGroupName() + "(" + group.getMemberCount() + st);
 
 		membersAdapter = new GridAdapter(this, cn.ucai.superwechat.R.layout.em_grid_owner, new ArrayList<String>());
 		EaseExpandGridView userGridview = (EaseExpandGridView) findViewById(cn.ucai.superwechat.R.id.gridview);
@@ -282,7 +280,6 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 								EMClient.getInstance().groupManager().changeGroupName(groupId, returnData);
 								runOnUiThread(new Runnable() {
 									public void run() {
-										((TextView) findViewById(cn.ucai.superwechat.R.id.group_name)).setText(group.getGroupName() + "(" + group.getMemberCount() + ")");
 										progressDialog.dismiss();
 										Toast.makeText(getApplicationContext(), st6, Toast.LENGTH_SHORT).show();
 									}
@@ -504,8 +501,6 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 					refreshMembersAdapter();
 					runOnUiThread(new Runnable() {
 						public void run() {
-							((TextView) findViewById(cn.ucai.superwechat.R.id.group_name)).setText(group.getGroupName() + "(" + group.getMemberCount()
-									+ st);
 							progressDialog.dismiss();
 						}
 					});
@@ -1046,8 +1041,6 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 							refreshMembersAdapter();
 
 //							refreshUIVisibility();
-							((TextView) findViewById(cn.ucai.superwechat.R.id.group_name)).setText(group.getGroupName() + "(" + group.getMemberCount()
-									+ ")");
 							loadingPB.setVisibility(View.INVISIBLE);
 
 							if (EMClient.getInstance().getCurrentUser().equals(group.getOwner())) {
