@@ -30,6 +30,10 @@ import com.hyphenate.chat.EMGroup;
 
 import java.util.List;
 
+import cn.ucai.easeui.domain.Group;
+import cn.ucai.easeui.utils.EaseUserUtils;
+import cn.ucai.superwechat.R;
+
 public class GroupAdapter extends ArrayAdapter<EMGroup> {
 
 	private LayoutInflater inflater;
@@ -110,7 +114,8 @@ public class GroupAdapter extends ArrayAdapter<EMGroup> {
 				convertView = inflater.inflate(cn.ucai.superwechat.R.layout.em_row_group, parent, false);
 			}
 			((TextView) convertView.findViewById(cn.ucai.superwechat.R.id.name)).setText(getItem(position - 3).getGroupName());
-
+			EaseUserUtils.setGroupAvatar(getContext(), Group.getAvatar(getItem(position - 3).getGroupId()),
+									((ImageView) convertView.findViewById(R.id.avatar)));
 		}
 
 		return convertView;
