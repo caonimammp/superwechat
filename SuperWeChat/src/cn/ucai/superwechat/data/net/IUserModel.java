@@ -22,4 +22,6 @@ public interface IUserModel {
     void createGroup(Context context,String hxid,String name,String des,String owner, boolean isPublic,boolean isInviets,File file,OnCompleteListener<String> listener);
     void addMembers(Context context,String members,String hxid,OnCompleteListener<String> listener);
     void updateGroupNameByHXID(Context context,String groupId,String newGroupName,OnCompleteListener<String> listener);
+    void addGroupMember(Context context,String username,String groupId,OnCompleteListener<String> listener);
+    void addGroupMembers(Context context,String username,String groupId,OnCompleteListener<String> listener);
 }
