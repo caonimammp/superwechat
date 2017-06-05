@@ -84,7 +84,6 @@ public class PersonalFragment extends EaseBaseFragment {
 
     private void updatePersonalUI() {
         User user = SuperWeChatHelper.getInstance().getUserProfileManager().getCurrentAPPUserInfo();
-        Log.i("main","PersonalFragment.user.usernick:"+user.getMUserNick());
         if(user!=null){
             tvNick.setText(user.getMUserNick());
             tvUserName.setText("微信号： "+user.getMUserName());

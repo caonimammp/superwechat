@@ -16,6 +16,7 @@ package cn.ucai.superwechat.adapter;
 import android.content.Context;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -114,8 +115,9 @@ public class GroupAdapter extends ArrayAdapter<EMGroup> {
 				convertView = inflater.inflate(cn.ucai.superwechat.R.layout.em_row_group, parent, false);
 			}
 			((TextView) convertView.findViewById(cn.ucai.superwechat.R.id.name)).setText(getItem(position - 3).getGroupName());
-			EaseUserUtils.setGroupAvatar(getContext(), Group.getAvatar(getItem(position - 3).getGroupId()),
-									((ImageView) convertView.findViewById(R.id.avatar)));
+			EaseUserUtils.setGroupAvatarByhxid(
+										getContext(),getItem(position-3).getGroupId(),
+										(ImageView)convertView.findViewById(R.id.avatar));
 		}
 
 		return convertView;

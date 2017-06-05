@@ -38,6 +38,7 @@
         <attr name="titleBarTitle" format="string"/>
         <attr name="titleBarLeftImage" format="reference"/>
         <attr name="titleBarRightImage" format="reference"/>
+        <attr name="titleBarRightText" format="string"/>
         <attr name="titleBarBackground" format="reference|color"/>
     </declare-styleable>
     

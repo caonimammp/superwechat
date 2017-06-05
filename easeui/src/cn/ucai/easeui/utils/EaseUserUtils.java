@@ -1,6 +1,7 @@
 package cn.ucai.easeui.utils;
 
 import android.content.Context;
+import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -69,20 +70,6 @@ public class EaseUserUtils {
             Glide.with(context).load(R.drawable.ease_default_avatar).into(imageView);
         }
     }
-    public static void setAvataruser(Context context, String avatarPath, ImageView imageView){
-        if (avatarPath!=null){
-            try {
-                int avatarResId = Integer.parseInt(avatarPath);
-                Glide.with(context).load(avatarResId).into(imageView);
-            } catch (Exception e) {
-                //use default avatar
-                Glide.with(context).load(avatarPath).diskCacheStrategy(DiskCacheStrategy.ALL)
-                        .placeholder(R.drawable.ease_default_avatar).into(imageView);
-            }
-        }else{
-            Glide.with(context).load(R.drawable.ease_default_avatar).into(imageView);
-        }
-    }
 
 
     /**
@@ -118,10 +105,10 @@ public class EaseUserUtils {
             textView.setText(nickname);
         }
     }
-    public static void setAvatar(Context context, String avatar, ImageView imageView){
-        setAvataruser(context,avatar,imageView,false);
+    public static void setAvatar(Context context,String avatar,ImageView imageView){
+        setAvatar(context,avatar,imageView,false);
     }
-    public static void setAvataruser(Context context, String avatar, ImageView imageView, boolean isGroup){
+    public static void setAvatar(Context context,String avatar,ImageView imageView,boolean isGroup){
         if(avatar!=null){
             try {
                 int avatarResId = Integer.parseInt(avatar);
@@ -137,7 +124,7 @@ public class EaseUserUtils {
         }
     }
     public  static void setGroupAvatar(Context context,String avatar,ImageView imageView){
-        setAvataruser(context,avatar,imageView,true);
+        setAvatar(context,avatar,imageView,true);
     }
     public static void setGroupAvatarByhxid(Context context,String hxid,ImageView imageView){
         setGroupAvatar(context,getAvatarPuth(hxid),imageView);

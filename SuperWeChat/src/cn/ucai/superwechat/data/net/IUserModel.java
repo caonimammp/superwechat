@@ -20,5 +20,5 @@ public interface IUserModel {
     void delContact(Context context,String username,String cname, OnCompleteListener<String> listener);
     void updateAvatar(Context context, String username, String avatarType, File file, OnCompleteListener<String> listener);
     void createGroup(Context context,String hxid,String name,String des,String owner, boolean isPublic,boolean isInviets,File file,OnCompleteListener<String> listener);
-
+    void addMembers(Context context,String members,String hxid,OnCompleteListener<String> listener);
 }

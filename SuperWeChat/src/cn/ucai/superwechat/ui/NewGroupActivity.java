@@ -47,10 +47,12 @@ import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.Arrays;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import cn.ucai.easeui.domain.Group;
+import cn.ucai.easeui.domain.Member;
 import cn.ucai.easeui.widget.EaseAlertDialog;
 import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.R;
@@ -59,12 +61,14 @@ import cn.ucai.superwechat.data.net.IUserModel;
 import cn.ucai.superwechat.data.net.OnCompleteListener;
 import cn.ucai.superwechat.data.net.UserModel;
 import cn.ucai.superwechat.utils.CommonUtils;
+import cn.ucai.superwechat.utils.L;
 import cn.ucai.superwechat.utils.ResultUtils;
 
 import static cn.ucai.superwechat.I.REQUEST_CODE_PICK_PIC;
 import static cn.ucai.superwechat.ui.UserProfileActivity.getAvatarPath;
 
 public class NewGroupActivity extends BaseActivity {
+    private static final String TAG = "NewGroupActivity";
     private EditText groupNameEditText;
     private ProgressDialog progressDialog;
     private EditText introductionEditText;
@@ -73,7 +77,6 @@ public class NewGroupActivity extends BaseActivity {
     private TextView secondTextView;
 
     IUserModel model;
-    File file = null;
     LinearLayout groupIconLayout;
     ImageView ivIcon;
     String avatarName;
@@ -151,7 +154,6 @@ public class NewGroupActivity extends BaseActivity {
                 break;
             case I.REQUEST_CODE_PICK_CONTACT:
                 if (resultCode == RESULT_OK) {
-                    Log.i("main","1111111111111111");
                     createEMGroup(data);
                 }
                 break;
@@ -160,43 +162,6 @@ public class NewGroupActivity extends BaseActivity {
         }
         super.onActivityResult(requestCode, resultCode, data);
     }
-//            String st1 = getResources().getString(R.string.Is_to_create_a_group_chat);
-//            if (resultCode == Activity.RESULT_OK) {
-//                //new group
-//                progressDialog = new ProgressDialog(this);
-//                progressDialog.setMessage(st1);
-//                progressDialog.setCanceledOnTouchOutside(false);
-//                progressDialog.show();
-//
-//                new Thread(new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        final String groupName = groupNameEditText.getText().toString().trim();
-//                        String desc = introductionEditText.getText().toString();
-//                        String[] members = data.getStringArrayExtra("newmembers");
-//                        try {
-//                            EMGroupOptions option = new EMGroupOptions();
-//                            option.maxUsers = 200;
-//                            option.inviteNeedConfirm = true;
-//
-//                            String reason = NewGroupActivity.this.getString(R.string.invite_join_group);
-//                            reason = EMClient.getInstance().getCurrentUser() + reason + groupName;
-//
-//                            if (publibCheckBox.isChecked()) {
-//                                option.style = memberCheckbox.isChecked() ? EMGroupStyle.EMGroupStylePublicJoinNeedApproval : EMGroupStyle.EMGroupStylePublicOpenJoin;
-//                            } else {
-//                                option.style = memberCheckbox.isChecked() ? EMGroupStyle.EMGroupStylePrivateMemberCanInvite : EMGroupStyle.EMGroupStylePrivateOnlyOwnerInvite;
-//                            }
-//                            EMGroup group = EMClient.getInstance().groupManager().createGroup(groupName, desc, members, reason, option);
-//                            createAppGroup(group);
-//                        } catch (final HyphenateException e) {
-//                            createFaile(e);
-//                        }
-//
-//                    }
-//                }).start();
-//            }
-//        }
 
 
     private void createEMGroup(final Intent data) {
@@ -222,7 +187,7 @@ public class NewGroupActivity extends BaseActivity {
                     }
                     EMGroup emGroup = EMClient.getInstance().groupManager().createGroup(groupName, desc, members, reason, option);
 
-                    createAppGroup(emGroup);
+                    createAppGroup(emGroup,members);
 
                 } catch (final HyphenateException e) {
                     runOnUiThread(new Runnable() {
@@ -294,16 +259,15 @@ public class NewGroupActivity extends BaseActivity {
     private void saveBitmapFile(Bitmap bitmap) {
         if (bitmap != null) {
             String imagePath = getAvatarPath(NewGroupActivity.this, I.AVATAR_TYPE) + "/" + getAvatarName() + ".jpg";
-            File file = new File(imagePath);
+            avatarFile = new File(imagePath);
             try {
-                BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(file));
+                BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(avatarFile));
                 bitmap.compress(Bitmap.CompressFormat.JPEG, 100, bos);
                 bos.flush();
                 bos.close();
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            avatarFile = file;
         }
     }
 
@@ -313,7 +277,7 @@ public class NewGroupActivity extends BaseActivity {
     }
 
     private void createFaile(final HyphenateException e) {
-        final String st2 = getResources().getString(R.string.Failed_to_create_groups);
+        final String st2 = getResources().getString(R.string.Is_to_create_a_group_chat);
         runOnUiThread(new Runnable() {
             public void run() {
                 if (e != null) {
@@ -325,10 +289,9 @@ public class NewGroupActivity extends BaseActivity {
         });
     }
     Group group1;
-    private void createAppGroup(EMGroup group) {
-
+    private void createAppGroup(final EMGroup group, final String[] members) {
         model.createGroup(NewGroupActivity.this, group.getGroupId(), group.getGroupName(), group.getDescription(),
-                group.getOwner(), group.isPublic(), group.isMemberAllowToInvite(), file,
+                group.getOwner(), group.isPublic(), group.isMemberAllowToInvite(), avatarFile,
                 new OnCompleteListener<String>() {
                     @Override
                     public void onSuccess(String s) {
@@ -336,9 +299,14 @@ public class NewGroupActivity extends BaseActivity {
                         if (s != null) {
                             Result<Group> result = ResultUtils.getResultFromJson(s, Group.class);
                             if (result != null && result.isRetMsg()) {
-                                isSuccess = true;
-                                createSuccess();
+
                                 group1 = result.getRetData();
+                                createSuccess();
+                                if(members!=null&&members.length>0){
+                                    addMembers(group1.getMGroupHxid(),getMembers(members));
+                                }else {
+                                    isSuccess = true;
+                                }
                                 if(group1!=null){
                                     setCodeorView(group1);
                                 }
@@ -354,6 +322,34 @@ public class NewGroupActivity extends BaseActivity {
                         createFaile(null);
                     }
                 });
+    }
+
+    private void addMembers(String hxid, String members) {
+        model.addMembers(NewGroupActivity.this, members, hxid,
+                new OnCompleteListener<String>() {
+                    @Override
+                    public void onSuccess(String s) {
+                        if (s!=null){
+                            Result result = ResultUtils.getResultFromJson(s, Group.class);
+                            if (result!=null && result.isRetMsg()){
+                                createSuccess();
+                            }
+                        }
+                    }
+
+                    @Override
+                    public void onError(String error) {
+                    }
+                });
+    }
+
+    private String getMembers(String[] members) {
+        String m = Arrays.toString(members).toString();
+        StringBuffer str = new StringBuffer();
+        for (String member : members) {
+            str.append(member).append(",");
+        }
+        return str.toString();
     }
 
     private void createSuccess() {

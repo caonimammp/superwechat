@@ -54,9 +54,10 @@ public final class R {
         public static final int switchCloseImage = 0x7f010019;
         public static final int switchOpenImage = 0x7f010018;
         public static final int switchStatus = 0x7f01001a;
-        public static final int titleBarBackground = 0x7f01001e;
+        public static final int titleBarBackground = 0x7f01001f;
         public static final int titleBarLeftImage = 0x7f01001c;
         public static final int titleBarRightImage = 0x7f01001d;
+        public static final int titleBarRightText = 0x7f01001e;
         public static final int titleBarTitle = 0x7f01001b;
     }
     public static final class color {
@@ -349,7 +350,7 @@ public final class R {
         public static final int mentioned = 0x7f090029;
         public static final int message = 0x7f09002a;
         public static final int message_list = 0x7f090018;
-        public static final int mic_image = 0x7f090067;
+        public static final int mic_image = 0x7f090068;
         public static final int msg_state = 0x7f090028;
         public static final int msg_status = 0x7f090042;
         public static final int name = 0x7f090026;
@@ -363,10 +364,11 @@ public final class R {
         public static final int progressBar = 0x7f09000b;
         public static final int progress_bar = 0x7f090031;
         public static final int query = 0x7f090047;
-        public static final int recording_hint = 0x7f090068;
+        public static final int recording_hint = 0x7f090069;
         public static final int rectangle = 0x7f090001;
         public static final int right_image = 0x7f090066;
         public static final int right_layout = 0x7f090065;
+        public static final int right_text = 0x7f090067;
         public static final int rl_bottom = 0x7f09004e;
         public static final int rl_face = 0x7f090054;
         public static final int rl_picture = 0x7f090045;
@@ -812,10 +814,11 @@ public final class R {
         public static final int EaseSwitchButton_switchCloseImage = 1;
         public static final int EaseSwitchButton_switchOpenImage = 0;
         public static final int EaseSwitchButton_switchStatus = 2;
-        public static final int[] EaseTitleBar = { 0x7f01001b, 0x7f01001c, 0x7f01001d, 0x7f01001e };
-        public static final int EaseTitleBar_titleBarBackground = 3;
+        public static final int[] EaseTitleBar = { 0x7f01001b, 0x7f01001c, 0x7f01001d, 0x7f01001e, 0x7f01001f };
+        public static final int EaseTitleBar_titleBarBackground = 4;
         public static final int EaseTitleBar_titleBarLeftImage = 1;
         public static final int EaseTitleBar_titleBarRightImage = 2;
+        public static final int EaseTitleBar_titleBarRightText = 3;
         public static final int EaseTitleBar_titleBarTitle = 0;
     }
 }

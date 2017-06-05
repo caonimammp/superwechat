@@ -123,7 +123,6 @@ public class GroupPickContactsActivity extends BaseActivity {
 	 * @param
 	 */
 	public void save() {
-		Log.i("main","2222222222222");
 		List<String> var = getToBeAddMembers();
 		setResult(RESULT_OK, new Intent().putExtra("newmembers", var.toArray(new String[var.size()])));
 		finish();

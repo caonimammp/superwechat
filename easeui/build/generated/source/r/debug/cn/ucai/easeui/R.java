@@ -257,7 +257,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static int titleBarBackground=0x7f01001e;
+        public static int titleBarBackground=0x7f01001f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -266,6 +266,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int titleBarRightImage=0x7f01001d;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int titleBarRightText=0x7f01001e;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -565,7 +573,7 @@ containing a value of this type.
         public static int mentioned=0x7f090029;
         public static int message=0x7f09002a;
         public static int message_list=0x7f090018;
-        public static int mic_image=0x7f090067;
+        public static int mic_image=0x7f090068;
         public static int msg_state=0x7f090028;
         public static int msg_status=0x7f090042;
         public static int name=0x7f090026;
@@ -579,10 +587,11 @@ containing a value of this type.
         public static int progressBar=0x7f09000b;
         public static int progress_bar=0x7f090031;
         public static int query=0x7f090047;
-        public static int recording_hint=0x7f090068;
+        public static int recording_hint=0x7f090069;
         public static int rectangle=0x7f090001;
         public static int right_image=0x7f090066;
         public static int right_layout=0x7f090065;
+        public static int right_text=0x7f090067;
         public static int rl_bottom=0x7f09004e;
         public static int rl_face=0x7f090054;
         public static int rl_picture=0x7f090045;
@@ -980,10 +989,16 @@ containing a value of this type.
         public static int Anim_style=0x7f060009;
         public static int Anim_style2=0x7f060000;
         public static int AppTheme=0x7f06000a;
+        /**  模糊 
+         */
         public static int HeadScale=0x7f06000b;
         public static int MyAlertDialog=0x7f06000c;
         public static int MyDialogStyle=0x7f06000d;
+        /**  模糊 
+         */
         public static int MyDialogStyleBottom=0x7f06000e;
+        /**  模糊 
+         */
         public static int MyDialogStyleTop=0x7f06000f;
         public static int bottom_line_edit_text_style=0x7f060010;
         public static int chat_content_date_style=0x7f060011;
@@ -1523,15 +1538,18 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #EaseTitleBar_titleBarBackground cn.ucai.easeui:titleBarBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #EaseTitleBar_titleBarLeftImage cn.ucai.easeui:titleBarLeftImage}</code></td><td></td></tr>
            <tr><td><code>{@link #EaseTitleBar_titleBarRightImage cn.ucai.easeui:titleBarRightImage}</code></td><td></td></tr>
+           <tr><td><code>{@link #EaseTitleBar_titleBarRightText cn.ucai.easeui:titleBarRightText}</code></td><td></td></tr>
            <tr><td><code>{@link #EaseTitleBar_titleBarTitle cn.ucai.easeui:titleBarTitle}</code></td><td></td></tr>
            </table>
            @see #EaseTitleBar_titleBarBackground
            @see #EaseTitleBar_titleBarLeftImage
            @see #EaseTitleBar_titleBarRightImage
+           @see #EaseTitleBar_titleBarRightText
            @see #EaseTitleBar_titleBarTitle
          */
         public static final int[] EaseTitleBar = {
-            0x7f01001b, 0x7f01001c, 0x7f01001d, 0x7f01001e
+            0x7f01001b, 0x7f01001c, 0x7f01001d, 0x7f01001e,
+            0x7f01001f
         };
         /**
           <p>This symbol is the offset where the {@link cn.ucai.easeui.R.attr#titleBarBackground}
@@ -1544,7 +1562,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           @attr name cn.ucai.easeui:titleBarBackground
         */
-        public static int EaseTitleBar_titleBarBackground = 3;
+        public static int EaseTitleBar_titleBarBackground = 4;
         /**
           <p>This symbol is the offset where the {@link cn.ucai.easeui.R.attr#titleBarLeftImage}
           attribute's value can be found in the {@link #EaseTitleBar} array.
@@ -1565,6 +1583,20 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name cn.ucai.easeui:titleBarRightImage
         */
         public static int EaseTitleBar_titleBarRightImage = 2;
+        /**
+          <p>This symbol is the offset where the {@link cn.ucai.easeui.R.attr#titleBarRightText}
+          attribute's value can be found in the {@link #EaseTitleBar} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name cn.ucai.easeui:titleBarRightText
+        */
+        public static int EaseTitleBar_titleBarRightText = 3;
         /**
           <p>This symbol is the offset where the {@link cn.ucai.easeui.R.attr#titleBarTitle}
           attribute's value can be found in the {@link #EaseTitleBar} array.
