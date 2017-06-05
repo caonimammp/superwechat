@@ -336,8 +336,8 @@ public class NewGroupActivity extends BaseActivity {
                         if (s != null) {
                             Result<Group> result = ResultUtils.getResultFromJson(s, Group.class);
                             if (result != null && result.isRetMsg()) {
-//                                isSuccess = true;
-//                                createSuccess();
+                                isSuccess = true;
+                                createSuccess();
                                 group1 = result.getRetData();
                                 if(group1!=null){
                                     setCodeorView(group1);

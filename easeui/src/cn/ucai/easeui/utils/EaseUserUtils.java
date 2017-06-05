@@ -1,7 +1,6 @@
 package cn.ucai.easeui.utils;
 
 import android.content.Context;
-import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -70,7 +69,7 @@ public class EaseUserUtils {
             Glide.with(context).load(R.drawable.ease_default_avatar).into(imageView);
         }
     }
-    public static void setAvatar(Context context,String avatarPath,ImageView imageView){
+    public static void setAvataruser(Context context, String avatarPath, ImageView imageView){
         if (avatarPath!=null){
             try {
                 int avatarResId = Integer.parseInt(avatarPath);
@@ -119,6 +118,35 @@ public class EaseUserUtils {
             textView.setText(nickname);
         }
     }
-
+    public static void setAvatar(Context context, String avatar, ImageView imageView){
+        setAvataruser(context,avatar,imageView,false);
+    }
+    public static void setAvataruser(Context context, String avatar, ImageView imageView, boolean isGroup){
+        if(avatar!=null){
+            try {
+                int avatarResId = Integer.parseInt(avatar);
+                Glide.with(context).load(avatarResId).into(imageView);
+            } catch (Exception e) {
+                Glide.with(context).load(avatar).diskCacheStrategy(DiskCacheStrategy.ALL)
+                        .placeholder(isGroup?R.drawable.ease_group_icon:R.drawable.ease_default_avatar).into(imageView);
+            }
+        }else{
+            Glide.with(context)
+                    .load(isGroup?R.drawable.ease_group_icon:R.drawable.ease_default_avatar)
+                    .into(imageView);
+        }
+    }
+    public  static void setGroupAvatar(Context context,String avatar,ImageView imageView){
+        setAvataruser(context,avatar,imageView,true);
+    }
+    public static void setGroupAvatarByhxid(Context context,String hxid,ImageView imageView){
+        setGroupAvatar(context,getAvatarPuth(hxid),imageView);
+    }
+    public static String getAvatarPuth(String hxid){
+        String puth = "http://101.251.196.90:8080/SuperWeChatServerV2.0/downloadAvatar?name_or_hxid="
+                +hxid+"&avatarType=group_icon&m_avatar_suffix=" +
+                ".jpg&updatetime=";
+        return puth;
+    }
 
 }

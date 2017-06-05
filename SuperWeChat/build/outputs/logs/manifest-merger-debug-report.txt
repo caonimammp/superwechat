@@ -19,13 +19,13 @@ ADDED from D:\myproject\SuperWeChat\SuperWeChat\AndroidManifest.xml:2:1-528:12
 		ADDED from D:\myproject\SuperWeChat\SuperWeChat\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from D:\myproject\SuperWeChat\SuperWeChat\AndroidManifest.xml:8:5-11:57
+MERGED from [com.android.support:multidex:1.0.1] D:\Android\.android\build-cache\94e561b558fbaf33cb4eba466004549bf52175b2\output\AndroidManifest.xml:18:5-42
 MERGED from [SuperWeChat:redpacketlibrary:unspecified] D:\myproject\SuperWeChat\SuperWeChat\redpacketlibrary\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
 MERGED from [com.hyphenate.redpacket:redpacket-alipay:1.1.2] D:\Android\.android\build-cache\b7b454d0385f3eff084663bc994b9a74db9a26c6\output\AndroidManifest.xml:8:5-10:41
 MERGED from [SuperWeChat:EaseUI:unspecified] D:\myproject\SuperWeChat\easeui\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:25.0.1] D:\Android\.android\build-cache\db85afb399ce1a7142cc4170b90e6d74c29fe174\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:25.0.1] D:\Android\.android\build-cache\3617476b1bd5bb4f12a0b064d0df2b6aaaf9d931\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.0.1] D:\Android\.android\build-cache\e19a7c234ea84ed46a04e1cce84db94672701a80\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:multidex:1.0.1] D:\Android\.android\build-cache\94e561b558fbaf33cb4eba466004549bf52175b2\output\AndroidManifest.xml:18:5-42
 MERGED from [com.jakewharton:butterknife:8.4.0] D:\Android\.android\build-cache\6969f3def374c0705dd8af7ada7c81768bccf8d5\output\AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:support-v4:25.0.1] D:\Android\.android\build-cache\066e928e47fdaee98e0e44fa7cba2ea704ce5b23\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.0.1] D:\Android\.android\build-cache\1bbee3c5b27b80ef2686cacc0102417e94eab569\output\AndroidManifest.xml:21:5-23:60

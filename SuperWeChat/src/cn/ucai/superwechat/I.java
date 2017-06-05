@@ -1,7 +1,9 @@
 package cn.ucai.superwechat;
 
 public interface I {
-
+	int REQUEST_CODE_PICK_PIC = 10010;
+	int REQUEST_CODE_PICK_CONTACT = 10011;
+	int REQUEST_CODE_CUTTING = 10012;
 	public static interface User {
 		String TABLE_NAME							=		"t_superwechat_user";
 		String USER_NAME 							= 		"m_user_name";					//用户账号
