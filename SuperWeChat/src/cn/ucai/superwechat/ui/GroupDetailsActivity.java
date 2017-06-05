@@ -822,7 +822,10 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 			button.setVisibility(View.VISIBLE);
 			EaseUserUtils.setUserNick(username, holder.textView);
 			EaseUserUtils.setUserAvatar(getContext(), username, holder.imageView);
-			groupAvatarClickListener(holder, username);
+			if (group.getOwner() == null || "".equals(group.getOwner())
+					|| !group.getOwner().equals(EMClient.getInstance().getCurrentUser())) {
+				groupAvatarClickListener(holder, username);
+			}
 			LinearLayout id_background = (LinearLayout) convertView.findViewById(cn.ucai.superwechat.R.id.l_bg_id);
 			id_background.setBackgroundColor(convertView.getResources().getColor(
 					position == 0 ? cn.ucai.superwechat.R.color.holo_red_light: cn.ucai.superwechat.R.color.holo_orange_light));
@@ -921,7 +924,10 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 				final String username = getItem(position);
 				EaseUserUtils.setUserNick(username, holder.textView);
 				EaseUserUtils.setUserAvatar(getContext(), username, holder.imageView);
-				groupAvatarClickListener(holder, username);
+				if (group.getOwner() == null || "".equals(group.getOwner())
+						|| !group.getOwner().equals(EMClient.getInstance().getCurrentUser())) {
+					groupAvatarClickListener(holder, username);
+				}
 				LinearLayout id_background = (LinearLayout) convertView.findViewById(cn.ucai.superwechat.R.id.l_bg_id);
 				if (isInMuteList(username)) {
 					id_background.setBackgroundColor(convertView.getResources().getColor(cn.ucai.superwechat.R.color.gray_normal));
