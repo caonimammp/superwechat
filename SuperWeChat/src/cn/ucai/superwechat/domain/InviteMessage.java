@@ -138,7 +138,22 @@ public class InviteMessage {
         /**remote user declined your invitation**/
 		GROUPINVITATION_DECLINED
 	}
-	
+
+	@Override
+	public String toString() {
+		return "InviteMessage{" +
+				"from='" + from + '\'' +
+				", time=" + time +
+				", reason='" + reason + '\'' +
+				", status=" + status +
+				", groupId='" + groupId + '\'' +
+				", groupName='" + groupName + '\'' +
+				", groupInviter='" + groupInviter + '\'' +
+				", nickname='" + nickname + '\'' +
+				", avatar='" + avatar + '\'' +
+				", id=" + id +
+				'}';
+	}
 }
 
 

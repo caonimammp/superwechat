@@ -19,6 +19,7 @@ import com.hyphenate.chat.EMClient;
 
 import cn.ucai.easeui.domain.User;
 import cn.ucai.easeui.utils.EaseUserUtils;
+import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.data.net.IUserModel;
 import cn.ucai.superwechat.data.net.OnCompleteListener;
@@ -91,20 +92,22 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 		final InviteMessage msg = getItem(position);
 		if (msg != null) {
 		    holder.agree.setVisibility(View.INVISIBLE);
-		    
 			if(msg.getGroupId() != null){ // show group name
 				holder.groupContainer.setVisibility(View.VISIBLE);
-				holder.groupname.setText(msg.getGroupName());
+				Log.i("main",msg.toString()+"这是群组msg");
+				holder.groupname.setText(":"+msg.getGroupId());
+				EaseUserUtils.setGroupAvatarByhxid(context,msg.getGroupId(),holder.avator);
+				holder.name.setText(msg.getGroupName());
 			} else{
 				holder.groupContainer.setVisibility(View.GONE);
-
+				EaseUserUtils.setAvatar(context,msg.getAvatar(),holder.avator);
+				EaseUserUtils.setAPPUserNick(msg.getNickname(),holder.name);
 			}
 			
 			holder.reason.setText(msg.getReason());
 			//holder.name.setText(msg.getNickname());
-			Log.i("main","00000000000000000000:"+msg.getNickname());
-			EaseUserUtils.setAPPUserNick(msg.getNickname(),holder.name);
-			EaseUserUtils.setAvatar(context,msg.getAvatar(),holder.avator);
+			/*EaseUserUtils.setAPPUserNick(msg.getNickname(),holder.name);
+			EaseUserUtils.setAvatar(context,msg.getAvatar(),holder.avator);*/
 			// holder.time.setText(DateUtils.getTimestampString(new
 			// Date(msg.getTime())));
 			if (msg.getStatus() == InviteMesageStatus.BEAGREED) {
@@ -299,6 +302,7 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 		Button status;
 		LinearLayout groupContainer;
 		TextView groupname;
+		TextView message;
 		// TextView time;
 	}
 
