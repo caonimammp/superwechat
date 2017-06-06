@@ -264,6 +264,7 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 				final String[] newmembers = data.getStringArrayExtra("newmembers");
 				progressDialog.setMessage(st1);
 				progressDialog.show();
+				addAPPMembertoGroup(groupId,newmembers);
 				addMembersToGroup(newmembers);
 				break;
 			case REQUEST_CODE_EXIT: // 退出群
@@ -286,23 +287,7 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 					new Thread(new Runnable() {
 						public void run() {
 							try {
-								model.updateGroupNameByHXID(GroupDetailsActivity.this, groupId, returnData, new OnCompleteListener<String>() {
-									@Override
-									public void onSuccess(String s) {
-										if(s!=null){
-											Log.i("main",s.toString());
-											Result<Group> result = ResultUtils.getResultFromJson(s, Group.class);
-											if (result != null && result.isRetMsg()) {
-//												appGroup = result.getRetData();
-											}
-										}
-									}
-
-									@Override
-									public void onError(String error) {
-										return;
-									}
-								});
+								changeAPPGroupName(returnData);
 								EMClient.getInstance().groupManager().changeGroupName(groupId, returnData);
 								runOnUiThread(new Runnable() {
 									public void run() {
@@ -357,6 +342,40 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 				break;
 			}
 		}
+	}
+
+	private void addAPPMembertoGroup(String GroupId,String[] newmembers) {
+		model.addGroupMembers(GroupDetailsActivity.this, GroupId, "", new OnCompleteListener<String>() {
+			@Override
+			public void onSuccess(String result) {
+
+			}
+
+			@Override
+			public void onError(String error) {
+
+			}
+		});
+	}
+
+	private void changeAPPGroupName(String returnData) {
+		model.updateGroupNameByHXID(GroupDetailsActivity.this, groupId, returnData, new OnCompleteListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                if(s!=null){
+                    Log.i("main",s.toString());
+                    Result<Group> result = ResultUtils.getResultFromJson(s, Group.class);
+                    if (result != null && result.isRetMsg()) {
+						appGroup = result.getRetData();
+                    }
+                }
+            }
+
+            @Override
+            public void onError(String error) {
+                return;
+            }
+        });
 	}
 
 	private void refreshOwnerAdminAdapter() {
@@ -843,8 +862,8 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 			final String username = getItem(position);
 			convertView.setVisibility(View.VISIBLE);
 			button.setVisibility(View.VISIBLE);
-			EaseUserUtils.setUserNick(username, holder.textView);
-			EaseUserUtils.setUserAvatar(getContext(), username, holder.imageView);
+			EaseUserUtils.setAPPUserNick(username, holder.textView);
+			EaseUserUtils.setAPPUserAvatar(getContext(), username, holder.imageView);
 			if (group.getOwner() == null || "".equals(group.getOwner())
 					|| !group.getOwner().equals(EMClient.getInstance().getCurrentUser())) {
 				groupAvatarClickListener(holder, username);
