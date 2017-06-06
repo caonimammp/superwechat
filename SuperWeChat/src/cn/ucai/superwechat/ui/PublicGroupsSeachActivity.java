@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -15,29 +16,39 @@ import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMGroup;
 import com.hyphenate.exceptions.HyphenateException;
 
+import cn.ucai.easeui.utils.EaseUserUtils;
+
 public class PublicGroupsSeachActivity extends BaseActivity{
     private RelativeLayout containerLayout;
     private EditText idET;
     private TextView nameText;
+    private ImageView avatar;
     public static EMGroup searchedGroup;
 
     @Override
     protected void onCreate(Bundle arg0) {
-        super.onCreate(arg0);
         setContentView(cn.ucai.superwechat.R.layout.em_activity_public_groups_search);
-        
+        super.onCreate(arg0);
+        showLeftBack();
+        setListener();
         containerLayout = (RelativeLayout) findViewById(cn.ucai.superwechat.R.id.rl_searched_group);
         idET = (EditText) findViewById(cn.ucai.superwechat.R.id.et_search_id);
         nameText = (TextView) findViewById(cn.ucai.superwechat.R.id.name);
-        
+        EaseUserUtils.setGroupAvatarByhxid(PublicGroupsSeachActivity.this, searchedGroup.getGroupId(),avatar);
         searchedGroup = null;
     }
-    
-    /**
-     * search group with group id
-     * @param v
-     */
-    public void searchGroup(View v){
+
+    private void setListener() {
+        titleBar.getRightLayout().setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                        searchGroup();
+                    }
+            });
+    }
+
+
+    public void searchGroup(){
         if(TextUtils.isEmpty(idET.getText())){
             return;
         }
