@@ -17,6 +17,7 @@ import com.hyphenate.chat.EMGroup;
 import com.hyphenate.exceptions.HyphenateException;
 
 import cn.ucai.easeui.utils.EaseUserUtils;
+import cn.ucai.superwechat.R;
 
 public class PublicGroupsSeachActivity extends BaseActivity{
     private RelativeLayout containerLayout;
@@ -34,7 +35,7 @@ public class PublicGroupsSeachActivity extends BaseActivity{
         containerLayout = (RelativeLayout) findViewById(cn.ucai.superwechat.R.id.rl_searched_group);
         idET = (EditText) findViewById(cn.ucai.superwechat.R.id.et_search_id);
         nameText = (TextView) findViewById(cn.ucai.superwechat.R.id.name);
-        EaseUserUtils.setGroupAvatarByhxid(PublicGroupsSeachActivity.this, searchedGroup.getGroupId(),avatar);
+        avatar = (ImageView)findViewById(R.id.avatar);
         searchedGroup = null;
     }
 
@@ -68,6 +69,7 @@ public class PublicGroupsSeachActivity extends BaseActivity{
                             pd.dismiss();
                             containerLayout.setVisibility(View.VISIBLE);
                             nameText.setText(searchedGroup.getGroupName());
+                            EaseUserUtils.setGroupAvatarByhxid(PublicGroupsSeachActivity.this, searchedGroup.getGroupId(),avatar);
                         }
                     });
                     
