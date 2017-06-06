@@ -53,12 +53,12 @@ public class ProfileActivity extends BaseActivity {
         ButterKnife.bind(this);
         super.onCreate(arg0);
         showLeftBack();
-        model = new UserModel();
     }
 
     @Override
     protected void onResume() {
         super.onResume();
+        model = new UserModel();
         initData();
     }
 
@@ -73,7 +73,7 @@ public class ProfileActivity extends BaseActivity {
         if(user==null&&username.equals(SuperWeChatHelper.getInstance().getCurrentUsernName())){
             user = SuperWeChatHelper.getInstance().getUserProfileManager().getCurrentAPPUserInfo();
         }
-        if(user==null){
+        if(user==null&&username!=null){
             syncUserInfo();
         }
         if (user != null) {
@@ -85,32 +85,35 @@ public class ProfileActivity extends BaseActivity {
     }
 
     private void syncUserInfo() {
-        model.findUserByUserName(ProfileActivity.this, username, new OnCompleteListener<String>() {
-            @Override
-            public void onSuccess(String s) {
-                if(s!=null){
-                    boolean isSuccess = false;
-                    Result<User> result = ResultUtils.getResultFromJson(s,User.class);
-                    if(result!=null&&result.isRetMsg()){
-                        user = result.getRetData();
-                        isSuccess = true;
-                    }
-                    if(!isSuccess){
-                        showUser();
-                    }else {
-                        showInfo();
-                        saveUser2DB();
+
+        if(username!=null){
+            model.findUserByUserName(ProfileActivity.this, username, new OnCompleteListener<String>() {
+                @Override
+                public void onSuccess(String s) {
+                    if(s!=null){
+                        boolean isSuccess = false;
+                        Result<User> result = ResultUtils.getResultFromJson(s,User.class);
+                        if(result!=null&&result.isRetMsg()){
+                            user = result.getRetData();
+                            isSuccess = true;
+                        }
+                        if(!isSuccess){
+                            showUser();
+                        }else {
+                            showInfo();
+                            saveUser2DB();
+                        }
                     }
                 }
-            }
 
 
 
-            @Override
-            public void onError(String error) {
-                showUser();
-            }
-        });
+                @Override
+                public void onError(String error) {
+                    showUser();
+                }
+            });
+        }
     }
 
     private void saveUser2DB() {
@@ -132,15 +135,15 @@ public class ProfileActivity extends BaseActivity {
         mTvUserinfoName.setText(user.getMUserName());
         EaseUserUtils.setNick(user.getMUserNick(), mTvUserinfoNick);
         EaseUserUtils.setAPPUserAvatar(ProfileActivity.this, user, mProfileImage);
-        showButton(SuperWeChatHelper.getInstance().getContactList().containsKey(user.getMUserName()));
+        showButton(SuperWeChatHelper.getInstance().getAPPContactList().containsKey(user.getMUserName()));
     }
 
     private void showButton(boolean isContact) {
         mBtnAddContact.setVisibility(isContact ? View.GONE : View.VISIBLE);
         mBtnSendMsg.setVisibility(isContact ? View.VISIBLE : View.GONE);
         mBtnSendVideo.setVisibility(isContact ? View.VISIBLE : View.GONE);
-        if(user==SuperWeChatHelper.getInstance().getUserProfileManager().getCurrentAPPUserInfo()){
-            mBtnAddContact.setVisibility(View.GONE );
+        if(user.getMUserName().equals(SuperWeChatHelper.getInstance().getCurrentUsernName())){
+            mBtnAddContact.setVisibility(View.GONE);
             mBtnSendMsg.setVisibility(View.GONE);
             mBtnSendVideo.setVisibility(View.GONE);
         }

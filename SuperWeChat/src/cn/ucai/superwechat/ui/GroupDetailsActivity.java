@@ -47,6 +47,7 @@ import cn.ucai.easeui.widget.EaseAlertDialog;
 import cn.ucai.easeui.widget.EaseAlertDialog.AlertDialogUser;
 import cn.ucai.easeui.widget.EaseExpandGridView;
 import cn.ucai.easeui.widget.EaseSwitchButton;
+import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.data.Result;
 import cn.ucai.superwechat.data.net.IUserModel;
 import cn.ucai.superwechat.data.net.OnCompleteListener;
@@ -58,6 +59,7 @@ import com.hyphenate.exceptions.HyphenateException;
 import com.hyphenate.util.EMLog;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -345,10 +347,10 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 	}
 
 	private void addAPPMembertoGroup(String GroupId,String[] newmembers) {
-		model.addGroupMembers(GroupDetailsActivity.this, GroupId, "", new OnCompleteListener<String>() {
+		model.addGroupMembers(GroupDetailsActivity.this, getMembers(newmembers),GroupId, new OnCompleteListener<String>() {
 			@Override
 			public void onSuccess(String result) {
-
+				Log.i("main","1111111111111111111111121212");
 			}
 
 			@Override
@@ -356,6 +358,14 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 
 			}
 		});
+	}
+	private String getMembers(String[] members) {
+		String m = Arrays.toString(members).toString();
+		StringBuffer str = new StringBuffer();
+		for (String member : members) {
+			str.append(member).append(",");
+		}
+		return str.toString();
 	}
 
 	private void changeAPPGroupName(String returnData) {
@@ -857,28 +867,25 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 				holder = (ViewHolder) convertView.getTag();
 			}
 
-			final LinearLayout button = (LinearLayout) convertView.findViewById(cn.ucai.superwechat.R.id.button_avatar);
+			final LinearLayout button = (LinearLayout) convertView.findViewById(R.id.button_avatar);
 
 			final String username = getItem(position);
 			convertView.setVisibility(View.VISIBLE);
 			button.setVisibility(View.VISIBLE);
 			EaseUserUtils.setAPPUserNick(username, holder.textView);
 			EaseUserUtils.setAPPUserAvatar(getContext(), username, holder.imageView);
-			if (group.getOwner() == null || "".equals(group.getOwner())
-					|| !group.getOwner().equals(EMClient.getInstance().getCurrentUser())) {
-				groupAvatarClickListener(holder, username);
-			}
+			groupAvatarClickListener(holder, username);
 			LinearLayout id_background = (LinearLayout) convertView.findViewById(cn.ucai.superwechat.R.id.l_bg_id);
 			id_background.setBackgroundColor(convertView.getResources().getColor(
 					position == 0 ? cn.ucai.superwechat.R.color.holo_red_light: cn.ucai.superwechat.R.color.holo_orange_light));
-			button.setOnClickListener(new OnClickListener() {
+			holder.imageView.setOnLongClickListener(new View.OnLongClickListener() {
 				@Override
-				public void onClick(View v) {
+				public boolean onLongClick(View v) {
 					if (!isCurrentOwner(group)) {
-						return;
+						return false;
 					}
 					if (username.equals(group.getOwner())) {
-						return;
+						return false;
 					}
 					operationUserId = username;
 					Dialog dialog = createMemberMenuDialog();
@@ -899,6 +906,7 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 					} catch (Exception e) {
 						e.printStackTrace();
 					}
+					return false;
 				}
 			});
 			return convertView;
@@ -966,10 +974,7 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 				final String username = getItem(position);
 				EaseUserUtils.setAPPUserNick(username, holder.textView);
 				EaseUserUtils.setAPPUserAvatar(getContext(), username, holder.imageView);
-				if (group.getOwner() == null || "".equals(group.getOwner())
-						|| !group.getOwner().equals(EMClient.getInstance().getCurrentUser())) {
-					groupAvatarClickListener(holder, username);
-				}
+				groupAvatarClickListener(holder, username);
 				LinearLayout id_background = (LinearLayout) convertView.findViewById(cn.ucai.superwechat.R.id.l_bg_id);
 				if (isInMuteList(username)) {
 					id_background.setBackgroundColor(convertView.getResources().getColor(cn.ucai.superwechat.R.color.gray_normal));
@@ -979,11 +984,11 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 					id_background.setBackgroundColor(convertView.getResources().getColor(cn.ucai.superwechat.R.color.holo_blue_bright));
 				}
 
-				button.setOnClickListener(new OnClickListener() {
+				holder.imageView.setOnLongClickListener(new View.OnLongClickListener() {
 					@Override
-					public void onClick(View v) {
+					public boolean onLongClick(View v) {
 						if (!isCurrentOwner(group) && !isCurrentAdmin(group)) {
-							return;
+							return false;
 						}
 						operationUserId = username;
 						Dialog dialog = createMemberMenuDialog();
@@ -1035,8 +1040,10 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 						} catch (Exception e) {
 							e.printStackTrace();
 						}
+						return false;
 					}
 				});
+
 			}
 
 			return convertView;
