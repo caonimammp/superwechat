@@ -277,6 +277,7 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 			case REQUEST_CODE_EXIT_DELETE: // 解散群
 				progressDialog.setMessage(st3);
 				progressDialog.show();
+				deleteAPPGroup();
 				deleteGrop();
 				break;
 
@@ -344,6 +345,20 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 				break;
 			}
 		}
+	}
+
+	private void deleteAPPGroup() {
+		model.removeGroup(GroupDetailsActivity.this, groupId, new OnCompleteListener<String>() {
+			@Override
+			public void onSuccess(String result) {
+
+			}
+
+			@Override
+			public void onError(String error) {
+
+			}
+		});
 	}
 
 	private void addAPPMembertoGroup(String GroupId,String[] newmembers) {
