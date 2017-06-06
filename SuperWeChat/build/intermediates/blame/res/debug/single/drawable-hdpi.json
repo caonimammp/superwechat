@@ -28,16 +28,16 @@
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-hdpi\\em_conversation_selected.png"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_app_pref_bg.9.png",
-        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-hdpi\\em_app_pref_bg.9.png"
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_btn_login.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-hdpi\\icon_btn_login.png"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\profile_pressed.png",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-hdpi\\profile_pressed.png"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_btn_login.png",
-        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-hdpi\\icon_btn_login.png"
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_app_pref_bg.9.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-hdpi\\em_app_pref_bg.9.png"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_roominfo_add_btn_normal.png",
@@ -48,12 +48,12 @@
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-hdpi\\icon_me_photo.png"
     },
     {
-        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_update_close_bg_normal.png",
-        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-hdpi\\umeng_update_close_bg_normal.png"
-    },
-    {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_mm_title_back.png",
         "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-hdpi\\em_mm_title_back.png"
+    },
+    {
+        "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_update_close_bg_normal.png",
+        "source": "D:\\myproject\\SuperWeChat\\SuperWeChat\\res\\drawable-hdpi\\umeng_update_close_bg_normal.png"
     },
     {
         "merged": "D:\\myproject\\SuperWeChat\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_show_head_toast_bg.9.png",

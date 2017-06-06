@@ -964,8 +964,8 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 			} else {
 				// members
 				final String username = getItem(position);
-				EaseUserUtils.setUserNick(username, holder.textView);
-				EaseUserUtils.setUserAvatar(getContext(), username, holder.imageView);
+				EaseUserUtils.setAPPUserNick(username, holder.textView);
+				EaseUserUtils.setAPPUserAvatar(getContext(), username, holder.imageView);
 				if (group.getOwner() == null || "".equals(group.getOwner())
 						|| !group.getOwner().equals(EMClient.getInstance().getCurrentUser())) {
 					groupAvatarClickListener(holder, username);

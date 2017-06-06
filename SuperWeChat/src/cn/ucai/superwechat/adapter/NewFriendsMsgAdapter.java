@@ -94,7 +94,6 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 		    holder.agree.setVisibility(View.INVISIBLE);
 			if(msg.getGroupId() != null){ // show group name
 				holder.groupContainer.setVisibility(View.VISIBLE);
-				Log.i("main",msg.toString()+"这是群组msg");
 				holder.groupname.setText(":"+msg.getGroupId());
 				EaseUserUtils.setGroupAvatarByhxid(context,msg.getGroupId(),holder.avator);
 				holder.name.setText(msg.getGroupName());
@@ -302,7 +301,6 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 		Button status;
 		LinearLayout groupContainer;
 		TextView groupname;
-		TextView message;
 		// TextView time;
 	}
 

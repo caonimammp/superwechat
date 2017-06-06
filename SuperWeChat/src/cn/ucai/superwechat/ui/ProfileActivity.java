@@ -15,10 +15,17 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import cn.ucai.easeui.domain.User;
 import cn.ucai.easeui.utils.EaseUserUtils;
+import cn.ucai.superwechat.Constant;
 import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatHelper;
+import cn.ucai.superwechat.data.Result;
+import cn.ucai.superwechat.data.net.IUserModel;
+import cn.ucai.superwechat.data.net.OnCompleteListener;
+import cn.ucai.superwechat.data.net.UserModel;
+import cn.ucai.superwechat.db.UserDao;
 import cn.ucai.superwechat.utils.MFGT;
+import cn.ucai.superwechat.utils.ResultUtils;
 
 /**
  * Created by clawpo on 2017/5/25.
@@ -38,18 +45,15 @@ public class ProfileActivity extends BaseActivity {
     @BindView(R.id.btn_send_video)
     Button mBtnSendVideo;
     User user = null;
-
+    IUserModel model;
+    String username;
     @Override
     protected void onCreate(Bundle arg0) {
         setContentView(R.layout.activity_profile);
         ButterKnife.bind(this);
         super.onCreate(arg0);
-        titleBar.setLeftLayoutClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
+        showLeftBack();
+        model = new UserModel();
     }
 
     @Override
@@ -59,7 +63,7 @@ public class ProfileActivity extends BaseActivity {
     }
 
     private void initData() {
-        String username = getIntent().getStringExtra(I.User.USER_NAME);
+        username = getIntent().getStringExtra(I.User.USER_NAME);
         if (username != null) {
             user = SuperWeChatHelper.getInstance().getAPPContactList().get(username);
         }
@@ -69,11 +73,59 @@ public class ProfileActivity extends BaseActivity {
         if(user==null&&username.equals(SuperWeChatHelper.getInstance().getCurrentUsernName())){
             user = SuperWeChatHelper.getInstance().getUserProfileManager().getCurrentAPPUserInfo();
         }
+        if(user==null){
+            syncUserInfo();
+        }
         if (user != null) {
             showInfo();
-        } else {
+            syncUserInfo();
+        } else if(user==null&&username==null) {
             finish();
         }
+    }
+
+    private void syncUserInfo() {
+        model.findUserByUserName(ProfileActivity.this, username, new OnCompleteListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                if(s!=null){
+                    boolean isSuccess = false;
+                    Result<User> result = ResultUtils.getResultFromJson(s,User.class);
+                    if(result!=null&&result.isRetMsg()){
+                        user = result.getRetData();
+                        isSuccess = true;
+                    }
+                    if(!isSuccess){
+                        showUser();
+                    }else {
+                        showInfo();
+                        saveUser2DB();
+                    }
+                }
+            }
+
+
+
+            @Override
+            public void onError(String error) {
+                showUser();
+            }
+        });
+    }
+
+    private void saveUser2DB() {
+        UserDao userDao = new UserDao(ProfileActivity.this);
+        if(SuperWeChatHelper.getInstance().getAPPContactList().containsValue(user)){
+            userDao.saveAPPContact(user);
+            SuperWeChatHelper.getInstance().getAPPContactList().put(user.getMUserName(),user);
+            sendBroadcast(new Intent(Constant.ACTION_CONTACT_CHANAGED));
+        }
+    }
+
+    private void showUser() {
+        mTvUserinfoName.setText(username);
+        EaseUserUtils.setAPPUserNick(username,mTvUserinfoNick);
+        EaseUserUtils.setAvatar(ProfileActivity.this,username,mProfileImage);
     }
 
     private void showInfo() {

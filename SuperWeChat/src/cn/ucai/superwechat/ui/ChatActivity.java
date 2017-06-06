@@ -3,6 +3,7 @@ package cn.ucai.superwechat.ui;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.util.Log;
 import android.view.View;
 
 import cn.ucai.superwechat.R;
@@ -34,7 +35,13 @@ public class ChatActivity extends BaseActivity{
         chatFragment.setArguments(getIntent().getExtras());
         getSupportFragmentManager().beginTransaction().add(R.id.container, chatFragment).commit();
     }
-    
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        toChatUsername = getIntent().getExtras().getString("userId");
+    }
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
@@ -51,7 +58,6 @@ public class ChatActivity extends BaseActivity{
             finish();
             startActivity(intent);
         }
-
     }
     
     @Override

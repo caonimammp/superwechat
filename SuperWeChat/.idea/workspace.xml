@@ -18,38 +18,19 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="main" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd72e275-2e05-46b4-b757-17816eb39dbd" name="Default" comment="修改跳转到Contact">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/BaiduLBS_Android.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/HwPush_SDK_V2705_nomap.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/MiPush_SDK_Client_2_2_19.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/alipaySdk_20161129.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/bolts_tasks_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/glide_3_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/google_play_services.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/hyphenatechat_3_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/multidex_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/multidex_instrumentation_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_http_legacy.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/parse_android_1_13_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/redpacket_alipay_1_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/umeng_analytics_v5_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/umeng_update_v2_6_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/volley_1_0_19.xml" afterPath="" />
+    <list default="true" id="bd72e275-2e05-46b4-b757-17816eb39dbd" name="Default" comment="添加群成员">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/outputs/aar/redpacketlibrary-debug.aar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/outputs/aar/redpacketlibrary-debug.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/outputs/aar/redpacketlibrary-release.aar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/outputs/aar/redpacketlibrary-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
@@ -57,17 +38,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/ease_widget_title_bar.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/ease_widget_title_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/em_activity_group_pick_contacts.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/em_activity_group_pick_contacts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/em_activity_new_group.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/em_activity_new_group.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/em_fragment_groups.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/em_fragment_groups.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/em_activity_group_details.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/em_activity_group_details.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/em_row_invite_msg.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/em_row_invite_msg.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/generated/source/r/androidTest/debug/cn/easemob/redpacket/R.java" afterPath="$PROJECT_DIR$/redpacketlibrary/build/generated/source/r/androidTest/debug/cn/easemob/redpacket/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/generated/source/r/androidTest/debug/cn/easemob/redpacket/test/R.java" afterPath="$PROJECT_DIR$/redpacketlibrary/build/generated/source/r/androidTest/debug/cn/easemob/redpacket/test/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/generated/source/r/androidTest/debug/cn/ucai/easeui/R.java" afterPath="$PROJECT_DIR$/redpacketlibrary/build/generated/source/r/androidTest/debug/cn/ucai/easeui/R.java" />
@@ -91,17 +67,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/res/merged/debug/layout/ease_widget_title_bar.xml" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/res/merged/debug/layout/ease_widget_title_bar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/symbols/androidTest/debug/R.txt" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/symbols/androidTest/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/I.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/I.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/MainActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/NewGroupActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/NewGroupActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/generated/source/r/androidTest/debug/cn/ucai/easeui/R.java" afterPath="$PROJECT_DIR$/../easeui/build/generated/source/r/androidTest/debug/cn/ucai/easeui/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/generated/source/r/androidTest/debug/cn/ucai/easeui/test/R.java" afterPath="$PROJECT_DIR$/../easeui/build/generated/source/r/androidTest/debug/cn/ucai/easeui/test/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/generated/source/r/debug/cn/ucai/easeui/R.java" afterPath="$PROJECT_DIR$/../easeui/build/generated/source/r/debug/cn/ucai/easeui/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/res/layout/ease_widget_title_bar.xml" afterPath="$PROJECT_DIR$/../easeui/res/layout/ease_widget_title_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/res/values/ease_attrs.xml" afterPath="$PROJECT_DIR$/../easeui/res/values/ease_attrs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/adapter/EaseConversationAdapter.java" afterPath="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/adapter/EaseConversationAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/utils/EaseUserUtils.java" afterPath="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/utils/EaseUserUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/widget/EaseTitleBar.java" afterPath="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/widget/EaseTitleBar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/em_activity_group_details.xml" afterPath="$PROJECT_DIR$/res/layout/em_activity_group_details.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/data/net/IUserModel.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/data/net/IUserModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/data/net/UserModel.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/data/net/UserModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ChatActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ChatActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/GroupDetailsActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/GroupDetailsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ProfileActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ProfileActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/widget/chatrow/EaseChatRow.java" afterPath="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/widget/chatrow/EaseChatRow.java" />
     </list>
     <ignored path="SuperWeChat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -137,138 +110,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GroupDetailsActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/GroupDetailsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="959" column="24" selection-start-line="959" selection-start-column="24" selection-end-line="959" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProfileActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ProfileActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="e#3385#3386#0" expanded="true" />
+                <element signature="e#3427#3428#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EaseChatRow.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/widget/chatrow/EaseChatRow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="123" column="8" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ChatActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <folding>
+                <element signature="e#2105#2106#0" expanded="true" />
+                <element signature="e#2142#2143#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EaseChatFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/ui/EaseChatFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="179" column="32" selection-start-line="179" selection-start-column="32" selection-end-line="179" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="NewGroupActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/NewGroupActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="337" column="70" selection-start-line="337" selection-start-column="70" selection-end-line="337" selection-end-column="70" />
+            <state relative-caret-position="2706">
+              <caret line="191" column="54" selection-start-line="191" selection-start-column="54" selection-end-line="191" selection-end-column="54" />
               <folding>
                 <element signature="e#0#617#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#3641#4044#0" expanded="true" />
-                <element signature="e#3861#3894#0" expanded="true" />
-                <element signature="e#3965#4000#0" expanded="true" />
-                <element signature="e#4043#4044#0" expanded="true" />
-                <element signature="e#4196#4336#0" expanded="true" />
-                <element signature="e#4335#4336#0" expanded="true" />
-                <element signature="e#4382#4536#0" expanded="true" />
-                <element signature="e#4535#4536#0" expanded="true" />
-                <element signature="e#4740#4775#0" expanded="true" />
-                <element signature="e#8064#8122#0" expanded="true" />
-                <element signature="e#8143#9853#0" expanded="true" />
-                <element signature="e#8671#8730#0" expanded="true" />
-                <element signature="e#9522#9808#0" expanded="true" />
-                <element signature="e#9807#9808#0" expanded="true" />
-                <element signature="e#9852#9853#0" expanded="true" />
-                <element signature="e#10001#10031#0" expanded="true" />
-                <element signature="e#10072#10109#0" expanded="true" />
-                <element signature="e#10111#10150#0" expanded="true" />
-                <element signature="e#10169#11134#0" expanded="true" />
-                <element signature="e#10476#10512#0" expanded="true" />
-                <element signature="e#11133#11134#0" expanded="true" />
-                <element signature="e#12985#13043#0" expanded="true" />
-                <element signature="e#13067#13383#0" expanded="true" />
-                <element signature="e#13382#13383#0" expanded="true" />
-                <element signature="e#14642#14643#0" expanded="true" />
-                <element signature="e#14707#14708#0" expanded="true" />
-                <element signature="e#14793#14973#0" expanded="true" />
-                <element signature="e#14972#14973#0" expanded="true" />
-                <element signature="e#15015#15016#0" expanded="true" />
-                <element signature="e#15039#15040#0" expanded="true" />
-                <element signature="e#15090#15091#0" expanded="true" />
-                <element signature="e#15140#15141#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/BaseActivity.java">
+      <file leaf-file-name="EditActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/EditActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupPickContactsActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/GroupPickContactsActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-418">
-              <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+            <state relative-caret-position="572">
+              <caret line="31" column="99" selection-start-line="31" selection-start-column="99" selection-end-line="31" selection-end-column="99" />
               <folding>
-                <element signature="e#4295#4405#0" expanded="true" />
-                <element signature="e#4404#4405#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#978#979#0" expanded="false" />
+                <element signature="e#993#994#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupsActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/GroupsActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/GroupAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="111" column="16" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="403" column="34" selection-start-line="403" selection-start-column="34" selection-end-line="403" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EaseConversationAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/adapter/EaseConversationAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
-              <folding>
-                <element signature="e#8969#8985#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EaseUserUtils.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/utils/EaseUserUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="149" column="5" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="em_activity_group_pick_contacts.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/em_activity_group_pick_contacts.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-              <folding>
-                <element signature="e#540#561#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="em_activity_group_details.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/em_activity_group_details.xml">
           <provider editor-type-id="android-designer2">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4994">
+              <caret line="227" column="28" selection-start-line="227" selection-start-column="28" selection-end-line="227" selection-end-column="28" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -2949,14 +2883,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../easeui/res/values/ease_strings.xml" />
-        <option value="$PROJECT_DIR$/../easeui/res/values-zh-rCN/ease_strings.xml" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/db/InviteMessgeDao.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/db/DbOpenHelper.java" />
-        <option value="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/domain/User.java" />
-        <option value="$PROJECT_DIR$/res/layout/em_row_invite_msg.xml" />
-        <option value="$PROJECT_DIR$/res/layout/em_activity_new_friends_msg.xml" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/SendMessageActivity.java" />
         <option value="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/utils/EaseCommonUtils.java" />
         <option value="$PROJECT_DIR$/res/layout/em_contacts_header.xml" />
         <option value="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/widget/EaseContactList.java" />
@@ -2967,11 +2893,9 @@
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ConversationListFragment.java" />
         <option value="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/controller/EaseUI.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/NewFriendsMsgActivity.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/domain/InviteMessage.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/SuperWeChatModel.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/db/UserDao.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/SuperWeChatHelper.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/AddContactActivity.java" />
         <option value="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/adapter/EaseContactAdapter.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ContactListFragment.java" />
@@ -2980,26 +2904,36 @@
         <option value="$PROJECT_DIR$/res/layout/activity_profile.xml" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/db/SuperWeChatDBManager.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/MFGT.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ChatActivity.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ProfileActivity.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ChatFragment.java" />
         <option value="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/ui/EaseBaseActivity.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/GroupsActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/em_fragment_groups.xml" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/data/net/IUserModel.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/data/net/UserModel.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/I.java" />
         <option value="$PROJECT_DIR$/../easeui/res/values/ease_attrs.xml" />
         <option value="$PROJECT_DIR$/../easeui/res/layout/ease_widget_title_bar.xml" />
         <option value="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/widget/EaseTitleBar.java" />
         <option value="$PROJECT_DIR$/res/layout/em_activity_new_group.xml" />
         <option value="$PROJECT_DIR$/res/layout/em_activity_group_pick_contacts.xml" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/GroupPickContactsActivity.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/GroupAdapter.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/NewGroupActivity.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/MainActivity.java" />
-        <option value="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/adapter/EaseConversationAdapter.java" />
         <option value="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/utils/EaseUserUtils.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/PersonalFragment.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/GroupPickContactsActivity.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/NewGroupActivity.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/GroupAdapter.java" />
+        <option value="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/adapter/EaseConversationAdapter.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/domain/InviteMessage.java" />
+        <option value="$PROJECT_DIR$/res/layout/em_row_invite_msg.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/values-zh/strings.xml" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.java" />
+        <option value="$PROJECT_DIR$/res/layout/em_activity_group_details.xml" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ChatActivity.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/I.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/data/net/IUserModel.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/data/net/UserModel.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/GroupDetailsActivity.java" />
+        <option value="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/ui/EaseChatFragment.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ProfileActivity.java" />
+        <option value="$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/widget/chatrow/EaseChatRow.java" />
       </list>
     </option>
   </component>
@@ -3035,16 +2969,73 @@
     </navigator>
     <panes>
       <pane id="AndroidView">
-        <subPane />
-      </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWeChat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWeChat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWeChat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWeChat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWeChat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="superwechat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWeChat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperWeChat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="superwechat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="PackagesPane">
         <subPane />
       </pane>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3053,9 +3044,10 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.project.structure.last.selected" value="SuperWeChat" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="SearchEverywhereHistoryKey" value="Conver&#9;FILE&#9;file://D:/myproject/SuperWeChat/easeui/src/cn/ucai/easeui/adapter/EaseConversationAdapter.java&#10;Main&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/MainActivity.java&#10;Easeuti&#9;PSI&#9;JAVA://cn.ucai.easeui.utils.EaseUserUtils&#10;I&#9;PSI&#9;JAVA://cn.ucai.superwechat.I&#10;newG&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/NewGroupActivity.java&#10;EaseConversationAdapter.java&#9;FILE&#9;file://D:/myproject/SuperWeChat/easeui/src/cn/ucai/easeui/adapter/EaseConversationAdapter.java&#10;Mf&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/utils/MFGT.java&#10;chat&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ChatActivity.java&#10;pro&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ProfileActivity.java&#10;EaseAda&#9;FILE&#9;file://D:/myproject/SuperWeChat/easeui/src/cn/ucai/easeui/adapter/EaseContactAdapter.java&#10;Contactlist&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.ContactListFragment&#10;ContactLis&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ContactListFragment.java&#10;NewF&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/NewFriendsMsgActivity.java&#10;add&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/AddContactActivity.java&#10;main&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/MainActivity.java&#10;new&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/NewFriendsMsgActivity.java&#10;suhe&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/SuperWeChatHelper.java&#10;Iuser&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/data/net/IUserModel.java&#10;SuperW&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/SuperWeChatHelper.java&#10;Super&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/SuperWeChatHelper.java&#10;Superhel&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/SuperWeChatHelper.java&#10;Conta&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ContactListFragment.java&#10;Conv&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ConversationListFragment.java&#10;con&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ContactListFragment.java&#10;Userp&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/UserProfileActivity.java&#10;New&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.java&#10;Con&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ContactListFragment.java&#10;newAda&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.java&#10;send&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/SendMessageActivity.java&#10;User&#9;FILE&#9;file://D:/myproject/SuperWeChat/easeui/src/cn/ucai/easeui/domain/User.java&#10;Superhe&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/SuperWeChatHelper.java&#10;SuperDb&#9;PSI&#9;JAVA://cn.ucai.superwechat.db.SuperWeChatDBManager&#10;DBopen&#9;PSI&#9;JAVA://cn.ucai.superwechat.db.DbOpenHelper&#10;Per&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/PersonalFragment.java&#10;person&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/PersonalFragment.java&#10;userP&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/parse/UserProfileManager.java&#10;Eui&#9;PSI&#9;JAVA://cn.ucai.easeui.controller.EaseUI&#10;superchathe&#9;PSI&#9;JAVA://cn.ucai.superwechat.SuperWeChatHelper&#10;login&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/LoginActivity.java&#10;baseF&#9;FILE&#9;file://D:/myproject/SuperWeChat/easeui/src/cn/ucai/easeui/ui/EaseBaseFragment.java&#10;p&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/UserProfileActivity.java&#10;per&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/PersonalFragment.java&#10;d&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/DicoverFragment.java&#10;Setting&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/SettingsFragment.java&#10;dico&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.DicoverFragment&#10;set&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.SettingsFragment&#10;Layoutta&#9;PSI&#9;JAVA://cn.ucai.superwechat.R.id#layout_tabhost&#10;discoverFragment&#9;FILE&#9;file://D:/Android/sources/android-25/android/support/v7/app/MediaRouteDiscoveryFragment.java&#10;regis&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/RegisterActivity.java&#10;MD5&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/utils/MD5.java" />
+    <property name="SearchEverywhereHistoryKey" value="Convers&#9;FILE&#9;file://D:/myproject/SuperWeChat/easeui/src/cn/ucai/easeui/adapter/EaseConversationAdapter.java&#10;EaseChatRow&#9;PSI&#9;JAVA://cn.ucai.easeui.widget.chatrow.EaseChatRow&#10;chat&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ChatActivity.java&#10;Profile&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.ProfileActivity&#10;Iuser&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/data/net/IUserModel.java&#10;Iu&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/data/net/IUserModel.java&#10;User&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/data/net/UserModel.java&#10;NewG&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/NewGroupActivity.java&#10;Usermodel&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/data/net/UserModel.java&#10;c&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ChatFragment.java&#10;newF&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.java&#10;Groupde&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.GroupDetailsActivity&#10;newG&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/NewGroupActivity.java&#10;NewFriend&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.NewFriendsMsgActivity&#10;Conver&#9;FILE&#9;file://D:/myproject/SuperWeChat/easeui/src/cn/ucai/easeui/adapter/EaseConversationAdapter.java&#10;new&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/NewGroupActivity.java&#10;groupada&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/adapter/GroupAdapter.java&#10;Person&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.PersonalFragment&#10;Adapter&#9;PSI&#9;JAVA://cn.ucai.easeui.adapter.EaseContactAdapter&#10;Usermode&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/data/net/UserModel.java&#10;Main&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/MainActivity.java&#10;Easeuti&#9;PSI&#9;JAVA://cn.ucai.easeui.utils.EaseUserUtils&#10;I&#9;PSI&#9;JAVA://cn.ucai.superwechat.I&#10;EaseConversationAdapter.java&#9;FILE&#9;file://D:/myproject/SuperWeChat/easeui/src/cn/ucai/easeui/adapter/EaseConversationAdapter.java&#10;Mf&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/utils/MFGT.java&#10;pro&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ProfileActivity.java&#10;EaseAda&#9;FILE&#9;file://D:/myproject/SuperWeChat/easeui/src/cn/ucai/easeui/adapter/EaseContactAdapter.java&#10;Contactlist&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.ContactListFragment&#10;ContactLis&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ContactListFragment.java&#10;NewF&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/NewFriendsMsgActivity.java&#10;add&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/AddContactActivity.java&#10;main&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/MainActivity.java&#10;suhe&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/SuperWeChatHelper.java&#10;SuperW&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/SuperWeChatHelper.java&#10;Super&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/SuperWeChatHelper.java&#10;Superhel&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/SuperWeChatHelper.java&#10;Conta&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ContactListFragment.java&#10;Conv&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ConversationListFragment.java&#10;con&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ContactListFragment.java&#10;Userp&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/UserProfileActivity.java&#10;New&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.java&#10;Con&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/ContactListFragment.java&#10;newAda&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.java&#10;send&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/SendMessageActivity.java&#10;Superhe&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/SuperWeChatHelper.java&#10;SuperDb&#9;PSI&#9;JAVA://cn.ucai.superwechat.db.SuperWeChatDBManager&#10;DBopen&#9;PSI&#9;JAVA://cn.ucai.superwechat.db.DbOpenHelper&#10;Per&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/PersonalFragment.java&#10;person&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/ui/PersonalFragment.java&#10;userP&#9;FILE&#9;file://D:/myproject/SuperWeChat/SuperWeChat/src/cn/ucai/superwechat/parse/UserProfileManager.java" />
     <property name="device.picker.selection" value="iPhone_7_Plus" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -3390,76 +3382,6 @@
       <option name="presentableId" value="Default" />
       <updated>1495115967350</updated>
     </task>
-    <task id="LOCAL-00014" summary="添加MD5密码加密">
-      <created>1495417748792</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1495417748792</updated>
-    </task>
-    <task id="LOCAL-00015" summary="实体类的添加">
-      <created>1495435479518</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1495435479518</updated>
-    </task>
-    <task id="LOCAL-00016" summary="添加loadUserInfo的接口及实现">
-      <created>1495435538282</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1495435538282</updated>
-    </task>
-    <task id="LOCAL-00017" summary="调用加载数据的方法把数据存储到shared_prefs中">
-      <created>1495441007459</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1495441007459</updated>
-    </task>
-    <task id="LOCAL-00018" summary="修改MainActivity的布局">
-      <created>1495444458227</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1495444458227</updated>
-    </task>
-    <task id="LOCAL-00019" summary="整理MainActivity中的代码">
-      <created>1495455280544</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1495455280544</updated>
-    </task>
-    <task id="LOCAL-00020" summary="MainActivity中页面的显示">
-      <created>1495458084495</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1495458084495</updated>
-    </task>
-    <task id="LOCAL-00021" summary="添加滑动和点击的监听事件，实现Fragment和按钮同步">
-      <created>1495504524856</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1495504524856</updated>
-    </task>
-    <task id="LOCAL-00022" summary="个人中心数据显示">
-      <created>1495511618057</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1495511618057</updated>
-    </task>
-    <task id="LOCAL-00023" summary="添加TitleBar">
-      <created>1495519951672</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1495519951672</updated>
-    </task>
     <task id="LOCAL-00024" summary="个人中心点击设置进入设置页面">
       <created>1495525230836</created>
       <option name="number" value="00024" />
@@ -3733,7 +3655,77 @@
       <option name="project" value="LOCAL" />
       <updated>1496643516473</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="会话列表未读消息的数量，群聊头像的显示">
+      <created>1496646982414</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1496646982414</updated>
+    </task>
+    <task id="LOCAL-00064" summary="UserModel的createGroup方法中加入addFile2 成功上传头像">
+      <created>1496653925173</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1496653925173</updated>
+    </task>
+    <task id="LOCAL-00065" summary="回话列表显示群聊头像">
+      <created>1496654207553</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1496654207553</updated>
+    </task>
+    <task id="LOCAL-00066" summary="群组的申请消息显示图标及优化布局显示数据">
+      <created>1496664695134</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1496664695134</updated>
+    </task>
+    <task id="LOCAL-00067" summary="群组详情统一为titlebar">
+      <created>1496666358533</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1496666358537</updated>
+    </task>
+    <task id="LOCAL-00068" summary="群组详情中头像的点击时间，进入用户详情">
+      <created>1496668293871</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1496668293872</updated>
+    </task>
+    <task id="LOCAL-00069" summary="增加判断使只有不是群主时在群组详情里点击成员头像时才显示用户详情">
+      <created>1496668852400</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1496668852401</updated>
+    </task>
+    <task id="LOCAL-00070" summary="通过环信id修改群名称">
+      <created>1496672680351</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1496672680351</updated>
+    </task>
+    <task id="LOCAL-00071" summary="添加群成员和批量添加群成员的接口定义及实现">
+      <created>1496674077567</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1496674077568</updated>
+    </task>
+    <task id="LOCAL-00072" summary="群组详情显示陌生人头像">
+      <created>1496712303509</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1496712303519</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3749,31 +3741,29 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19295558" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23146747" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27685326" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41500765" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27105665" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1424196" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771823" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08116386" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22314675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6891271" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22314675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23146747" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -3782,6 +3772,8 @@
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28214827" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6891271" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -3796,16 +3788,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加MainActivity通讯录有消息时的小红点" />
-    <MESSAGE value="申请与通知修改为新的朋友" />
-    <MESSAGE value="为消息列表增加头像和昵称" />
-    <MESSAGE value="头像异步加载和数据保存" />
-    <MESSAGE value="消息列表显示头像和昵称" />
-    <MESSAGE value="成功添加好友" />
-    <MESSAGE value="通讯录联系人头像的显示" />
-    <MESSAGE value="删除联系人成功" />
-    <MESSAGE value="加载所有的联系人并保存" />
-    <MESSAGE value="联系人过滤条件为包含用户名和昵称" />
     <MESSAGE value="点击联系人列表显示用户详情" />
     <MESSAGE value="用户详情页面点击发消息进入聊天页面" />
     <MESSAGE value="聊天页面点击自己头像进入个人中心，点击别人头像进入ProfileActivity" />
@@ -3821,7 +3803,17 @@
     <MESSAGE value="创建有群图标的群组到服务器" />
     <MESSAGE value="修改跳转到GroupPickContactsActivity的requestcode成功创建群组" />
     <MESSAGE value="群聊列表显示群头像" />
-    <option name="LAST_COMMIT_MESSAGE" value="群聊列表显示群头像" />
+    <MESSAGE value="会话列表未读消息的数量，群聊头像的显示" />
+    <MESSAGE value="UserModel的createGroup方法中加入addFile2 成功上传头像" />
+    <MESSAGE value="回话列表显示群聊头像" />
+    <MESSAGE value="群组的申请消息显示图标及优化布局显示数据" />
+    <MESSAGE value="群组详情统一为titlebar" />
+    <MESSAGE value="群组详情中头像的点击时间，进入用户详情" />
+    <MESSAGE value="增加判断使只有不是群主时在群组详情里点击成员头像时才显示用户详情" />
+    <MESSAGE value="通过环信id修改群名称" />
+    <MESSAGE value="添加群成员和批量添加群成员的接口定义及实现" />
+    <MESSAGE value="群组详情显示陌生人头像" />
+    <option name="LAST_COMMIT_MESSAGE" value="群组详情显示陌生人头像" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3832,393 +3824,85 @@
           <properties />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/em_activity_video_call.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="166" column="24" selection-start-line="166" selection-start-column="24" selection-end-line="166" selection-end-column="24" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/res/layout/em_fragment_groups.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/em_activity_chat.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="814">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../easeui/res/drawable-xhdpi/ease_group_icon.png">
+      <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://D:/Android/sources/android-25/android/app/Instrumentation.java">
+    <entry file="jar://$PROJECT_DIR$/../easeui/libs/glide-3.6.1.jar!/com/bumptech/glide/GenericRequestBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="1106" column="0" selection-start-line="1106" selection-start-column="0" selection-end-line="1106" selection-end-column="0" />
+        <state relative-caret-position="-32">
+          <caret line="326" column="33" selection-start-line="326" selection-start-column="33" selection-end-line="326" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../easeui/libs/hyphenatechat_3.3.1.jar!/com/hyphenate/util/EasyUtils.class">
+    <entry file="jar://$PROJECT_DIR$/../easeui/libs/glide-3.6.1.jar!/com/bumptech/glide/DrawableRequestBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+        <state relative-caret-position="242">
+          <caret line="234" column="21" selection-start-line="234" selection-start-column="21" selection-end-line="234" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Android/extras/android/m2repository/com/android/support/support-fragment/25.0.1/support-fragment-25.0.1-sources.jar!/android/support/v4/app/Fragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="633" column="34" selection-start-line="633" selection-start-column="34" selection-end-line="633" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/db/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="62" column="50" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/SuperWeChatModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="297" column="30" selection-start-line="297" selection-start-column="30" selection-end-line="297" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/SuperWeChatHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="1092" column="45" selection-start-line="1092" selection-start-column="45" selection-end-line="1092" selection-end-column="45" />
-          <folding>
-            <marker date="1496324535165" expanded="false" signature="47883:47893" ph="&lt;~&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_profile.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/em_add_public_group.png">
+      <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/widget/DMTabHost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/VideoCallActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="370" column="0" selection-start-line="370" selection-start-column="0" selection-end-line="370" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Android/extras/android/m2repository/com/android/support/support-core-ui/25.0.1/support-core-ui-25.0.1-sources.jar!/android/support/v4/view/ViewPager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-452">
-          <caret line="638" column="22" selection-start-line="638" selection-start-column="22" selection-end-line="638" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/CallActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="389" column="0" selection-start-line="389" selection-start-column="0" selection-end-line="389" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/CallOptionActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/utils/MFGT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="34" column="67" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#845#846#0" expanded="false" />
-            <element signature="e#895#896#0" expanded="false" />
-            <element signature="e#948#949#0" expanded="false" />
-            <element signature="e#997#998#0" expanded="false" />
-            <element signature="e#1813#1814#0" expanded="false" />
-            <element signature="e#1865#1866#0" expanded="false" />
-            <element signature="e#1923#1924#0" expanded="false" />
-            <element signature="e#1977#1978#0" expanded="false" />
-            <element signature="e#2033#2034#0" expanded="false" />
-            <element signature="e#2087#2088#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/db/SuperWeChatDBManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4643#4644#0" expanded="false" />
-            <element signature="e#4705#4706#0" expanded="false" />
-            <element signature="e#4752#4753#0" expanded="false" />
-            <element signature="e#4816#4817#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ProfileActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2024">
-          <caret line="112" column="1" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1389#1390#0" expanded="false" />
-            <element signature="e#1429#1430#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ChatActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1936#1937#0" expanded="false" />
-            <element signature="e#1973#1974#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ChatFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="117" column="32" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#11448#11449#0" expanded="false" />
-            <element signature="e#11489#11490#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
+    <entry file="file://$PROJECT_DIR$/../easeui/res/drawable-hdpi/ease_default_avatar.png">
+      <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/ui/EaseBaseActivity.java">
+    <entry file="file://$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/adapter/EaseContactAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
-          <folding>
-            <element signature="e#2467#2649#0" expanded="false" />
-            <element signature="e#2648#2649#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="86" column="64" selection-start-line="86" selection-start-column="64" selection-end-line="86" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/ui/EaseChatFragment.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/PersonalFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="459" column="13" selection-start-line="459" selection-start-column="13" selection-end-line="459" selection-end-column="13" />
+        <state relative-caret-position="217">
+          <caret line="110" column="35" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Android/sources/android-25/android/content/res/Resources.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/GroupPickContactsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="379" column="18" selection-start-line="379" selection-start-column="18" selection-end-line="379" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="154">
+          <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/data/net/UserModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/data/net/IUserModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="21" column="86" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../easeui/res/layout/ease_widget_title_bar.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://D:/Android/sources/android-25/android/app/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="3688" column="22" selection-start-line="3688" selection-start-column="22" selection-end-line="3688" selection-end-column="22" />
-          <folding>
-            <element signature="e#155756#155757#0" expanded="false" />
-            <element signature="e#155792#155793#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../easeui/res/values/ease_attrs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/widget/EaseTitleBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding>
-            <element signature="e#4099#4100#0" expanded="true" />
-            <element signature="e#4138#4139#0" expanded="true" />
-            <element signature="e#4179#4180#0" expanded="true" />
-            <element signature="e#4218#4219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Android/extras/android/m2repository/com/android/support/support-fragment/25.0.1/support-fragment-25.0.1-sources.jar!/android/support/v4/app/FragmentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="150" column="19" selection-start-line="150" selection-start-column="19" selection-end-line="150" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Android/sources/android-25/android/widget/ImageView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="517" column="16" selection-start-line="517" selection-start-column="16" selection-end-line="517" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_pick_at_user.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/em_activity_group_pick_contacts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-          <folding>
-            <element signature="e#540#561#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://D:/Android/sources/android-25/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="236" column="12" selection-start-line="236" selection-start-column="12" selection-end-line="236" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Android/sources/android-25/android/content/Intent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="4792" column="11" selection-start-line="4792" selection-start-column="11" selection-end-line="4792" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/I.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/em_activity_new_group.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="e#625#639#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/BaseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/em_fragment_groups.xml">
+    <entry file="file://$PROJECT_DIR$/res/values-zh/em_strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        <state relative-caret-position="135">
+          <caret line="244" column="44" selection-start-line="244" selection-start-column="44" selection-end-line="244" selection-end-column="44" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../easeui/res/drawable-xhdpi/ease_group_icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/GroupsActivity.java">
@@ -4229,119 +3913,354 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/GroupPickContactsActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/GroupAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-418">
-          <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
-          <folding>
-            <element signature="e#4295#4405#0" expanded="true" />
-            <element signature="e#4404#4405#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="368">
+          <caret line="120" column="9" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/NewGroupActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="337" column="70" selection-start-line="337" selection-start-column="70" selection-end-line="337" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#617#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#3641#4044#0" expanded="true" />
-            <element signature="e#3861#3894#0" expanded="true" />
-            <element signature="e#3965#4000#0" expanded="true" />
-            <element signature="e#4043#4044#0" expanded="true" />
-            <element signature="e#4196#4336#0" expanded="true" />
-            <element signature="e#4335#4336#0" expanded="true" />
-            <element signature="e#4382#4536#0" expanded="true" />
-            <element signature="e#4535#4536#0" expanded="true" />
-            <element signature="e#4740#4775#0" expanded="true" />
-            <element signature="e#8064#8122#0" expanded="true" />
-            <element signature="e#8143#9853#0" expanded="true" />
-            <element signature="e#8671#8730#0" expanded="true" />
-            <element signature="e#9522#9808#0" expanded="true" />
-            <element signature="e#9807#9808#0" expanded="true" />
-            <element signature="e#9852#9853#0" expanded="true" />
-            <element signature="e#10001#10031#0" expanded="true" />
-            <element signature="e#10072#10109#0" expanded="true" />
-            <element signature="e#10111#10150#0" expanded="true" />
-            <element signature="e#10169#11134#0" expanded="true" />
-            <element signature="e#10476#10512#0" expanded="true" />
-            <element signature="e#11133#11134#0" expanded="true" />
-            <element signature="e#12985#13043#0" expanded="true" />
-            <element signature="e#13067#13383#0" expanded="true" />
-            <element signature="e#13382#13383#0" expanded="true" />
-            <element signature="e#14642#14643#0" expanded="true" />
-            <element signature="e#14707#14708#0" expanded="true" />
-            <element signature="e#14793#14973#0" expanded="true" />
-            <element signature="e#14972#14973#0" expanded="true" />
-            <element signature="e#15015#15016#0" expanded="true" />
-            <element signature="e#15039#15040#0" expanded="true" />
-            <element signature="e#15090#15091#0" expanded="true" />
-            <element signature="e#15140#15141#0" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/../easeui/res/layout/ease_fragment_conversation_list.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../easeui/libs/glide-3.6.1.jar!/com/bumptech/glide/GenericRequestBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="326" column="33" selection-start-line="326" selection-start-column="33" selection-end-line="326" selection-end-column="33" />
+        <state relative-caret-position="132">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../easeui/libs/glide-3.6.1.jar!/com/bumptech/glide/DrawableRequestBuilder.class">
+    <entry file="file://$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/ui/EaseConversationListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="234" column="21" selection-start-line="234" selection-start-column="21" selection-end-line="234" selection-end-column="21" />
-          <folding>
-            <element signature="e#8284#8285#0" expanded="true" />
-            <element signature="e#8323#8324#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-4395">
+          <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/em_add_public_group.png">
+    <entry file="file://$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/utils/EaseUserUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/em_activity_new_friends_msg.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/em_msg_state_fail_resend.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/GroupAdapter.java">
+    <entry file="file://D:/Android/sources/android-25/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="111" column="16" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
+        <state relative-caret-position="114">
+          <caret line="258" column="18" selection-start-line="258" selection-start-column="18" selection-end-line="258" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/NewFriendsMsgActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/domain/InviteMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/em_row_invite_msg.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/em_activity_group_blacklist.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/em_activity_group_pick_contacts.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_profile.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="13" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="105" column="27" selection-start-line="105" selection-start-column="27" selection-end-line="105" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-zh/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="91" column="52" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/widget/EaseExpandGridView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/em_activity_new_group.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/em_grid_owner.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ChatFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4246">
+          <caret line="102" column="61" selection-start-line="102" selection-start-column="61" selection-end-line="102" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/em_grid.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../easeui/libs/hyphenatechat_3.3.1.jar!/com/hyphenate/chat/EMGroupManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="376" column="16" selection-start-line="376" selection-start-column="16" selection-end-line="376" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/em_activity_group_details.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4994">
+          <caret line="227" column="28" selection-start-line="227" selection-start-column="28" selection-end-line="227" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/em_activity_edit.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/EditActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="31" column="99" selection-start-line="31" selection-start-column="99" selection-end-line="31" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#978#979#0" expanded="false" />
+            <element signature="e#993#994#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="403" column="34" selection-start-line="403" selection-start-column="34" selection-end-line="403" selection-end-column="34" />
+        <state relative-caret-position="137">
+          <caret line="364" column="88" selection-start-line="364" selection-start-column="88" selection-end-line="364" selection-end-column="88" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/utils/OkHttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4092">
+          <caret line="217" column="26" selection-start-line="217" selection-start-column="26" selection-end-line="217" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/I.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/data/net/UserModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="145" column="4" selection-start-line="145" selection-start-column="4" selection-end-line="145" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/NewGroupActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2706">
+          <caret line="191" column="54" selection-start-line="191" selection-start-column="54" selection-end-line="191" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#617#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/data/net/IUserModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/db/SuperWeChatDBManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="394" column="9" selection-start-line="394" selection-start-column="9" selection-end-line="394" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/db/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="108" column="52" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
+          <folding>
+            <element signature="e#3219#3220#0" expanded="true" />
+            <element signature="e#3281#3282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/GroupDetailsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="959" column="24" selection-start-line="959" selection-start-column="24" selection-end-line="959" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ChatActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#2105#2106#0" expanded="true" />
+            <element signature="e#2142#2143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/ui/EaseChatFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="179" column="32" selection-start-line="179" selection-start-column="32" selection-end-line="179" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/ProfileActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#3385#3386#0" expanded="true" />
+            <element signature="e#3427#3428#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/adapter/EaseConversationAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
-          <folding>
-            <element signature="e#8969#8985#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-166">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../easeui/res/drawable-hdpi/ease_default_avatar.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/utils/EaseUserUtils.java">
+    <entry file="file://$PROJECT_DIR$/../easeui/src/cn/ucai/easeui/widget/chatrow/EaseChatRow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="149" column="5" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
+        <state relative-caret-position="197">
+          <caret line="123" column="8" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
           <folding />
         </state>
       </provider>

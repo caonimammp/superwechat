@@ -144,15 +144,6 @@ public class UserModel implements IUserModel{
     }
 
     @Override
-    public void addGroupMember(Context context, String username, String groupId, OnCompleteListener<String> listener) {
-        OkHttpUtils<String> utils = new OkHttpUtils<>(context);
-        utils.setRequestUrl(I.REQUEST_ADD_GROUP_MEMBER)
-                .addParam(I.Member.USER_NAME,username)
-                .addParam(I.Group.HX_ID,groupId)
-                .targetClass(String.class)
-                .execute(listener);
-    }
-    @Override
     public void addGroupMembers(Context context, String username, String groupId, OnCompleteListener<String> listener) {
         OkHttpUtils<String> utils = new OkHttpUtils<>(context);
         utils.setRequestUrl(I.REQUEST_ADD_GROUP_MEMBERS)
